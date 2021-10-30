@@ -233,14 +233,14 @@ v1.0.0
 
 
 == Screenshots ==
-1. 欢迎使用
-2. 腾讯云点播配置
-3. 阿里云视频点播配置
-4. 购买时长
-5. 添加区块
-6. 选择视频
-7. 加载aliplayer
-8. 加载成功
+1. Video Playlist
+2. ApsaraVideo VoD Block
+3. Tencent Cloud VoD Block
+4. Embed Video Block
+5. Aliplayer Block
+6. Video Playlist Block
+7. The Settings of Aliplayer 
+8. The Utility Components of Aliplayer 
 
 
 == Frequently Asked Questions ==
