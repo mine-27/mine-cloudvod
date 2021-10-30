@@ -1,0 +1,1528 @@
+# Copyright (C) 2021 mine27
+# This file is distributed under the same license as the Mine CloudVod 云点播 plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mine CloudVod 云点播 1.2.16\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mine-cloudvod\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-29T09:57:26+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mine-cloudvod\n"
+
+#. Plugin Name of the plugin
+msgid "Mine CloudVod 云点播"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.zwtt8.com/mine-cloudvod/"
+msgstr ""
+
+#. Description of the plugin
+msgid "将视频直传到阿里云视频点播、OSS、腾讯云点播、COS，嵌入WP中播放，配置简单，使用方便，支持gutenberg编辑器，兼容微信小程序。"
+msgstr ""
+
+#. Author of the plugin
+msgid "mine27"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.zwtt8.com/"
+msgstr ""
+
+#: inc/Ability/Ajax.php:18
+#: inc/Ability/Ajax.php:23
+#: inc/Ability/Ajax.php:34
+#: inc/Ability/Ajax.php:39
+#: inc/Ability/PlayList.php:289
+#: inc/Ability/Token.php:36
+#: inc/functions.php:437
+#: inc/Integrations/B_2/B_2.php:52
+#: inc/Integrations/Ri/RiProV2.php:67
+#: inc/MineCloudVod.php:73
+#: inc/MineCloudVod.php:78
+#: inc/MineCloudVod.php:95
+#: inc/MineCloudVod.php:100
+#: inc/MineCloudVod.php:104
+#: inc/MineCloudVod.php:318
+#: inc/MineCloudVod.php:325
+#: inc/MineCloudVod.php:362
+#: inc/MineCloudVod.php:398
+#: inc/MineCloudVod.php:416
+#: inc/MineCloudVod.php:563
+#: inc/MineCloudVod.php:568
+#: inc/MineCloudVod.php:584
+#: inc/MineCloudVod.php:589
+#: inc/MineCloudVod.php:602
+#: inc/MineCloudVod.php:607
+#: inc/MineCloudVod.php:634
+#: inc/MineCloudVod.php:639
+#: inc/MineCloudVod.php:657
+#: inc/MineCloudVod.php:661
+msgid "Illegal request"
+msgstr ""
+
+#: inc/Ability/PlayList.php:25
+#: dist/blocks.build.js:1
+msgid "Video Playlist"
+msgstr ""
+
+#: inc/Ability/Plugin.php:24
+msgid "<strong style=\"color: #03bd24\">Documentation</strong>"
+msgstr ""
+
+#: inc/Ability/Plugin.php:37
+msgid "Mine CloudVod is expired, please <a href=\"%s\">renew</a> in time."
+msgstr ""
+
+#: inc/Ability/Plugin.php:37
+#: inc/Ability/Plugin.php:42
+#: inc/options.php:87
+#: inc/options.php:239
+#: mine-cloudvod.php:116
+msgid "Purchase time"
+msgstr ""
+
+#: inc/Ability/Plugin.php:42
+msgid "Mine CloudVod will expire in %d days, please <a href=\"%s\">renew</a> in time."
+msgstr ""
+
+#: inc/Ability/PostType.php:74
+msgid "Shortcode"
+msgstr ""
+
+#: inc/Ability/PostType.php:75
+msgid "PHP Function"
+msgstr ""
+
+#: inc/Ability/PostType.php:117
+msgid "Add Title"
+msgstr ""
+
+#: inc/Ability/PostType.php:167
+msgid "Copied"
+msgstr ""
+
+#: inc/Ability/PostType.php:171
+msgctxt "post type general name"
+msgid "Video Tags"
+msgstr ""
+
+#: inc/Ability/PostType.php:172
+msgctxt "post type singular name"
+msgid "Video Tag"
+msgstr ""
+
+#: inc/Ability/PostType.php:173
+msgctxt "admin menu"
+msgid "Search Video Tags"
+msgstr ""
+
+#: inc/Ability/PostType.php:174
+msgctxt "add new on admin bar"
+msgid "Popular Video Tags"
+msgstr ""
+
+#: inc/Ability/PostType.php:176
+msgid "Tag"
+msgstr ""
+
+#: inc/Ability/PostType.php:187
+msgctxt "post type general name"
+msgid "CloudVod Hub"
+msgstr ""
+
+#: inc/Ability/PostType.php:188
+msgctxt "post type singular name"
+msgid "Mine CloudVod"
+msgstr ""
+
+#: inc/Ability/PostType.php:189
+msgctxt "admin menu"
+msgid "Mine CloudVod"
+msgstr ""
+
+#: inc/Ability/PostType.php:190
+msgctxt "add new on admin bar"
+msgid "Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:191
+msgctxt "Video"
+msgid "Add New"
+msgstr ""
+
+#: inc/Ability/PostType.php:192
+msgid "Add New Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:193
+#: inc/Integrations/Elementor/McvVideoWidget.php:99
+#: inc/Integrations/Elementor/McvVideoWidget.php:103
+msgid "New Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:194
+#: inc/Integrations/Elementor/McvVideoWidget.php:88
+msgid "Edit Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:195
+msgid "View Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:196
+msgid "All Videos"
+msgstr ""
+
+#: inc/Ability/PostType.php:197
+msgid "Search Videos"
+msgstr ""
+
+#: inc/Ability/PostType.php:198
+msgid "No Videos found."
+msgstr ""
+
+#: inc/Ability/PostType.php:199
+msgid "No Videos found in Trash."
+msgstr ""
+
+#: inc/Ability/PostType.php:200
+msgid "Filter Videos list"
+msgstr ""
+
+#: inc/Ability/PostType.php:201
+msgid "Videos list navigation"
+msgstr ""
+
+#: inc/Ability/PostType.php:202
+msgid "Videos list"
+msgstr ""
+
+#: inc/Ability/PostType.php:203
+msgid "Video published."
+msgstr ""
+
+#: inc/Ability/PostType.php:204
+msgid "Video published privately."
+msgstr ""
+
+#: inc/Ability/PostType.php:205
+msgid "Video reverted to draft."
+msgstr ""
+
+#: inc/Ability/PostType.php:206
+msgid "Video scheduled."
+msgstr ""
+
+#: inc/Ability/PostType.php:207
+msgid "Video updated."
+msgstr ""
+
+#: inc/Ability/PostType.php:249
+msgid "Show all %s"
+msgstr ""
+
+#: inc/Ability/Token.php:48
+msgid "Token has expired, please log in again."
+msgstr ""
+
+#: inc/Ability/Token.php:54
+msgid "Token is legal"
+msgstr ""
+
+#: inc/Ability/Token.php:60
+#: inc/Ability/Token.php:67
+msgid "Token is illegal"
+msgstr ""
+
+#: inc/Aliyun/Aliplayer.php:29
+msgid "The video will play in "
+msgstr ""
+
+#: inc/Aliyun/Aliplayer.php:30
+msgid "The Live is ended. "
+msgstr ""
+
+#: inc/Aliyun/Aliplayer.php:146
+#: inc/Aliyun/Aliplayer.php:149
+msgid "Skip Ad"
+msgstr ""
+
+#: inc/Aliyun/Aliplayer.php:267
+msgid "Day"
+msgstr ""
+
+#: inc/Aliyun/Aliplayer.php:268
+msgid "Hr"
+msgstr ""
+
+#: inc/Aliyun/Aliplayer.php:269
+msgid "Min"
+msgstr ""
+
+#: inc/Aliyun/Aliplayer.php:270
+msgid "Sec"
+msgstr ""
+
+#: inc/blocks/alivod.php:52
+msgid "Mine"
+msgstr ""
+
+#: inc/functions.php:75
+#: inc/functions.php:214
+msgid "Waiting for upload"
+msgstr ""
+
+#: inc/functions.php:97
+msgid "upload failed"
+msgstr ""
+
+#: inc/functions.php:120
+msgid "Processing..."
+msgstr ""
+
+#: inc/functions.php:252
+msgid "Start upload"
+msgstr ""
+
+#: inc/functions.php:332
+#: inc/functions.php:347
+#: inc/functions.php:366
+#: inc/functions.php:385
+#: inc/functions.php:404
+#: inc/options/aliyunoss.php:38
+#: inc/options/tccos.php:38
+msgid "Get failed"
+msgstr ""
+
+#: inc/functions.php:334
+msgid "Synchronize time successfully"
+msgstr ""
+
+#: inc/functions.php:349
+msgid "Successfully synchronized task flow list"
+msgstr ""
+
+#: inc/functions.php:368
+msgid "Successfully synchronized transcoding template"
+msgstr ""
+
+#: inc/functions.php:387
+msgid "Successfully synchronized the player configuration list"
+msgstr ""
+
+#: inc/functions.php:412
+msgid "Alipay scan code payment"
+msgstr ""
+
+#: inc/functions.php:412
+msgid "Yuan"
+msgstr ""
+
+#: inc/functions.php:412
+msgid "Please use Alipay <br>to scan the QR code to pay"
+msgstr ""
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:32
+msgid "Mine CloudVod"
+msgstr ""
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:67
+msgid "Cloud Vod"
+msgstr ""
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:76
+msgid "Choose A Video"
+msgstr ""
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:86
+msgid "Video Options"
+msgstr ""
+
+#: inc/MineAliVodClientUploader.php:4
+#: inc/MineTcVodClientUploader.php:4
+msgid "The upload function here is no longer updated and is no longer recommended. It is recommended to upload videos using the block of the gutenberg editor."
+msgstr ""
+
+#: inc/options.php:8
+msgid "Please synchronize the task flow list first"
+msgstr ""
+
+#: inc/options.php:15
+msgid "Please synchronize the player configuration list first"
+msgstr ""
+
+#: inc/options.php:22
+msgid "Please sync transcoding template first"
+msgstr ""
+
+#: inc/options.php:43
+#: inc/options.php:275
+msgid "General settings"
+msgstr ""
+
+#: inc/options.php:49
+msgid "Welcome to use Mine CloudVod, after installing this plugin, there is a 30-day trial period by default"
+msgstr ""
+
+#: inc/options.php:56
+msgid "After the trial period, you can continue to use it after the purchase time, thanks for your support"
+msgstr ""
+
+#: inc/options.php:61
+msgid "We will continue to maintain and upgrade to give you better cloud-vod services"
+msgstr ""
+
+#: inc/options.php:66
+msgid "Site ID"
+msgstr ""
+
+#: inc/options.php:75
+msgid "Communication key"
+msgstr ""
+
+#: inc/options.php:76
+msgid "<p style=\"color:red;\">Do not divulge</p>"
+msgstr ""
+
+#: inc/options.php:85
+msgid "Valid until"
+msgstr ""
+
+#: inc/options.php:86
+msgid "Only show the expiration time, do not tamper with"
+msgstr ""
+
+#: inc/options.php:86
+msgid "Sync expiration time"
+msgstr ""
+
+#: inc/options.php:156
+msgid "Tencent Cloud"
+msgstr ""
+
+#: inc/options.php:161
+#: inc/options.php:204
+msgid "AccessKey setting"
+msgstr ""
+
+#: inc/options.php:167
+#: inc/options/tccos.php:19
+#: inc/options/tcvod.php:10
+msgid "By default, Tencent Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://curl.qcloud.com/F8Ad6KaX\" target=\"_blank\">Tencent Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
+msgstr ""
+
+#: inc/options.php:199
+msgid "Alibaba Cloud"
+msgstr ""
+
+#: inc/options.php:210
+#: inc/options/aliyunvod.php:10
+msgid "By default, Alibaba Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">Alibaba Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
+msgstr ""
+
+#: inc/options.php:215
+#: inc/options/aliyunvod.php:4
+#: inc/options/aliyunvod.php:15
+#: dist/blocks.build.js:1
+msgid "ApsaraVideo VOD"
+msgstr ""
+
+#: inc/options.php:226
+msgid "<a href=\"https://ram.console.aliyun.com/manage/ak\" target=\"_blank\">Click here to get AccessKeyID and AccessKeySecret </a>"
+msgstr ""
+
+#: inc/options.php:245
+msgid "<font color=\"red\">Reminder</font>: The time package purchased on this page is the service time of using the Mine CloudVod plugin."
+msgstr ""
+
+#: inc/options.php:250
+msgid "Time package"
+msgstr ""
+
+#: inc/options.php:253
+msgid "One month"
+msgstr ""
+
+#: inc/options.php:254
+msgid "Two months"
+msgstr ""
+
+#: inc/options.php:255
+msgid "Three months"
+msgstr ""
+
+#: inc/options.php:256
+msgid "Half a year"
+msgstr ""
+
+#: inc/options.php:257
+msgid "One year (15% off)"
+msgstr ""
+
+#: inc/options.php:258
+msgid "Two years (25% off)"
+msgstr ""
+
+#: inc/options.php:259
+msgid "Three years (35% off)"
+msgstr ""
+
+#: inc/options.php:260
+msgid "Four years (45% off)"
+msgstr ""
+
+#: inc/options.php:261
+msgid "Five years (50% off)"
+msgstr ""
+
+#: inc/options.php:267
+msgid "Click to buy"
+msgstr ""
+
+#: inc/options/aliplayer.php:5
+#: dist/blocks.build.js:1
+msgid "Aliplayer"
+msgstr ""
+
+#: inc/options/aliplayer.php:11
+#: inc/options/tcplayer.php:5
+msgid "Configure Player"
+msgstr ""
+
+#: inc/options/aliplayer.php:18
+#: inc/options/tcplayer.php:12
+msgid "Configure"
+msgstr ""
+
+#: inc/options/aliplayer.php:23
+#: inc/options/aliplayer_components.php:118
+#: inc/options/tcplayer.php:192
+#: dist/blocks.build.js:1
+msgid "Autoplay"
+msgstr ""
+
+#: inc/options/aliplayer.php:24
+msgid "Whether the player automatically plays, the autoplay attribute will be invalid on the mobile terminal. Safari11 will not automatically turn on autoplay<a href=\"https://h5.m.youku.com//ju/safari11guide.html\" target=\"_blank\">How to turn on</a>"
+msgstr ""
+
+#: inc/options/aliplayer.php:25
+#: inc/options/aliplayer.php:34
+#: inc/options/aliplayer.php:42
+#: inc/options/aliplayer_components.php:18
+#: inc/options/aliplayer_components.php:50
+#: inc/options/aliplayer_components.php:108
+#: inc/options/aliplayer_components.php:137
+#: inc/options/aliplayer_components.php:159
+#: inc/options/aliplayer_components.php:221
+#: inc/options/aliplayer_components.php:310
+#: inc/options/aliyunvod.php:44
+#: inc/options/aliyunvod_touwei.php:24
+#: inc/options/aliyunvod_touwei.php:46
+#: inc/options/tcplayer.php:18
+#: inc/options/tcplayer.php:40
+#: inc/options/tcplayer.php:48
+#: inc/options/tcplayer.php:182
+#: inc/options/tcvod_touwei.php:23
+#: inc/options/tcvod_touwei.php:45
+#: dist/blocks.build.js:1
+msgid "Enable"
+msgstr ""
+
+#: inc/options/aliplayer.php:26
+#: inc/options/aliplayer.php:35
+#: inc/options/aliplayer.php:43
+#: inc/options/aliplayer_components.php:19
+#: inc/options/aliplayer_components.php:51
+#: inc/options/aliplayer_components.php:109
+#: inc/options/aliplayer_components.php:138
+#: inc/options/aliplayer_components.php:160
+#: inc/options/aliplayer_components.php:222
+#: inc/options/aliplayer_components.php:311
+#: inc/options/aliyunvod.php:45
+#: inc/options/aliyunvod_touwei.php:25
+#: inc/options/aliyunvod_touwei.php:47
+#: inc/options/tcplayer.php:19
+#: inc/options/tcplayer.php:41
+#: inc/options/tcplayer.php:49
+#: inc/options/tcplayer.php:183
+#: inc/options/tcvod_touwei.php:24
+#: inc/options/tcvod_touwei.php:46
+msgid "Disable"
+msgstr ""
+
+#: inc/options/aliplayer.php:32
+#: inc/options/tcplayer.php:24
+msgid "Preload"
+msgstr ""
+
+#: inc/options/aliplayer.php:33
+msgid "Preload currently only available in h5"
+msgstr ""
+
+#: inc/options/aliplayer.php:41
+#: inc/options/tcplayer.php:39
+msgid "Loop"
+msgstr ""
+
+#: inc/options/aliplayer.php:58
+msgid "How to display the control panel"
+msgstr ""
+
+#: inc/options/aliplayer.php:63
+#: inc/options/tcplayer.php:55
+msgid "Big play button"
+msgstr ""
+
+#: inc/options/aliplayer.php:64
+#: inc/options/aliplayer.php:90
+#: inc/options/aliplayer.php:98
+#: inc/options/aliplayer.php:106
+#: inc/options/aliplayer.php:114
+#: inc/options/aliplayer.php:122
+#: inc/options/aliplayer.php:130
+#: inc/options/aliplayer.php:138
+#: inc/options/aliplayer.php:146
+#: inc/options/tcplayer.php:56
+#: inc/options/tcplayer.php:70
+#: inc/options/tcplayer.php:78
+#: inc/options/tcplayer.php:86
+#: inc/options/tcplayer.php:94
+#: inc/options/tcplayer.php:102
+#: inc/options/tcplayer.php:110
+#: inc/options/tcplayer.php:118
+#: inc/options/tcplayer.php:126
+#: inc/options/tcplayer.php:134
+#: inc/options/tcplayer.php:142
+msgid "Show"
+msgstr ""
+
+#: inc/options/aliplayer.php:65
+#: inc/options/aliplayer.php:91
+#: inc/options/aliplayer.php:99
+#: inc/options/aliplayer.php:107
+#: inc/options/aliplayer.php:115
+#: inc/options/aliplayer.php:123
+#: inc/options/aliplayer.php:131
+#: inc/options/aliplayer.php:139
+#: inc/options/aliplayer.php:147
+#: inc/options/tcplayer.php:57
+#: inc/options/tcplayer.php:71
+#: inc/options/tcplayer.php:79
+#: inc/options/tcplayer.php:87
+#: inc/options/tcplayer.php:95
+#: inc/options/tcplayer.php:103
+#: inc/options/tcplayer.php:111
+#: inc/options/tcplayer.php:119
+#: inc/options/tcplayer.php:127
+#: inc/options/tcplayer.php:135
+#: inc/options/tcplayer.php:143
+msgid "Hide"
+msgstr ""
+
+#: inc/options/aliplayer.php:79
+msgid "Language"
+msgstr ""
+
+#: inc/options/aliplayer.php:84
+#: inc/options/tcplayer.php:64
+msgid "The following is the control bar property settings"
+msgstr ""
+
+#: inc/options/aliplayer.php:89
+#: inc/options/tcplayer.php:85
+msgid "Progress bar"
+msgstr ""
+
+#: inc/options/aliplayer.php:97
+#: inc/options/tcplayer.php:77
+msgid "Play button"
+msgstr ""
+
+#: inc/options/aliplayer.php:105
+msgid "Time"
+msgstr ""
+
+#: inc/options/aliplayer.php:113
+#: inc/options/tcplayer.php:133
+msgid "Fullscreen button"
+msgstr ""
+
+#: inc/options/aliplayer.php:121
+msgid "Settings button"
+msgstr ""
+
+#: inc/options/aliplayer.php:129
+#: inc/options/tcplayer.php:93
+msgid "Volume buttons"
+msgstr ""
+
+#: inc/options/aliplayer.php:137
+msgid "Subtitle button"
+msgstr ""
+
+#: inc/options/aliplayer.php:145
+msgid "Screenshot button"
+msgstr ""
+
+#: inc/options/aliplayer.php:155
+#: inc/options/tcplayer.php:151
+msgid "Player style"
+msgstr ""
+
+#: inc/options/aliplayer.php:156
+#: inc/options/tcplayer.php:152
+msgid "The css environment of each theme is different, which causes the player style to be disordered. It is normal. Please adjust the css compatibility according to your theme. You can contact QQ 995525477 for assistance."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:4
+#: inc/options/tcplayer.php:168
+msgid "Utility components"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:11
+msgid "Player Logo"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:17
+#: inc/options/aliplayer_components.php:49
+#: inc/options/aliplayer_components.php:107
+#: inc/options/aliplayer_components.php:136
+#: inc/options/aliplayer_components.php:158
+#: inc/options/aliplayer_components.php:220
+#: inc/options/aliplayer_components.php:309
+#: inc/options/aliyunvod_touwei.php:23
+#: inc/options/aliyunvod_touwei.php:45
+#: inc/options/tcplayer.php:181
+#: inc/options/tcvod_touwei.php:22
+#: inc/options/tcvod_touwei.php:44
+msgid "State"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:25
+msgid "Logo"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:33
+msgid "Logo style"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:34
+msgid "The logo is in the upper left corner by default"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:43
+#: dist/blocks.build.js:1
+msgid "Slide"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:57
+msgid "Scroll text"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:64
+#: dist/blocks.build.js:1
+msgid "Can be dynamically replaced with these labels: {username} {userid} {userip} {useremail} {usernickname}"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:65
+msgid "Multiple Scroll text will be show randomly in diffrent videos."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:68
+msgid "Dear {username}, welcome to Mine Cloud Vod."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:76
+msgid "Text style"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:83
+msgid "Position"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:86
+msgid "Random"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:87
+msgid "Top"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:88
+msgid "Bottom"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:101
+#: inc/options/tcplayer.php:175
+msgid "Remember Played Position"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:114
+#: inc/options/tcplayer.php:188
+msgid "Type"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:117
+#: inc/options/tcplayer.php:191
+msgid "Click to play"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:131
+msgid "Rate play"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:144
+msgid "After the playback speed component is added, the playback speed setting in the player is hidden."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:152
+msgid "Sticky Video"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:165
+msgid "Video Position"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:168
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:169
+msgid "Right Top"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:170
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:171
+msgid "Left Top"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:182
+msgid "Width"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:183
+msgid "The width of sticky video."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:188
+msgid "PC"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:195
+msgid "Tablet"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:202
+msgid "Mobile"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:214
+msgid "AD Before Play"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:240
+#: inc/options/aliplayer_components.php:274
+#: inc/options/aliplayer_components.php:317
+msgid "Multiple Ads will be show randomly in diffrent videos."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:245
+#: inc/options/aliplayer_components.php:322
+msgid "Image"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:252
+#: inc/options/aliplayer_components.php:286
+#: inc/options/aliplayer_components.php:329
+msgid "Link"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:253
+#: inc/options/aliplayer_components.php:287
+#: inc/options/aliplayer_components.php:330
+msgid "The link of the ad page."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:258
+msgid "Duration"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:259
+msgid "Enter the number of seconds to display the image ad before the video plays."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:279
+msgid "Video"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:303
+msgid "AD On Pause"
+msgstr ""
+
+#: inc/options/aliyunoss.php:3
+#: inc/options/tccos.php:3
+msgid "Please sync Bukcets List first"
+msgstr ""
+
+#: inc/options/aliyunoss.php:13
+#: inc/options/aliyunoss.php:24
+#: dist/blocks.build.js:1
+msgid "Aliyun OSS"
+msgstr ""
+
+#: inc/options/aliyunoss.php:19
+msgid "By default, Alibaba Cloud OSS is charged after the end of the hour, and it can also be found on <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">Alibaba Cloud OSS Platform</a> Purchase the corresponding resource pack consumption."
+msgstr ""
+
+#: inc/options/aliyunoss.php:29
+#: inc/options/tccos.php:29
+msgid "Bucket"
+msgstr ""
+
+#: inc/options/aliyunoss.php:30
+#: inc/options/tccos.php:30
+msgid "Sync Buckets List"
+msgstr ""
+
+#: inc/options/aliyunoss.php:40
+#: inc/options/tccos.php:40
+msgid "Successfully synchronized buckets"
+msgstr ""
+
+#: inc/options/aliyunvod.php:25
+#: inc/options/tcvod.php:31
+msgid "Storage area"
+msgstr ""
+
+#: inc/options/aliyunvod.php:26
+#: inc/options/tcvod.php:32
+msgid "Select storage area"
+msgstr ""
+
+#: inc/options/aliyunvod.php:33
+msgid "Transcoding template"
+msgstr ""
+
+#: inc/options/aliyunvod.php:34
+msgid "Sync transcoding template"
+msgstr ""
+
+#: inc/options/aliyunvod.php:35
+msgid "Select transcoding template"
+msgstr ""
+
+#: inc/options/aliyunvod.php:42
+msgid "Standard HLS encryption"
+msgstr ""
+
+#: inc/options/aliyunvod.php:43
+msgid "<br /><p style=\"color:red\">After enabling, the video uploaded through the plugin will be automatically encrypted with Standard HLS encryption</p>"
+msgstr ""
+
+#: inc/options/aliyunvod.php:76
+msgid "KMS KeyID"
+msgstr ""
+
+#: inc/options/aliyunvod.php:77
+msgid "Used for <a href=\"https://help.aliyun.com/document_detail/68612.htm?spm=a2c4g.11186623.0.0.5ceb2074txQis7#title-rvd-6ql-49n\" target=\"_blank\">Standard HLS encryption</a>, need to submit a ticket to apply for activation"
+msgstr ""
+
+#: inc/options/aliyunvod.php:82
+msgid "Security key"
+msgstr ""
+
+#: inc/options/aliyunvod.php:84
+msgid "Security verification for playing standard hls encrypted video"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:5
+#: inc/options/tcvod_touwei.php:4
+msgid "Video head and foot"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:12
+#: inc/options/tcvod_touwei.php:11
+msgid "This function consumes transcoding time and is not recommended"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:17
+#: inc/options/tcvod_touwei.php:16
+msgid "Video head"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:18
+#: inc/options/tcvod_touwei.php:17
+msgid "When enabled, the video file will be automatically attached before the uploaded video"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:31
+msgid "Video ID"
+msgstr ""
+
+#: inc/options/tccos.php:13
+#: dist/blocks.build.js:1
+msgid "Tencent COS"
+msgstr ""
+
+#: inc/options/tcplayer.php:69
+msgid "Control bar"
+msgstr ""
+
+#: inc/options/tcvod.php:4
+#: dist/blocks.build.js:1
+msgid "Tencent Cloud Vod"
+msgstr ""
+
+#: inc/options/tcvod.php:39
+msgid "Transcoding tasks"
+msgstr ""
+
+#: inc/options/tcvod.php:40
+msgid "Sync transcoding task list."
+msgstr ""
+
+#: inc/options/tcvod.php:41
+msgid "Select transcoding tasks"
+msgstr ""
+
+#: inc/options/tcvod.php:48
+msgid "Tcplayer setting"
+msgstr ""
+
+#: inc/options/tcvod.php:49
+msgid "Sync tcplayer setting list"
+msgstr ""
+
+#: inc/options/tcvod.php:50
+msgid "Select tcplayer setting"
+msgstr ""
+
+#: inc/RestApi/AliyunOss.php:225
+#: inc/RestApi/QcloudCos.php:215
+msgid "Bucket is missed"
+msgstr ""
+
+#: inc/RestApi/QcloudCos.php:125
+msgid "Sync the buckets list, please."
+msgstr ""
+
+#: mine-cloudvod.php:20
+msgid "China(Beijing)"
+msgstr ""
+
+#: mine-cloudvod.php:21
+msgid "China(Zhangjiakou)"
+msgstr ""
+
+#: mine-cloudvod.php:22
+msgid "China(Hangzhou)"
+msgstr ""
+
+#: mine-cloudvod.php:23
+msgid "China(Shanghai)"
+msgstr ""
+
+#: mine-cloudvod.php:24
+msgid "China(Shenzhen)"
+msgstr ""
+
+#: mine-cloudvod.php:25
+msgid "China(Hongkong)"
+msgstr ""
+
+#: mine-cloudvod.php:26
+msgid "Janpan(Tokyo)"
+msgstr ""
+
+#: mine-cloudvod.php:27
+msgid "Singapore"
+msgstr ""
+
+#: mine-cloudvod.php:28
+msgid "Indonesia(Jakarta)"
+msgstr ""
+
+#: mine-cloudvod.php:29
+msgid "USA (Silicon Valley)"
+msgstr ""
+
+#: mine-cloudvod.php:30
+msgid "U.K (London)"
+msgstr ""
+
+#: mine-cloudvod.php:31
+msgid "Germany(Frankfurt)"
+msgstr ""
+
+#: mine-cloudvod.php:32
+msgid "India(Mumbai)"
+msgstr ""
+
+#: mine-cloudvod.php:103
+msgid "CloudVod Hub"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Aliplayer is initializing, please wait..."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Choose"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Please Choose..."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add Media"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Captions are .vtt files that help make your content more accesible to a wider range of users."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Edit %s"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Edit"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Captions"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Edit caption track"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "File"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Caption title"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Language tag"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "English"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Close"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Remove caption"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add caption languages"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Open Media Library"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Upload"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add External Subtitle"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "External Subtitle Link"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Attention: External subtitles may cause cross-domain issues."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Pro Feature"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Get this feature and more with the Pro version of Mine CloudVod!"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Buy Now"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Learn More"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Embed videos from aliyun vod."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "mine cloudvod"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "VOD"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Video Markers"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Aliplayer Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Live"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "The auto will be adaptive height."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Cover image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Select cover image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Replace"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Select"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Remove"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "The global configuration is used by default and can be turned off individually."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Scroll Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Empty means to use global configuration."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Countdown Timer"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Text"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Enter the text you want to appear on the countdown page"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Upload or select Aliyun vod."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add/Select AliyunVod Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add/Select Aliyun OSS"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Select or Upload AliyunVod Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Name"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Category"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Size"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Length"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Created"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Are you sure?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Are you sure you want to delete this video?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Yes"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Cancel"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Delete video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Videos"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Drop video files here to upload"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "or browse for a video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Upload New Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Upload Videos"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Create Category"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Enter a category name"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Create"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Select or Upload Aliyun OSS Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Storage Class"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "-- Select a bucket, please --"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Title"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Remove Marker"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add Marker"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "TC Vod"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Embed videos from tencent vod."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Replace this video?"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "TcPlayer Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Upload or select TC vod."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add/Select TCVod Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add/Select COS Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Select or Upload TcVod Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Select or Upload Tencent COS Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "TCPlayer is initializing, please wait..."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Embed Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Embed video from Youku, Bilibili, iQiyi, Tencent, and other URLs that support iframe embedding."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "youku"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "bilibili"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "iqiyi"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "tencent"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "embed video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Embedded Video Setting"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Danmaku"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Only valid for Bilibili"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Enter the Video URL"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Video URL"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Embedded Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Enter video URL"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "And other URLs that support iframe embedding"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Embedded URL"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add Video"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Mine Block Container"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Choose a video type to get started."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Choose a Video Type"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Aliyun Vod"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Add video via video url."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Text of Live Ends"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Enter the text of the live ends."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Attention, make sure the URL prefix(http or https) is same with the site, otherwise video will not play."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Aliplayer is a very useful player, which supports live streaming and recorded video, E.g: mp4 or m3u8 url."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Video Playlist of Cloud VoD."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Playlist"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Display Playlist"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Display the playlist or not."
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Playlist Name"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Video Tag"
+msgstr ""

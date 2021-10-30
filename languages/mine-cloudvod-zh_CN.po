@@ -1,0 +1,1071 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mine CloudVod 云点播 1.2.16\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mine-cloudvod\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-10-29T09:57:26+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: mine-cloudvod\n"
+
+#. Plugin Name of the plugin
+msgid "Mine CloudVod 云点播"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.zwtt8.com/mine-cloudvod/"
+msgstr ""
+
+#. Description of the plugin
+msgid "将视频直传到阿里云视频点播、OSS、腾讯云点播、COS，嵌入WP中播放，配置简单，使用方便，支持gutenberg编辑器，兼容微信小程序。"
+msgstr ""
+
+#. Author of the plugin
+msgid "mine27"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.zwtt8.com/"
+msgstr ""
+
+#: inc/Ability/Ajax.php:18
+#: inc/Ability/Ajax.php:23
+#: inc/Ability/Ajax.php:34
+#: inc/Ability/Ajax.php:39
+#: inc/Ability/PlayList.php:289
+#: inc/Ability/Token.php:36
+#: inc/functions.php:437
+#: inc/Integrations/B_2/B_2.php:52
+#: inc/Integrations/Ri/RiProV2.php:67
+#: inc/MineCloudVod.php:73
+#: inc/MineCloudVod.php:78
+#: inc/MineCloudVod.php:95
+#: inc/MineCloudVod.php:100
+#: inc/MineCloudVod.php:104
+#: inc/MineCloudVod.php:318
+#: inc/MineCloudVod.php:325
+#: inc/MineCloudVod.php:362
+#: inc/MineCloudVod.php:398
+#: inc/MineCloudVod.php:416
+#: inc/MineCloudVod.php:563
+#: inc/MineCloudVod.php:568
+#: inc/MineCloudVod.php:584
+#: inc/MineCloudVod.php:589
+#: inc/MineCloudVod.php:602
+#: inc/MineCloudVod.php:607
+#: inc/MineCloudVod.php:634
+#: inc/MineCloudVod.php:639
+#: inc/MineCloudVod.php:657
+#: inc/MineCloudVod.php:661
+msgid "Illegal request"
+msgstr "非法请求"
+
+#: inc/Ability/PlayList.php:25
+#: dist/blocks.build.js:1
+msgid "Video Playlist"
+msgstr "播放列表"
+
+#: inc/Ability/Plugin.php:24
+msgid "<strong style=\"color: #03bd24\">Documentation</strong>"
+msgstr "<strong style=\"color: #03bd24\">文档</strong>"
+
+#: inc/Ability/Plugin.php:37
+msgid "Mine CloudVod is expired, please <a href=\"%s\">renew</a> in time."
+msgstr "Mine云点播已到期，请及时<a href=\"%s\">续费</a>。"
+
+#: inc/Ability/Plugin.php:37
+#: inc/Ability/Plugin.php:42
+#: inc/options.php:87
+#: inc/options.php:239
+#: mine-cloudvod.php:116
+msgid "Purchase time"
+msgstr "购买时间"
+
+#: inc/Ability/Plugin.php:42
+msgid "Mine CloudVod will expire in %d days, please <a href=\"%s\">renew</a> in time."
+msgstr "Mine云点播将在 %d 天后到期，请及时<a href=\"%s\">续费</a>。"
+
+#: inc/Ability/PostType.php:74
+msgid "Shortcode"
+msgstr "简码"
+
+#: inc/Ability/PostType.php:75
+msgid "PHP Function"
+msgstr "PHP函数"
+
+#: inc/Ability/PostType.php:117
+msgid "Add Title"
+msgstr "添加标题"
+
+#: inc/Ability/PostType.php:167
+msgid "Copied"
+msgstr "已复制"
+
+#: inc/Ability/PostType.php:171
+msgctxt "post type general name"
+msgid "Video Tags"
+msgstr "视频标签"
+
+#: inc/Ability/PostType.php:172
+msgctxt "post type singular name"
+msgid "Video Tag"
+msgstr "视频标签"
+
+#: inc/Ability/PostType.php:173
+msgctxt "admin menu"
+msgid "Search Video Tags"
+msgstr "搜索标签"
+
+#: inc/Ability/PostType.php:174
+msgctxt "add new on admin bar"
+msgid "Popular Video Tags"
+msgstr "常用视频标签"
+
+#: inc/Ability/PostType.php:176
+msgid "Tag"
+msgstr "标签"
+
+#: inc/Ability/PostType.php:187
+msgctxt "post type general name"
+msgid "CloudVod Hub"
+msgstr "云点播中心"
+
+#: inc/Ability/PostType.php:188
+msgctxt "post type singular name"
+msgid "Mine CloudVod"
+msgstr "Mine云点播"
+
+#: inc/Ability/PostType.php:189
+msgctxt "admin menu"
+msgid "Mine CloudVod"
+msgstr "Mine云点播"
+
+#: inc/Ability/PostType.php:190
+msgctxt "add new on admin bar"
+msgid "Video"
+msgstr "视频"
+
+#: inc/Ability/PostType.php:191
+msgctxt "Video"
+msgid "Add New"
+msgstr "新建"
+
+#: inc/Ability/PostType.php:192
+msgid "Add New Video"
+msgstr "添加视频"
+
+#: inc/Ability/PostType.php:193
+#: inc/Integrations/Elementor/McvVideoWidget.php:99
+#: inc/Integrations/Elementor/McvVideoWidget.php:103
+msgid "New Video"
+msgstr "新建视频"
+
+#: inc/Ability/PostType.php:194
+#: inc/Integrations/Elementor/McvVideoWidget.php:88
+msgid "Edit Video"
+msgstr "编辑视频"
+
+#: inc/Ability/PostType.php:195
+msgid "View Video"
+msgstr "查看视频"
+
+#: inc/Ability/PostType.php:196
+msgid "All Videos"
+msgstr "所有视频"
+
+#: inc/Ability/PostType.php:197
+msgid "Search Videos"
+msgstr "搜索视频"
+
+#: inc/Ability/PostType.php:198
+msgid "No Videos found."
+msgstr "没找到相关视频"
+
+#: inc/Ability/PostType.php:199
+msgid "No Videos found in Trash."
+msgstr "回收站中没有视频"
+
+#: inc/Ability/PostType.php:200
+msgid "Filter Videos list"
+msgstr "筛选视频列表"
+
+#: inc/Ability/PostType.php:201
+msgid "Videos list navigation"
+msgstr "视频列表导航"
+
+#: inc/Ability/PostType.php:202
+msgid "Videos list"
+msgstr "视频列表"
+
+#: inc/Ability/PostType.php:203
+msgid "Video published."
+msgstr "视频已发布"
+
+#: inc/Ability/PostType.php:204
+msgid "Video published privately."
+msgstr "隐藏视频已发布"
+
+#: inc/Ability/PostType.php:205
+msgid "Video reverted to draft."
+msgstr "视频已恢复为草稿"
+
+#: inc/Ability/PostType.php:206
+msgid "Video scheduled."
+msgstr "视频预定"
+
+#: inc/Ability/PostType.php:207
+msgid "Video updated."
+msgstr "视频已更新"
+
+#: inc/Ability/PostType.php:249
+msgid "Show all %s"
+msgstr "显示所有%s"
+
+#: inc/Ability/Token.php:48
+msgid "Token has expired, please log in again."
+msgstr "Token过期，请重新获取"
+
+#: inc/Ability/Token.php:54
+msgid "Token is legal"
+msgstr "Token 合法"
+
+#: inc/Ability/Token.php:60
+#: inc/Ability/Token.php:67
+msgid "Token is illegal"
+msgstr "Token 非法"
+
+#: inc/Aliyun/Aliplayer.php:29
+msgid "The video will play in "
+msgstr "视频即将播放\"\""
+
+#: inc/Aliyun/Aliplayer.php:30
+msgid "The Live is ended. "
+msgstr "直播已结束"
+
+#: inc/Aliyun/Aliplayer.php:143
+#: inc/Aliyun/Aliplayer.php:146
+msgid "Skip Ad"
+msgstr "跳过广告"
+
+#: inc/Aliyun/Aliplayer.php:267
+msgid "Day"
+msgstr "天"
+
+#: inc/Aliyun/Aliplayer.php:268
+msgid "Hr"
+msgstr "时"
+
+#: inc/Aliyun/Aliplayer.php:269
+msgid "Min"
+msgstr "分"
+
+#: inc/Aliyun/Aliplayer.php:270
+msgid "Sec"
+msgstr "秒"
+
+#: inc/blocks/alivod.php:52
+msgid "Mine"
+msgstr ""
+
+#: inc/functions.php:75
+#: inc/functions.php:214
+msgid "Waiting for upload"
+msgstr "等待上传"
+
+#: inc/functions.php:97
+msgid "upload failed"
+msgstr "上传失败"
+
+#: inc/functions.php:120
+msgid "Processing..."
+msgstr "处理中..."
+
+#: inc/functions.php:252
+msgid "Start upload"
+msgstr "开始上传"
+
+#: inc/functions.php:332
+#: inc/functions.php:347
+#: inc/functions.php:366
+#: inc/functions.php:385
+#: inc/functions.php:404
+#: inc/options/aliyunoss.php:38
+#: inc/options/tccos.php:38
+msgid "Get failed"
+msgstr "获取失败"
+
+#: inc/functions.php:334
+msgid "Synchronize time successfully"
+msgstr "同步时间成功"
+
+#: inc/functions.php:349
+msgid "Successfully synchronized task flow list"
+msgstr "同步任务流列表成功"
+
+#: inc/functions.php:368
+msgid "Successfully synchronized transcoding template"
+msgstr "同步转码模板组成功"
+
+#: inc/functions.php:387
+msgid "Successfully synchronized the player configuration list"
+msgstr "同步播放器配置成功"
+
+#: inc/functions.php:412
+msgid "Alipay scan code payment"
+msgstr "支付宝扫码支付"
+
+#: inc/functions.php:412
+msgid "Yuan"
+msgstr "元"
+
+#: inc/functions.php:412
+msgid "Please use Alipay <br>to scan the QR code to pay"
+msgstr "请使用支付宝扫一扫<br>扫描二维码支付"
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:32
+msgid "Mine CloudVod"
+msgstr "Mine云点播"
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:67
+msgid "Cloud Vod"
+msgstr "云点播"
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:76
+msgid "Choose A Video"
+msgstr "选择视频"
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:86
+msgid "Video Options"
+msgstr "操作"
+
+#: inc/MineAliVodClientUploader.php:4
+#: inc/MineTcVodClientUploader.php:4
+msgid "The upload function here is no longer updated and is no longer recommended. It is recommended to upload videos using the block of the gutenberg editor."
+msgstr "这里的上传功能不再更新，不再推荐使用。 建议使用古腾堡编辑器的区块上传视频。"
+
+#: inc/options.php:8
+msgid "Please synchronize the task flow list first"
+msgstr "请先同步任务流列表"
+
+#: inc/options.php:15
+msgid "Please synchronize the player configuration list first"
+msgstr "请先同步播放器配置列表"
+
+#: inc/options.php:22
+msgid "Please sync transcoding template first"
+msgstr "请先同步转码模板"
+
+#: inc/options.php:43
+#: inc/options.php:275
+msgid "General settings"
+msgstr "常规设置"
+
+#: inc/options.php:49
+msgid "Welcome to use Mine CloudVod, after installing this plugin, there is a 30-day trial period by default"
+msgstr "欢迎使用 Mine云点播，安装本插件后默认拥有30天试用期"
+
+#: inc/options.php:56
+msgid "After the trial period, you can continue to use it after the purchase time, thanks for your support"
+msgstr "试用期后，您可以购买时长后继续使用，感谢支持"
+
+#: inc/options.php:61
+msgid "We will continue to maintain and upgrade to give you better cloud-vod services"
+msgstr "我们将持续维护升级，给大家更好用的云点播服务"
+
+#: inc/options.php:66
+msgid "Site ID"
+msgstr "站点ID"
+
+#: inc/options.php:75
+msgid "Communication key"
+msgstr "通讯密钥"
+
+#: inc/options.php:76
+msgid "<p style=\"color:red;\">Do not divulge</p>"
+msgstr "<p style=\"color:red;\">请务泄露</p>"
+
+#: inc/options.php:85
+msgid "Valid until"
+msgstr "有效期至"
+
+#: inc/options.php:86
+msgid "Only show the expiration time, do not tamper with"
+msgstr "仅为展示到期时间，切务篡改"
+
+#: inc/options.php:86
+msgid "Sync expiration time"
+msgstr "同步到期时间"
+
+#: inc/options.php:156
+msgid "Tencent Cloud"
+msgstr "腾讯云"
+
+#: inc/options.php:161
+#: inc/options.php:204
+msgid "AccessKey setting"
+msgstr "密钥配置"
+
+#: inc/options.php:167
+#: inc/options/tccos.php:19
+#: inc/options/tcvod.php:10
+msgid "By default, Tencent Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://curl.qcloud.com/F8Ad6KaX\" target=\"_blank\">Tencent Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
+msgstr "腾讯云点播默认是日结后收费模式，也可以在 <a href=\"https://curl.qcloud.com/F8Ad6KaX\" target=\"_blank\">腾讯云点播平台(<font color=red>有优惠</font>)</a> 购买相应的资源包消费"
+
+#: inc/options.php:199
+msgid "Alibaba Cloud"
+msgstr "阿里云"
+
+#: inc/options.php:210
+#: inc/options/aliyunvod.php:10
+msgid "By default, Alibaba Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">Alibaba Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
+msgstr "阿里云视频点播默认是日结后收费模式，也可以在 <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">阿里云-云小站(<font color=red>专属优惠</font>)</a> 购买相应的资源包消费"
+
+#: inc/options.php:215
+#: inc/options/aliyunvod.php:4
+#: inc/options/aliyunvod.php:15
+#: dist/blocks.build.js:1
+msgid "ApsaraVideo VOD"
+msgstr "阿里云视频点播"
+
+#: inc/options.php:226
+msgid "<a href=\"https://ram.console.aliyun.com/manage/ak\" target=\"_blank\">Click here to get AccessKeyID and AccessKeySecret </a>"
+msgstr "<a href=\"https://ram.console.aliyun.com/manage/ak\" target=\"_blank\">点此获取 AccessKeyID 和 AccessKeySecret</a>"
+
+#: inc/options.php:245
+msgid "<font color=\"red\">Reminder</font>: The time package purchased on this page is the service time of using the Mine CloudVod plugin."
+msgstr "<font color=\"red\">温馨提示</font>：本页面购买的时长包，是使用 Mine云点播 插件的服务时长</p>"
+
+#: inc/options.php:250
+msgid "Time package"
+msgstr "时长包"
+
+#: inc/options.php:253
+msgid "One month"
+msgstr "1 个月"
+
+#: inc/options.php:254
+msgid "Two months"
+msgstr "2 个月"
+
+#: inc/options.php:255
+msgid "Three months"
+msgstr "3 个月"
+
+#: inc/options.php:256
+msgid "Half a year"
+msgstr "半年"
+
+#: inc/options.php:257
+msgid "One year (15% off)"
+msgstr "1 年 （85折）"
+
+#: inc/options.php:258
+msgid "Two years (25% off)"
+msgstr "2 年 （75折）"
+
+#: inc/options.php:259
+msgid "Three years (35% off)"
+msgstr "3 年 （65折）"
+
+#: inc/options.php:260
+msgid "Four years (45% off)"
+msgstr "4 年 （55折）"
+
+#: inc/options.php:261
+msgid "Five years (50% off)"
+msgstr "5 年 （5折）"
+
+#: inc/options.php:267
+msgid "Click to buy"
+msgstr "点击购买"
+
+#: inc/options/aliplayer.php:5
+#: dist/blocks.build.js:1
+msgid "Aliplayer"
+msgstr ""
+
+#: inc/options/aliplayer.php:11
+#: inc/options/tcplayer.php:5
+msgid "Configure Player"
+msgstr "播放器配置"
+
+#: inc/options/aliplayer.php:18
+#: inc/options/tcplayer.php:12
+msgid "Configure"
+msgstr "配置"
+
+#: inc/options/aliplayer.php:23
+#: inc/options/aliplayer_components.php:118
+#: inc/options/tcplayer.php:192
+#: dist/blocks.build.js:1
+msgid "Autoplay"
+msgstr "自动播放"
+
+#: inc/options/aliplayer.php:24
+msgid "Whether the player automatically plays, the autoplay attribute will be invalid on the mobile terminal. Safari11 will not automatically turn on autoplay<a href=\"https://h5.m.youku.com//ju/safari11guide.html\" target=\"_blank\">How to turn on</a>"
+msgstr "播放器是否自动播放，在移动端autoplay属性会失效。Safari11不会自动开启自动播放<a href=\"https://h5.m.youku.com//ju/safari11guide.html\" target=\"_blank\">如何开启</a>"
+
+#: inc/options/aliplayer.php:25
+#: inc/options/aliplayer.php:34
+#: inc/options/aliplayer.php:42
+#: inc/options/aliplayer_components.php:18
+#: inc/options/aliplayer_components.php:50
+#: inc/options/aliplayer_components.php:108
+#: inc/options/aliplayer_components.php:137
+#: inc/options/aliplayer_components.php:159
+#: inc/options/aliplayer_components.php:221
+#: inc/options/aliplayer_components.php:310
+#: inc/options/aliyunvod.php:44
+#: inc/options/aliyunvod_touwei.php:24
+#: inc/options/aliyunvod_touwei.php:46
+#: inc/options/tcplayer.php:18
+#: inc/options/tcplayer.php:40
+#: inc/options/tcplayer.php:48
+#: inc/options/tcplayer.php:182
+#: inc/options/tcvod_touwei.php:23
+#: inc/options/tcvod_touwei.php:45
+#: dist/blocks.build.js:1
+msgid "Enable"
+msgstr "启用"
+
+#: inc/options/aliplayer.php:26
+#: inc/options/aliplayer.php:35
+#: inc/options/aliplayer.php:43
+#: inc/options/aliplayer_components.php:19
+#: inc/options/aliplayer_components.php:51
+#: inc/options/aliplayer_components.php:109
+#: inc/options/aliplayer_components.php:138
+#: inc/options/aliplayer_components.php:160
+#: inc/options/aliplayer_components.php:222
+#: inc/options/aliplayer_components.php:311
+#: inc/options/aliyunvod.php:45
+#: inc/options/aliyunvod_touwei.php:25
+#: inc/options/aliyunvod_touwei.php:47
+#: inc/options/tcplayer.php:19
+#: inc/options/tcplayer.php:41
+#: inc/options/tcplayer.php:49
+#: inc/options/tcplayer.php:183
+#: inc/options/tcvod_touwei.php:24
+#: inc/options/tcvod_touwei.php:46
+msgid "Disable"
+msgstr "禁用"
+
+#: inc/options/aliplayer.php:32
+#: inc/options/tcplayer.php:24
+msgid "Preload"
+msgstr "自动加载"
+
+#: inc/options/aliplayer.php:33
+msgid "Preload currently only available in h5"
+msgstr "播放器自动加载，目前仅h5可用"
+
+#: inc/options/aliplayer.php:41
+#: inc/options/tcplayer.php:39
+msgid "Loop"
+msgstr "循环播放"
+
+#: inc/options/aliplayer.php:58
+msgid "How to display the control panel"
+msgstr "控制面板的显示方式"
+
+#: inc/options/aliplayer.php:63
+#: inc/options/tcplayer.php:55
+msgid "Big play button"
+msgstr "大播放按钮"
+
+#: inc/options/aliplayer.php:64
+#: inc/options/aliplayer.php:90
+#: inc/options/aliplayer.php:98
+#: inc/options/aliplayer.php:106
+#: inc/options/aliplayer.php:114
+#: inc/options/aliplayer.php:122
+#: inc/options/aliplayer.php:130
+#: inc/options/aliplayer.php:138
+#: inc/options/aliplayer.php:146
+#: inc/options/tcplayer.php:56
+#: inc/options/tcplayer.php:70
+#: inc/options/tcplayer.php:78
+#: inc/options/tcplayer.php:86
+#: inc/options/tcplayer.php:94
+#: inc/options/tcplayer.php:102
+#: inc/options/tcplayer.php:110
+#: inc/options/tcplayer.php:118
+#: inc/options/tcplayer.php:126
+#: inc/options/tcplayer.php:134
+#: inc/options/tcplayer.php:142
+msgid "Show"
+msgstr "显示"
+
+#: inc/options/aliplayer.php:65
+#: inc/options/aliplayer.php:91
+#: inc/options/aliplayer.php:99
+#: inc/options/aliplayer.php:107
+#: inc/options/aliplayer.php:115
+#: inc/options/aliplayer.php:123
+#: inc/options/aliplayer.php:131
+#: inc/options/aliplayer.php:139
+#: inc/options/aliplayer.php:147
+#: inc/options/tcplayer.php:57
+#: inc/options/tcplayer.php:71
+#: inc/options/tcplayer.php:79
+#: inc/options/tcplayer.php:87
+#: inc/options/tcplayer.php:95
+#: inc/options/tcplayer.php:103
+#: inc/options/tcplayer.php:111
+#: inc/options/tcplayer.php:119
+#: inc/options/tcplayer.php:127
+#: inc/options/tcplayer.php:135
+#: inc/options/tcplayer.php:143
+msgid "Hide"
+msgstr "隐藏"
+
+#: inc/options/aliplayer.php:79
+msgid "Language"
+msgstr "语言"
+
+#: inc/options/aliplayer.php:84
+#: inc/options/tcplayer.php:64
+msgid "The following is the control bar property settings"
+msgstr "如下是控制栏属性设置"
+
+#: inc/options/aliplayer.php:89
+#: inc/options/tcplayer.php:85
+msgid "Progress bar"
+msgstr "进度条"
+
+#: inc/options/aliplayer.php:97
+#: inc/options/tcplayer.php:77
+msgid "Play button"
+msgstr "播放按钮"
+
+#: inc/options/aliplayer.php:105
+msgid "Time"
+msgstr "时间"
+
+#: inc/options/aliplayer.php:113
+#: inc/options/tcplayer.php:133
+msgid "Fullscreen button"
+msgstr "全屏按钮"
+
+#: inc/options/aliplayer.php:121
+msgid "Settings button"
+msgstr "设置按钮"
+
+#: inc/options/aliplayer.php:129
+#: inc/options/tcplayer.php:93
+msgid "Volume buttons"
+msgstr "音量按钮"
+
+#: inc/options/aliplayer.php:137
+msgid "Subtitle button"
+msgstr "字幕按钮"
+
+#: inc/options/aliplayer.php:145
+msgid "Screenshot button"
+msgstr "截图按钮"
+
+#: inc/options/aliplayer.php:155
+#: inc/options/tcplayer.php:151
+msgid "Player style"
+msgstr "播放器样式"
+
+#: inc/options/aliplayer.php:156
+#: inc/options/tcplayer.php:152
+msgid "The css environment of each theme is different, which causes the player style to be disordered. It is normal. Please adjust the css compatibility according to your theme. You can contact QQ 995525477 for assistance."
+msgstr "每个主题的css环境不一样，导致播放器样式错乱属正常情况，请根据自己的主题调整css兼容性，可联系Q 995525477 协助，随意打赏或不打赏"
+
+#: inc/options/aliplayer_components.php:4
+#: inc/options/tcplayer.php:168
+msgid "Utility components"
+msgstr "实用组件"
+
+#: inc/options/aliplayer_components.php:11
+msgid "Player Logo"
+msgstr "播放器Logo"
+
+#: inc/options/aliplayer_components.php:17
+#: inc/options/aliplayer_components.php:49
+#: inc/options/aliplayer_components.php:107
+#: inc/options/aliplayer_components.php:136
+#: inc/options/aliplayer_components.php:158
+#: inc/options/aliplayer_components.php:220
+#: inc/options/aliplayer_components.php:309
+#: inc/options/aliyunvod_touwei.php:23
+#: inc/options/aliyunvod_touwei.php:45
+#: inc/options/tcplayer.php:181
+#: inc/options/tcvod_touwei.php:22
+#: inc/options/tcvod_touwei.php:44
+msgid "State"
+msgstr "状态"
+
+#: inc/options/aliplayer_components.php:25
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/options/aliplayer_components.php:33
+msgid "Logo style"
+msgstr "Logo样式"
+
+#: inc/options/aliplayer_components.php:34
+msgid "The logo is in the upper left corner by default"
+msgstr "Logo默认在左上角"
+
+#: inc/options/aliplayer_components.php:43
+#: dist/blocks.build.js:1
+msgid "Slide"
+msgstr "跑马灯"
+
+#: inc/options/aliplayer_components.php:57
+msgid "Scroll text"
+msgstr "滚动文本"
+
+#: inc/options/aliplayer_components.php:64
+#: dist/blocks.build.js:1
+msgid "Can be dynamically replaced with these labels: {username} {userid} {userip} {useremail} {usernickname}"
+msgstr "可动态显示 {username} {userid} {userip} {useremail} {usernickname}"
+
+#: inc/options/aliplayer_components.php:65
+msgid "Multiple Scroll text will be show randomly in diffrent videos."
+msgstr "多条滚动文本将会在不同的视频中随机显示"
+
+#: inc/options/aliplayer_components.php:68
+msgid "Dear {username}, welcome to Mine Cloud Vod."
+msgstr "亲爱的{username}用户，欢迎使用云点播"
+
+#: inc/options/aliplayer_components.php:76
+msgid "Text style"
+msgstr "文本样式"
+
+#: inc/options/aliplayer_components.php:83
+msgid "Position"
+msgstr "位置"
+
+#: inc/options/aliplayer_components.php:86
+msgid "Random"
+msgstr "随机"
+
+#: inc/options/aliplayer_components.php:87
+msgid "Top"
+msgstr "顶部"
+
+#: inc/options/aliplayer_components.php:88
+msgid "Bottom"
+msgstr "底部"
+
+#: inc/options/aliplayer_components.php:101
+#: inc/options/tcplayer.php:175
+msgid "Remember Played Position"
+msgstr "记忆播放"
+
+#: inc/options/aliplayer_components.php:114
+#: inc/options/tcplayer.php:188
+msgid "Type"
+msgstr "记忆播放类型"
+
+#: inc/options/aliplayer_components.php:117
+#: inc/options/tcplayer.php:191
+msgid "Click to play"
+msgstr "点击播放"
+
+#: inc/options/aliplayer_components.php:131
+msgid "Rate play"
+msgstr "倍速播放"
+
+#: inc/options/aliplayer_components.php:144
+msgid "After the playback speed component is added, the playback speed setting in the player is hidden."
+msgstr "启用倍速播放组件之后, 播放器的设置里面的倍速选项会被隐藏"
+
+#: inc/options/aliplayer_components.php:152
+msgid "Sticky Video"
+msgstr "粘性视频"
+
+#: inc/options/aliplayer_components.php:165
+msgid "Video Position"
+msgstr "位置"
+
+#: inc/options/aliplayer_components.php:168
+msgid "Right Bottom"
+msgstr "右下角"
+
+#: inc/options/aliplayer_components.php:169
+msgid "Right Top"
+msgstr "右上角"
+
+#: inc/options/aliplayer_components.php:170
+msgid "Left Bottom"
+msgstr "左下角"
+
+#: inc/options/aliplayer_components.php:171
+msgid "Left Top"
+msgstr "左上角"
+
+#: inc/options/aliplayer_components.php:182
+msgid "Width"
+msgstr "宽度"
+
+#: inc/options/aliplayer_components.php:183
+msgid "The width of sticky video."
+msgstr "粘性视频的宽度"
+
+#: inc/options/aliplayer_components.php:188
+msgid "PC"
+msgstr "电脑"
+
+#: inc/options/aliplayer_components.php:195
+msgid "Tablet"
+msgstr "平板"
+
+#: inc/options/aliplayer_components.php:202
+msgid "Mobile"
+msgstr "手机"
+
+#: inc/options/aliplayer_components.php:214
+msgid "AD Before Play"
+msgstr "开始广告"
+
+#: inc/options/aliplayer_components.php:240
+#: inc/options/aliplayer_components.php:274
+#: inc/options/aliplayer_components.php:317
+msgid "Multiple Ads will be show randomly in diffrent videos."
+msgstr "多个广告将在不同的视频中随机展示"
+
+#: inc/options/aliplayer_components.php:245
+#: inc/options/aliplayer_components.php:322
+msgid "Image"
+msgstr "图片"
+
+#: inc/options/aliplayer_components.php:252
+#: inc/options/aliplayer_components.php:286
+#: inc/options/aliplayer_components.php:329
+msgid "Link"
+msgstr "链接"
+
+#: inc/options/aliplayer_components.php:253
+#: inc/options/aliplayer_components.php:287
+#: inc/options/aliplayer_components.php:330
+msgid "The link of the ad page."
+msgstr "广告页面的链接"
+
+#: inc/options/aliplayer_components.php:258
+msgid "Duration"
+msgstr "时长"
+
+#: inc/options/aliplayer_components.php:259
+msgid "Enter the number of seconds to display the image ad before the video plays."
+msgstr "请输入开始广告显示的秒数"
+
+#: inc/options/aliplayer_components.php:279
+msgid "Video"
+msgstr "视频"
+
+#: inc/options/aliplayer_components.php:303
+msgid "AD On Pause"
+msgstr "暂停广告"
+
+#: inc/options/aliyunoss.php:3
+#: inc/options/tccos.php:3
+msgid "Please sync Bukcets List first"
+msgstr "请先同步Bucket列表"
+
+#: inc/options/aliyunoss.php:13
+#: inc/options/aliyunoss.php:24
+#: dist/blocks.build.js:1
+msgid "Aliyun OSS"
+msgstr "阿里云OSS"
+
+#: inc/options/aliyunoss.php:19
+msgid "By default, Alibaba Cloud OSS is charged after the end of the hour, and it can also be found on <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">Alibaba Cloud OSS Platform</a> Purchase the corresponding resource pack consumption."
+msgstr "阿里云OSS默认是日结后收费模式，也可以在 <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">阿里云-云小站(<font color=red>专属优惠</font>)</a> 购买相应的资源包消费"
+
+#: inc/options/aliyunoss.php:29
+#: inc/options/tccos.php:29
+msgid "Bucket"
+msgstr ""
+
+#: inc/options/aliyunoss.php:30
+#: inc/options/tccos.php:30
+msgid "Sync Buckets List"
+msgstr "同步Bucket列表"
+
+#: inc/options/aliyunoss.php:40
+#: inc/options/tccos.php:40
+msgid "Successfully synchronized buckets"
+msgstr "同步Bucket列表成功"
+
+#: inc/options/aliyunvod.php:25
+#: inc/options/tcvod.php:31
+msgid "Storage area"
+msgstr ""
+
+#: inc/options/aliyunvod.php:26
+#: inc/options/tcvod.php:32
+msgid "Select storage area"
+msgstr "选择区域"
+
+#: inc/options/aliyunvod.php:33
+msgid "Transcoding template"
+msgstr "转码模板"
+
+#: inc/options/aliyunvod.php:34
+msgid "Sync transcoding template"
+msgstr "同步转码模板组"
+
+#: inc/options/aliyunvod.php:35
+msgid "Select transcoding template"
+msgstr "选择转码模板"
+
+#: inc/options/aliyunvod.php:42
+msgid "Standard HLS encryption"
+msgstr "HLS标准加密"
+
+#: inc/options/aliyunvod.php:43
+msgid "<br /><p style=\"color:red\">After enabling, the video uploaded through the plugin will be automatically encrypted with Standard HLS encryption</p>"
+msgstr "<br /><p style=\"color:red\">启用后，通过插件上传的视频会自动进行标准加密</p>"
+
+#: inc/options/aliyunvod.php:76
+msgid "KMS KeyID"
+msgstr "秘钥管理服务id"
+
+#: inc/options/aliyunvod.php:77
+msgid "Used for <a href=\"https://help.aliyun.com/document_detail/68612.htm?spm=a2c4g.11186623.0.0.5ceb2074txQis7#title-rvd-6ql-49n\" target=\"_blank\">Standard HLS encryption</a>, need to submit a ticket to apply for activation"
+msgstr "用于<a href=\"https://help.aliyun.com/document_detail/68612.htm?spm=a2c4g.11186623.0.0.5ceb2074txQis7#title-rvd-6ql-49n\" target=\"_blank\">hls标准加密</a>，需要提交工单申请开通"
+
+#: inc/options/aliyunvod.php:82
+msgid "Security key"
+msgstr "安全密钥"
+
+#: inc/options/aliyunvod.php:84
+msgid "Security verification for playing standard hls encrypted video"
+msgstr "用于播放HLS标准加密视频的安全验证"
+
+#: inc/options/aliyunvod_touwei.php:5
+#: inc/options/tcvod_touwei.php:4
+msgid "Video head and foot"
+msgstr "片头片尾"
+
+#: inc/options/aliyunvod_touwei.php:12
+#: inc/options/tcvod_touwei.php:11
+msgid "This function consumes transcoding time and is not recommended"
+msgstr "此功能会消耗转码时长，不推荐使用"
+
+#: inc/options/aliyunvod_touwei.php:17
+#: inc/options/tcvod_touwei.php:16
+msgid "Video head"
+msgstr "片头"
+
+#: inc/options/aliyunvod_touwei.php:18
+#: inc/options/tcvod_touwei.php:17
+msgid "When enabled, the video file will be automatically attached before the uploaded video"
+msgstr "启用后会自动在上传的视频前接上片头视频文件"
+
+#: inc/options/aliyunvod_touwei.php:31
+msgid "Video ID"
+msgstr "视频ID"
+
+#: inc/options/tccos.php:13
+#: dist/blocks.build.js:1
+msgid "Tencent COS"
+msgstr "腾讯云COS"
+
+#: inc/options/tcplayer.php:69
+msgid "Control bar"
+msgstr "控制栏"
+
+#: inc/options/tcvod.php:4
+#: dist/blocks.build.js:1
+msgid "Tencent Cloud Vod"
+msgstr "腾讯云点播"
+
+#: inc/options/tcvod.php:39
+msgid "Transcoding tasks"
+msgstr "转码任务流"
+
+#: inc/options/tcvod.php:40
+msgid "Sync transcoding task list."
+msgstr "同步任务流列表"
+
+#: inc/options/tcvod.php:41
+msgid "Select transcoding tasks"
+msgstr "选择任务流"
+
+#: inc/options/tcvod.php:48
+msgid "Tcplayer setting"
+msgstr "超级播放器配置"
+
+#: inc/options/tcvod.php:49
+msgid "Sync tcplayer setting list"
+msgstr "同步播放器配置列表"
+
+#: inc/options/tcvod.php:50
+msgid "Select tcplayer setting"
+msgstr "选择播放器配置"
+
+#: inc/RestApi/AliyunOss.php:225
+#: inc/RestApi/QcloudCos.php:215
+msgid "Bucket is missed"
+msgstr "请选择一个Bucket"
+
+#: inc/RestApi/QcloudCos.php:125
+msgid "Sync the buckets list, please."
+msgstr "同步Bucket列表"
+
+#: mine-cloudvod.php:20
+msgid "China(Beijing)"
+msgstr "华北2（北京）"
+
+#: mine-cloudvod.php:21
+msgid "China(Zhangjiakou)"
+msgstr "华北3（张家口）"
+
+#: mine-cloudvod.php:22
+msgid "China(Hangzhou)"
+msgstr "华东1（杭州）"
+
+#: mine-cloudvod.php:23
+msgid "China(Shanghai)"
+msgstr "华东2（上海）"
+
+#: mine-cloudvod.php:24
+msgid "China(Shenzhen)"
+msgstr "华南1（深圳）"
+
+#: mine-cloudvod.php:25
+msgid "China(Hongkong)"
+msgstr "香港"
+
+#: mine-cloudvod.php:26
+msgid "Janpan(Tokyo)"
+msgstr "日本（东京）"
+
+#: mine-cloudvod.php:27
+msgid "Singapore"
+msgstr "新加坡"
+
+#: mine-cloudvod.php:28
+msgid "Indonesia(Jakarta)"
+msgstr "印度尼西亚（雅加达）"
+
+#: mine-cloudvod.php:29
+msgid "USA (Silicon Valley)"
+msgstr "美国（硅谷）"
+
+#: mine-cloudvod.php:30
+msgid "U.K (London)"
+msgstr "英国（伦敦）"
+
+#: mine-cloudvod.php:31
+msgid "Germany(Frankfurt)"
+msgstr "德国（法兰克福）"
+
+#: mine-cloudvod.php:32
+msgid "India(Mumbai)"
+msgstr "印度（孟买）"
+
+#: mine-cloudvod.php:103
+msgid "CloudVod Hub"
+msgstr "云点播中心"
