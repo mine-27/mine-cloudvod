@@ -10,7 +10,6 @@ class PlayList
     {
         add_action('wp_ajax_mcv_playlist_ajax', array($this, 'mcv_playlist_ajax'));
         add_action('wp_ajax_nopriv_mcv_playlist_ajax', array($this, 'mcv_playlist_ajax'));
-        add_action('wp_footer', array($this, 'mcv_playlist_script'), 10);
 
         add_filter('render_block_data', array($this, 'render_playlist'), 10, 2);
         add_filter('mcv_filter_aliplayer', array($this, 'mcv_playlist_filter_aliplayer'), 10, 6);
@@ -278,10 +277,12 @@ class PlayList
 
         }
         //for elementor
+        $inlineScript = $this->mcv_playlist_script($enqueue);
         if (!$enqueue) {
-            $video .= '<script>' . $this->mcv_playlist_script($enqueue) . '</script>';
+            $video .= '<script>' . $inlineScript . '</script>';
             return $video;
         }
+
         if ($video) {
             $video = mcv_trim($video);
             $parsed_block['innerContent'][0] = $video;
@@ -358,7 +359,7 @@ class PlayList
                 jQuery(".mcv-videos .mcv-playlist .mcv-playlist-ul li:first").click();
             });
             ';
-        if(!$enqueue){
+        if (!$enqueue) {
             \MineCloudvod\Aliyun\Aliplayer::style_script();
             \MineCloudvod\Qcloud\Tcplayer::style_script();
             return $inlineScript;
@@ -368,7 +369,10 @@ class PlayList
             \MineCloudvod\Aliyun\Aliplayer::style_script();
             \MineCloudvod\Qcloud\Tcplayer::style_script();
 
-            wp_add_inline_script('mine_tcplayer', $inlineScript);
+            global $isilmd5;
+            if (!is_array($isilmd5) || (is_array($isilmd5) && !in_array(md5('mcv-playlist-'), $isilmd5)))
+                wp_add_inline_script('mine_tcplayer', $inlineScript);
+            $isilmd5[] = md5('mcv-playlist-');
         }
     }
 

@@ -245,7 +245,7 @@ class Aliplayer
 
         $video = '<div id="' . $divId . '"></div>';
 
-        self::style_script($enqueue);
+        self::style_script();
         date_default_timezone_set(wp_timezone_string());
         if ($countdown && strtotime($countdown) > time()) {
             $inlineScript = '
