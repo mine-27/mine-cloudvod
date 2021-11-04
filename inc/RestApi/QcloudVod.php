@@ -29,6 +29,32 @@ class QcloudVod{
      */
     public function register_routes(){
         /**
+         * get categories
+         */
+        register_rest_route("{$this->namespace}/{$this->version}", '/' . $this->base . '/categories', [
+            [
+                'methods'             => \WP_REST_Server::READABLE,
+                'callback'            => [$this, 'getCategories'],
+                'permission_callback' => [$this, 'read_files_permissions_check'],
+                'args'                => []
+            ],
+        ]);
+        /**
+         * create a category
+         */
+        register_rest_route("{$this->namespace}/{$this->version}", '/' . $this->base . '/createCategory', [
+            [
+                'methods'             => \WP_REST_Server::CREATABLE,
+                'callback'            => [$this, 'createCategory'],
+                'permission_callback' => [$this, 'read_files_permissions_check'],
+                'args'                => [
+                    'name' => [
+                        'type' => 'string',
+                    ],
+                ]
+            ],
+        ]);
+        /**
          * search videos
          */
         register_rest_route("{$this->namespace}/{$this->version}", '/' . $this->base . '/videos', [
@@ -47,6 +73,9 @@ class QcloudVod{
                         'type' => 'integer',
                     ],
                     'order_by' => [
+                        'type' => 'string'
+                    ],
+                    'cid' => [
                         'type' => 'string'
                     ]
                 ]
@@ -93,7 +122,11 @@ class QcloudVod{
                 'methods'             => \WP_REST_Server::READABLE,
                 'callback'            => [$this, 'get_usign'],
                 'permission_callback' => [$this, 'read_files_permissions_check'],
-                'args'                => []
+                'args'                => [
+                    'cid' => [
+                        'type' => 'integer',
+                    ],
+                ]
             ],
         ]);
 
@@ -102,6 +135,37 @@ class QcloudVod{
         return current_user_can('edit_posts');
     }
 
+    public function getCategories(\WP_REST_Request $request){
+        $req = array(
+            'mode' => 'tcvod'
+        );
+        $result = $this->_wpcvApi->call('getcate', $req);
+
+        if (is_wp_error($result)) {
+            return $result;
+        }
+        if($result['status'] == 0){
+            return new \WP_Error('cant-trash', $result['msg'], ['status' => 500]);
+        }
+        $cates = $result['data'];
+        return rest_ensure_response($cates);
+    }
+    public function createCategory(\WP_REST_Request $request){
+        $req = array(
+            'mode' => 'tcvod',
+            'className' => $request['name'],
+        );
+        $result = $this->_wpcvApi->call('addcate', $req);
+
+        if (is_wp_error($result)) {
+            return $result;
+        }
+        if($result['status'] == 0){
+            return new \WP_Error('cant-trash', $result['msg'], ['status' => 500]);
+        }
+        $cates = $result['data'];
+        return rest_ensure_response($cates);
+    }
     /**
      * Fetch videos from tc vod
      * 
@@ -112,6 +176,7 @@ class QcloudVod{
         $req = array(
             'pageNo' => (int) $request['page'],
             'pageSize' => (int)$request['items_per_page'],
+            'classId' => (int)$request['cid'],
             'mode' => 'tcvod'
         );
         $result = $this->_wpcvApi->call('search', $req);
@@ -178,7 +243,10 @@ class QcloudVod{
     }
 
     public function get_usign(\WP_REST_Request $request){
-        $data = array('mode' => 'tcvod');
+        $data = array(
+            'mode' => 'tcvod',
+            'classId' => (int)$request['cid'],
+        );
         $touwei = get_tcvod_piantouwei();
         if(is_array($touwei)){
             $data['touwei'] = $touwei;

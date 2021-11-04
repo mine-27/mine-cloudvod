@@ -1,7 +1,10 @@
 <?php
+
 namespace MineCloudvod\Models;
+
 use \MineCloudvod\Aliyun\Aliplayer;
 use \MineCloudvod\Qcloud\Tcplayer;
+use \MineCloudvod\Ability\PlayList;
 
 class McvVideo
 {
@@ -11,7 +14,7 @@ class McvVideo
     public function __construct($id = 0)
     {
         if (!empty($id)) {
-            if(is_array($id)) $id = $id[0];
+            if (is_array($id)) $id = $id[0];
             $this->post = \get_post($id);
             return $this;
         }
@@ -109,6 +112,11 @@ class McvVideo
                 $video .= $aliplayer->mcv_block_aliplayer($block, false);
                 return $video;
 
+            case 'mine-cloudvod/video-playlist':
+                $playlist = new PlayList();
+                $video = '<!--mine-cloudvod/video-playlist -->';
+                $video .= $playlist->render_playlist($block, false);
+                return $video;
         }
     }
 }

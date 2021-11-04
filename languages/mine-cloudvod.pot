@@ -1,21 +1,22 @@
 # Copyright (C) 2021 mine27
-# This file is distributed under the same license as the Mine CloudVod 云点播 plugin.
+# This file is distributed under the same license as the Mine CloudVod plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Mine CloudVod 云点播 1.2.16\n"
+"Project-Id-Version: Mine CloudVod 1.2.17\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mine-cloudvod\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-10-29T09:57:26+08:00\n"
+"POT-Creation-Date: 2021-11-04T20:57:13+08:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: mine-cloudvod\n"
 
 #. Plugin Name of the plugin
-msgid "Mine CloudVod 云点播"
+#: inc/Integrations/Elementor/McvVideoWidget.php:32
+msgid "Mine CloudVod"
 msgstr ""
 
 #. Plugin URI of the plugin
@@ -23,7 +24,7 @@ msgid "https://www.zwtt8.com/mine-cloudvod/"
 msgstr ""
 
 #. Description of the plugin
-msgid "将视频直传到阿里云视频点播、OSS、腾讯云点播、COS，嵌入WP中播放，配置简单，使用方便，支持gutenberg编辑器，兼容微信小程序。"
+msgid "Upload videos directly to ApsaraVideo VoD, OSS, Tencent Cloud VoD, COS, and embed them in WP for playback. It's very simple to configure and easy to use."
 msgstr ""
 
 #. Author of the plugin
@@ -38,7 +39,7 @@ msgstr ""
 #: inc/Ability/Ajax.php:23
 #: inc/Ability/Ajax.php:34
 #: inc/Ability/Ajax.php:39
-#: inc/Ability/PlayList.php:289
+#: inc/Ability/PlayList.php:300
 #: inc/Ability/Token.php:36
 #: inc/functions.php:437
 #: inc/Integrations/B_2/B_2.php:52
@@ -66,7 +67,7 @@ msgstr ""
 msgid "Illegal request"
 msgstr ""
 
-#: inc/Ability/PlayList.php:25
+#: inc/Ability/PlayList.php:27
 #: dist/blocks.build.js:1
 msgid "Video Playlist"
 msgstr ""
@@ -81,9 +82,9 @@ msgstr ""
 
 #: inc/Ability/Plugin.php:37
 #: inc/Ability/Plugin.php:42
-#: inc/options.php:87
-#: inc/options.php:239
-#: mine-cloudvod.php:116
+#: inc/options.php:90
+#: inc/options.php:214
+#: mine-cloudvod.php:124
 msgid "Purchase time"
 msgstr ""
 
@@ -91,139 +92,152 @@ msgstr ""
 msgid "Mine CloudVod will expire in %d days, please <a href=\"%s\">renew</a> in time."
 msgstr ""
 
-#: inc/Ability/PostType.php:74
+#: inc/Ability/PostType.php:66
+msgid "Enter a number, which is order by ASC."
+msgstr ""
+
+#: inc/Ability/PostType.php:106
+#: inc/Ability/PostType.php:165
+msgid "Sort No"
+msgstr ""
+
+#: inc/Ability/PostType.php:153
 msgid "Shortcode"
 msgstr ""
 
-#: inc/Ability/PostType.php:75
+#: inc/Ability/PostType.php:154
 msgid "PHP Function"
 msgstr ""
 
-#: inc/Ability/PostType.php:117
+#: inc/Ability/PostType.php:171
+msgid "Update Sort No"
+msgstr ""
+
+#: inc/Ability/PostType.php:219
 msgid "Add Title"
 msgstr ""
 
-#: inc/Ability/PostType.php:167
+#: inc/Ability/PostType.php:269
 msgid "Copied"
 msgstr ""
 
-#: inc/Ability/PostType.php:171
+#: inc/Ability/PostType.php:279
 msgctxt "post type general name"
 msgid "Video Tags"
 msgstr ""
 
-#: inc/Ability/PostType.php:172
+#: inc/Ability/PostType.php:280
 msgctxt "post type singular name"
 msgid "Video Tag"
 msgstr ""
 
-#: inc/Ability/PostType.php:173
+#: inc/Ability/PostType.php:281
 msgctxt "admin menu"
 msgid "Search Video Tags"
 msgstr ""
 
-#: inc/Ability/PostType.php:174
+#: inc/Ability/PostType.php:282
 msgctxt "add new on admin bar"
 msgid "Popular Video Tags"
 msgstr ""
 
-#: inc/Ability/PostType.php:176
+#: inc/Ability/PostType.php:284
 msgid "Tag"
 msgstr ""
 
-#: inc/Ability/PostType.php:187
+#: inc/Ability/PostType.php:295
 msgctxt "post type general name"
 msgid "CloudVod Hub"
 msgstr ""
 
-#: inc/Ability/PostType.php:188
+#: inc/Ability/PostType.php:296
 msgctxt "post type singular name"
 msgid "Mine CloudVod"
 msgstr ""
 
-#: inc/Ability/PostType.php:189
+#: inc/Ability/PostType.php:297
 msgctxt "admin menu"
 msgid "Mine CloudVod"
 msgstr ""
 
-#: inc/Ability/PostType.php:190
+#: inc/Ability/PostType.php:298
 msgctxt "add new on admin bar"
 msgid "Video"
 msgstr ""
 
-#: inc/Ability/PostType.php:191
+#: inc/Ability/PostType.php:299
 msgctxt "Video"
 msgid "Add New"
 msgstr ""
 
-#: inc/Ability/PostType.php:192
+#: inc/Ability/PostType.php:300
 msgid "Add New Video"
 msgstr ""
 
-#: inc/Ability/PostType.php:193
+#: inc/Ability/PostType.php:301
 #: inc/Integrations/Elementor/McvVideoWidget.php:99
 #: inc/Integrations/Elementor/McvVideoWidget.php:103
 msgid "New Video"
 msgstr ""
 
-#: inc/Ability/PostType.php:194
+#: inc/Ability/PostType.php:302
 #: inc/Integrations/Elementor/McvVideoWidget.php:88
 msgid "Edit Video"
 msgstr ""
 
-#: inc/Ability/PostType.php:195
+#: inc/Ability/PostType.php:303
 msgid "View Video"
 msgstr ""
 
-#: inc/Ability/PostType.php:196
+#: inc/Ability/PostType.php:304
 msgid "All Videos"
 msgstr ""
 
-#: inc/Ability/PostType.php:197
+#: inc/Ability/PostType.php:305
 msgid "Search Videos"
 msgstr ""
 
-#: inc/Ability/PostType.php:198
+#: inc/Ability/PostType.php:306
 msgid "No Videos found."
 msgstr ""
 
-#: inc/Ability/PostType.php:199
+#: inc/Ability/PostType.php:307
 msgid "No Videos found in Trash."
 msgstr ""
 
-#: inc/Ability/PostType.php:200
+#: inc/Ability/PostType.php:308
 msgid "Filter Videos list"
 msgstr ""
 
-#: inc/Ability/PostType.php:201
+#: inc/Ability/PostType.php:309
 msgid "Videos list navigation"
 msgstr ""
 
-#: inc/Ability/PostType.php:202
+#: inc/Ability/PostType.php:310
 msgid "Videos list"
 msgstr ""
 
-#: inc/Ability/PostType.php:203
+#: inc/Ability/PostType.php:311
 msgid "Video published."
 msgstr ""
 
-#: inc/Ability/PostType.php:204
+#: inc/Ability/PostType.php:312
 msgid "Video published privately."
 msgstr ""
 
-#: inc/Ability/PostType.php:205
+#: inc/Ability/PostType.php:313
 msgid "Video reverted to draft."
 msgstr ""
 
-#: inc/Ability/PostType.php:206
+#: inc/Ability/PostType.php:314
 msgid "Video scheduled."
 msgstr ""
 
-#: inc/Ability/PostType.php:207
+#: inc/Ability/PostType.php:315
 msgid "Video updated."
 msgstr ""
 
-#: inc/Ability/PostType.php:249
+#: inc/Ability/PostType.php:357
 msgid "Show all %s"
 msgstr ""
 
@@ -328,10 +342,6 @@ msgstr ""
 msgid "Please use Alipay <br>to scan the QR code to pay"
 msgstr ""
 
-#: inc/Integrations/Elementor/McvVideoWidget.php:32
-msgid "Mine CloudVod"
-msgstr ""
-
 #: inc/Integrations/Elementor/McvVideoWidget.php:67
 msgid "Cloud Vod"
 msgstr ""
@@ -349,139 +359,167 @@ msgstr ""
 msgid "The upload function here is no longer updated and is no longer recommended. It is recommended to upload videos using the block of the gutenberg editor."
 msgstr ""
 
-#: inc/options.php:8
+#: inc/options.php:11
 msgid "Please synchronize the task flow list first"
 msgstr ""
 
-#: inc/options.php:15
+#: inc/options.php:18
 msgid "Please synchronize the player configuration list first"
 msgstr ""
 
-#: inc/options.php:22
+#: inc/options.php:25
 msgid "Please sync transcoding template first"
 msgstr ""
 
-#: inc/options.php:43
-#: inc/options.php:275
+#: inc/options.php:46
+#: inc/options.php:250
 msgid "General settings"
 msgstr ""
 
-#: inc/options.php:49
+#: inc/options.php:52
 msgid "Welcome to use Mine CloudVod, after installing this plugin, there is a 30-day trial period by default"
 msgstr ""
 
-#: inc/options.php:56
+#: inc/options.php:59
 msgid "After the trial period, you can continue to use it after the purchase time, thanks for your support"
 msgstr ""
 
-#: inc/options.php:61
+#: inc/options.php:64
 msgid "We will continue to maintain and upgrade to give you better cloud-vod services"
 msgstr ""
 
-#: inc/options.php:66
+#: inc/options.php:69
 msgid "Site ID"
 msgstr ""
 
-#: inc/options.php:75
+#: inc/options.php:78
 msgid "Communication key"
 msgstr ""
 
-#: inc/options.php:76
+#: inc/options.php:79
 msgid "<p style=\"color:red;\">Do not divulge</p>"
 msgstr ""
 
-#: inc/options.php:85
+#: inc/options.php:88
 msgid "Valid until"
 msgstr ""
 
-#: inc/options.php:86
-msgid "Only show the expiration time, do not tamper with"
+#: inc/options.php:89
+msgid "Only show the expiration time, do not tamper with."
 msgstr ""
 
-#: inc/options.php:86
+#: inc/options.php:89
 msgid "Sync expiration time"
 msgstr ""
 
-#: inc/options.php:156
+#: inc/options.php:99
+msgid "CDN Type"
+msgstr ""
+
+#: inc/options.php:102
+msgid "Self Hosted"
+msgstr ""
+
+#: inc/options.php:103
+msgid "Jsdelivr"
+msgstr ""
+
+#: inc/options.php:104
+msgid "Customize"
+msgstr ""
+
+#: inc/options.php:111
+msgid "CDN Prefix"
+msgstr ""
+
+#: inc/options.php:112
+msgid "You can use {version} to replace the version of the plugin."
+msgstr ""
+
+#: inc/options.php:119
+msgid "Welcome to use my plugin."
+msgstr ""
+
+#: inc/options.php:127
 msgid "Tencent Cloud"
 msgstr ""
 
-#: inc/options.php:161
-#: inc/options.php:204
+#: inc/options.php:132
+#: inc/options.php:176
 msgid "AccessKey setting"
 msgstr ""
 
-#: inc/options.php:167
+#: inc/options.php:138
 #: inc/options/tccos.php:19
 #: inc/options/tcvod.php:10
 msgid "By default, Tencent Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://curl.qcloud.com/F8Ad6KaX\" target=\"_blank\">Tencent Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
 msgstr ""
 
-#: inc/options.php:199
+#: inc/options.php:171
 msgid "Alibaba Cloud"
 msgstr ""
 
-#: inc/options.php:210
+#: inc/options.php:182
 #: inc/options/aliyunvod.php:10
 msgid "By default, Alibaba Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">Alibaba Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
 msgstr ""
 
-#: inc/options.php:215
+#: inc/options.php:187
 #: inc/options/aliyunvod.php:4
 #: inc/options/aliyunvod.php:15
 #: dist/blocks.build.js:1
 msgid "ApsaraVideo VOD"
 msgstr ""
 
-#: inc/options.php:226
+#: inc/options.php:198
 msgid "<a href=\"https://ram.console.aliyun.com/manage/ak\" target=\"_blank\">Click here to get AccessKeyID and AccessKeySecret </a>"
 msgstr ""
 
-#: inc/options.php:245
+#: inc/options.php:220
 msgid "<font color=\"red\">Reminder</font>: The time package purchased on this page is the service time of using the Mine CloudVod plugin."
 msgstr ""
 
-#: inc/options.php:250
+#: inc/options.php:225
 msgid "Time package"
 msgstr ""
 
-#: inc/options.php:253
+#: inc/options.php:228
 msgid "One month"
 msgstr ""
 
-#: inc/options.php:254
+#: inc/options.php:229
 msgid "Two months"
 msgstr ""
 
-#: inc/options.php:255
+#: inc/options.php:230
 msgid "Three months"
 msgstr ""
 
-#: inc/options.php:256
+#: inc/options.php:231
 msgid "Half a year"
 msgstr ""
 
-#: inc/options.php:257
+#: inc/options.php:232
 msgid "One year (15% off)"
 msgstr ""
 
-#: inc/options.php:258
+#: inc/options.php:233
 msgid "Two years (25% off)"
 msgstr ""
 
-#: inc/options.php:259
+#: inc/options.php:234
 msgid "Three years (35% off)"
 msgstr ""
 
-#: inc/options.php:260
+#: inc/options.php:235
 msgid "Four years (45% off)"
 msgstr ""
 
-#: inc/options.php:261
+#: inc/options.php:236
 msgid "Five years (50% off)"
 msgstr ""
 
-#: inc/options.php:267
+#: inc/options.php:242
 msgid "Click to buy"
 msgstr ""
 
@@ -1015,59 +1053,59 @@ msgstr ""
 msgid "Sync the buckets list, please."
 msgstr ""
 
-#: mine-cloudvod.php:20
+#: mine-cloudvod.php:28
 msgid "China(Beijing)"
 msgstr ""
 
-#: mine-cloudvod.php:21
+#: mine-cloudvod.php:29
 msgid "China(Zhangjiakou)"
 msgstr ""
 
-#: mine-cloudvod.php:22
+#: mine-cloudvod.php:30
 msgid "China(Hangzhou)"
 msgstr ""
 
-#: mine-cloudvod.php:23
+#: mine-cloudvod.php:31
 msgid "China(Shanghai)"
 msgstr ""
 
-#: mine-cloudvod.php:24
+#: mine-cloudvod.php:32
 msgid "China(Shenzhen)"
 msgstr ""
 
-#: mine-cloudvod.php:25
+#: mine-cloudvod.php:33
 msgid "China(Hongkong)"
 msgstr ""
 
-#: mine-cloudvod.php:26
+#: mine-cloudvod.php:34
 msgid "Janpan(Tokyo)"
 msgstr ""
 
-#: mine-cloudvod.php:27
+#: mine-cloudvod.php:35
 msgid "Singapore"
 msgstr ""
 
-#: mine-cloudvod.php:28
+#: mine-cloudvod.php:36
 msgid "Indonesia(Jakarta)"
 msgstr ""
 
-#: mine-cloudvod.php:29
+#: mine-cloudvod.php:37
 msgid "USA (Silicon Valley)"
 msgstr ""
 
-#: mine-cloudvod.php:30
+#: mine-cloudvod.php:38
 msgid "U.K (London)"
 msgstr ""
 
-#: mine-cloudvod.php:31
+#: mine-cloudvod.php:39
 msgid "Germany(Frankfurt)"
 msgstr ""
 
-#: mine-cloudvod.php:32
+#: mine-cloudvod.php:40
 msgid "India(Mumbai)"
 msgstr ""
 
-#: mine-cloudvod.php:103
+#: mine-cloudvod.php:111
 msgid "CloudVod Hub"
 msgstr ""
 
@@ -1308,6 +1346,10 @@ msgid "Videos"
 msgstr ""
 
 #: dist/blocks.build.js:1
+msgid "Showing %1$s of %2$s media items"
+msgstr ""
+
+#: dist/blocks.build.js:1
 msgid "Drop video files here to upload"
 msgstr ""
 
@@ -1325,6 +1367,10 @@ msgstr ""
 
 #: dist/blocks.build.js:1
 msgid "Create Category"
+msgstr ""
+
+#: dist/blocks.build.js:1
+msgid "Create New Category"
 msgstr ""
 
 #: dist/blocks.build.js:1

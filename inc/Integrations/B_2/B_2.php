@@ -77,8 +77,7 @@ class B_2
         global $mcv_block_ajax_from;
         if ($mcv_block_ajax_from == 'b2') {
             $video = '<style>' . MINECLOUDVOD_SETTINGS['aliplayercss'] . '.video-role-info{z-index:4000;}</style>';
-            $video .= '{{mcvsplit}}var aliplayerconfig_' . $r . '=' . json_encode($pconfig) . ';aliplayerconfig_' . $r . '.id="post-style-5-player";aliplayerconfig_' . $r . '.height="100%"; ' . $components . 'if(this.mcv_b2_aliplayer)this.mcv_b2_aliplayer.dispose();
-            this.mcv_b2_aliplayer=new Aliplayer(aliplayerconfig_' . $r . ', function (player) {' . $events . '});{{mcvsplit}}aliyunvod';
+            $video .= '{{mcvsplit}}var aliplayerconfig_' . $r . '=' . json_encode($pconfig) . ';aliplayerconfig_' . $r . '.id="post-style-5-player";aliplayerconfig_' . $r . '.height="100%"; ' . $components . 'window.mcv_b2_player=new Aliplayer(aliplayerconfig_' . $r . ', function (player) {' . $events . '});{{mcvsplit}}aliyunvod';
         }
         return $video;
     }
@@ -89,7 +88,7 @@ class B_2
             $videoId = sprintf('mcv-%s', md5(serialize($parsed_block)));
             $instance = 0;
             $video .= '{{mcvsplit}}';
-            $video .= 'if(jQuery("#' . $videoId . '")){var tcplayerconfig_' . $post_id . $instance . '=' . json_encode($pconfig) . ';if(window.tcplayer_' . $post_id . $instance . ')window.tcplayer_' . $post_id . $instance . '.dispose();window.tcplayer_' . $post_id . $instance . ' = TCPlayer(\'' . $videoId . '\', tcplayerconfig_' . $post_id . $instance . ');}';
+            $video .= 'if(jQuery("#' . $videoId . '")){var tcplayerconfig_' . $post_id . $instance . '=' . json_encode($pconfig) . ';window.mcv_b2_player = TCPlayer(\'' . $videoId . '\', tcplayerconfig_' . $post_id . $instance . ');}';
             $video .= '{{mcvsplit}}qcloudvod';
         }
         return $video;
@@ -114,15 +113,15 @@ class B_2
             wp_add_inline_script('b2-js-single', mcv_trim("
         jQuery(function(){
             postType5.select = function(index){
-                this.index = index
-                postVideoList.index = this.index
+                this.index = index;
+                postVideoList.index = this.index;
                 if(this.user.allow){
-                    this.url = this.videos[index].url
+                    this.url = this.videos[index].url;
                 }else{
-                    this.url = this.videos[index].view
+                    this.url = this.videos[index].view;
                 }
                 if(!this.user.allow){
-                    this.show = true
+                    this.show = true;
                 }
                 if(!!this.player)this.player.destroy();
                 jQuery('#post-style-5-player').removeClass();
@@ -131,6 +130,7 @@ class B_2
                 if(this.url.indexOf('[mine_cloudvod') > -1){
                     jQuery('#post-style-5-player').html('<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"150px\" height=\"150px\" viewBox=\"0 0 40 40\" enable-background=\"new 0 0 40 40\" xml:space=\"preserve\" style=\"margin: auto;position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: 30%;\"><path opacity=\"0.2\" fill=\"#FF6700\" d=\"M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946 s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634 c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z\"></path><path fill=\"#FF6700\" d=\"M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0 C22.32,8.481,24.301,9.057,26.013,10.047z\" transform=\"rotate(42.1171 20 20)\"><animateTransform attributeType=\"xml\" attributeName=\"transform\" type=\"rotate\" from=\"0 20 20\" to=\"360 20 20\" dur=\"0.5s\" repeatCount=\"indefinite\"></animateTransform></path></svg>');
                     this.\$http.post('$ajaxUrl','action=mcv_aliplayer_ajax_b2&nonce=$nonce&url='+this.url).then(res=>{
+                        if(window.mcv_b2_player){window.mcv_b2_player.dispose();window.mcv_b2_player=null;}
                         jQuery('#post-style-5-player').empty();
                         if(res.data.status == '1'){jQuery('#post-style-5-player').before(res.data.aliplayer[0]);eval(res.data.aliplayer[1]);}
                         if(res.data.status == '2'){jQuery('#post-style-5-player').html(res.data.aliplayer[0]);eval(res.data.aliplayer[1]);}
@@ -144,7 +144,7 @@ class B_2
                         video: {
                             url: this.url,
                             pic: this.videos[index].poster,
-                            type:'auto',
+                            type:'auto'
                         },
                         contextmenu:[],
                         airplay:true,
@@ -153,9 +153,9 @@ class B_2
                         preload:true,
                         logo:b2_global.default_video_logo,
                         autoplay:false
-                    })
+                    });
                 }
-            }
+            };
             jQuery('.post-video-list ul').bind('DOMNodeInserted', function(e) {
                 postType5.select(0);
                 jQuery('.post-video-list ul').unbind('DOMNodeInserted');

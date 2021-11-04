@@ -11,7 +11,7 @@ if ( ! class_exists( 'MCSF' ) ) {
   class MCSF {
 
     // Default constants
-    public static $premium  = true;
+    public static $premium  = false;
     public static $version  = '2.2.2';
     public static $dir      = '';
     public static $url      = '';

@@ -92,6 +92,9 @@ class AliyunVod{
                     ],
                     'order_by' => [
                         'type' => 'string'
+                    ],
+                    'st' => [
+                        'type' => 'string'
                     ]
                 ]
             ],
@@ -205,6 +208,7 @@ class AliyunVod{
             'pageSize' => (int)$request['items_per_page'],
             'mode' => 'alivod',
             'cateId'    => (int)$request['cateId'],
+            'scrollToken'    => $request['st'],
         );
         $result = $this->_wpcvApi->call('search', $req);
 

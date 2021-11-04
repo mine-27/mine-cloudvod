@@ -398,7 +398,108 @@ class Aliplayer
 
             $sticky = '.mcv-fixed{position:fixed;z-index:99999;width:' . $width_pc . '% !important;height:auto !important;padding-top:' . $height_pc . '%;' . $sticky_position . '-webkit-animation: fadeInDown .5s .2s ease both; -moz-animation: fadeInDown .5s .2s ease both;}@keyframes fade-in {0% {opacity: 0;}40% {opacity: 0;}100% {opacity: 1;}}@-webkit-keyframes fade-in { 0% {opacity: 0;}  40% {opacity: 0;}100% {opacity: 1;}}@-webkit-keyframes fadeInDown{0%{opacity: 0; -webkit-transform: translateY(-10px);} 100%{opacity: 1; -webkit-transform: translateY(0);}}@-moz-keyframes fadeInDown{0%{opacity: 0; -moz-transform: translateY(-10px);} 100%{opacity: 1; -moz-transform: translateY(0);}}@media (max-width: 1024px) {.mcv-fixed{width:' . $width_tablet . '% !important;padding-top:' . $height_tablet . '%;}}@media (max-width: 450px) {.mcv-fixed{width:' . $width_mobile . '% !important;padding-top:' . $height_mobile . '%;}}';
         }
-        $inlineStyle = mcv_trim(html_entity_decode(MINECLOUDVOD_SETTINGS['aliplayercss']) . '.prism-player{overflow:hidden;}' . $slideStyle . '.progress-component{background-color: rgba(0,0,0,.75) !important;height:28px !important;padding: 0 0 0 8px !important;}.progress-component .icon-arrowdown{color: rgba(0,0,0,.75) !important;}.progress-component .img-wrap,.progress-component .info .time,.progress-component .pregress-play-btn{display:none !important;}.progress-component .progress-content{padding:0 !important;}.progress-component .info{padding:0 10px !important;width: auto !important;}.progress-component .info .describe{height:auto !important;margin-top:4px !important;}.prism-player .prism-progress .prism-progress-marker .prism-marker-dot{width: 8px;height: 8px;border-radius: 4px;margin-top: -2px;}.pause-ad{width:auto !important;height:auto !important;}.pause-ad .ad-content img{padding:0;margin:0;}.pause-ad .ad-text,.pause-ad .btn-close{z-index:9999;}.start-ad{position:absolute !important;top:0;}' . $sticky);
+        $inlineStyle = '.prism-player .prism-controlbar {
+                width: 96%;
+                margin: 0 2%;
+            }
+
+            .prism-player .prism-fullscreen-btn {
+                margin-top: 14px !important;
+                margin-right: 5px !important;
+                width: 22px;
+                height: 22px;
+            }
+
+            .prism-player .prism-thumbnail {
+                border: none;
+            }
+
+            .prism-player .prism-play-btn {
+                margin-top: 14px !important;
+                margin-left: 0 !important;
+                width: 22px;
+                height: 22px;
+            }
+
+            .player-olympic-player-next {
+                width: 24px;
+                height: 28px;
+            }
+
+            .prism-volume {
+                margin-top: 14px !important;
+                margin-right: 17px !important;
+            }
+
+            .prism-player .prism-volume .volume-icon {
+                width: 27px;
+                height: 22px;
+                background-repeat: no-repeat;
+            }
+
+            .prism-player .prism-volume .volume-icon .short-horizontal {
+                width: 2px;
+                height: 7px;
+            }
+
+            .prism-player .prism-volume .volume-icon .long-horizontal {
+                width: 2px;
+                height: 13px;
+            }
+
+            .prism-player .prism-volume .volume-icon.mute .short-horizontal {
+                height: 13px;
+                top: 7px;
+            }
+
+            .prism-player .prism-volume .volume-icon.mute .long-horizontal {
+                top: 7px;
+                height: 13px;
+            }
+
+            .prism-player .prism-cc-btn {
+                height: 22px;
+                width: 22px;
+                margin-top: 14px !important;
+                margin-right: 22px !important;
+            }
+
+            .prism-player .prism-setting-btn {
+                width: 20px;
+                height: 22px;
+                margin-top: 14px !important;
+                margin-right: 22px !important;
+            }
+
+            .prism-player .prism-snapshot-btn {
+                width: 29px;
+                height: 29px;
+                margin-top: 11px !important;
+                margin-right: 19px !important;
+            }
+
+            .prism-time-display {
+                margin-top: 6px !important;
+                margin-left: 20px !important;
+            }
+
+            .rate-components,
+            .quality-components {
+                line-height: 40px;
+                font-size: 12px;
+                padding-top: 6px;
+            }
+
+            .quality-list,
+            .rate-list {
+                list-style: none !important;
+                padding: 0 !important;
+                bottom: 44px;
+            }';
+        $inlineStyle .= html_entity_decode(MINECLOUDVOD_SETTINGS['aliplayercss']);
+        $inlineStyle .= '.prism-player{overflow:hidden;}' . $slideStyle . '.progress-component{background-color: rgba(0,0,0,.75) !important;height:28px !important;padding: 0 0 0 8px !important;}.progress-component .icon-arrowdown{color: rgba(0,0,0,.75) !important;}.progress-component .img-wrap,.progress-component .info .time,.progress-component .pregress-play-btn{display:none !important;}.progress-component .progress-content{padding:0 !important;}.progress-component .info{padding:0 10px !important;width: auto !important;}.progress-component .info .describe{height:auto !important;margin-top:4px !important;}.prism-player .prism-progress .prism-progress-marker .prism-marker-dot{width: 8px;height: 8px;border-radius: 4px;margin-top: -2px;}.pause-ad{width:auto !important;height:auto !important;}.pause-ad .ad-content img{padding:0;margin:0;}.pause-ad .ad-text,.pause-ad .btn-close{z-index:9999;}.start-ad{position:absolute !important;top:0;}';
+        $inlineStyle .= $sticky;
+        $inlineStyle = mcv_trim($inlineStyle);
 
         wp_enqueue_style('mcv_aliplayer_css', MINECLOUDVOD_ALIPLAYER['css'], array(), MINECLOUDVOD_VERSION, false);
         wp_add_inline_style('mcv_aliplayer_css', $inlineStyle);

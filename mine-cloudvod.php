@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Mine CloudVod 云点播
+ * Plugin Name: Mine CloudVod
  * Plugin URI:  https://www.zwtt8.com/mine-cloudvod/
- * Description: 将视频直传到阿里云视频点播、OSS、腾讯云点播、COS，嵌入WP中播放，配置简单，使用方便，支持gutenberg编辑器，兼容微信小程序。
- * Version: 1.2.16
+ * Description: Upload videos directly to ApsaraVideo VoD, OSS, Tencent Cloud VoD, COS, and embed them in WP for playback. It's very simple to configure and easy to use.
+ * Version: 1.2.17
  * Author: mine27
  * Author URI: https://www.zwtt8.com/
  * Text Domain: mine-cloudvod
@@ -12,10 +12,18 @@
 if(!defined('ABSPATH'))exit;
 
 
-define('MINECLOUDVOD_VERSION', '1.2.16');
-define('MINECLOUDVOD_URL', plugins_url('', __FILE__));
+define('MINECLOUDVOD_VERSION', '1.2.17');
 define('MINECLOUDVOD_PATH', dirname(__FILE__));
 define('MINECLOUDVOD_SETTINGS', get_option('mcv_settings'));
+if(!isset(MINECLOUDVOD_SETTINGS['cdntype']) || MINECLOUDVOD_SETTINGS['cdntype'] == 'self' || empty(MINECLOUDVOD_SETTINGS['cdnprefix'])){
+    define('MINECLOUDVOD_URL', plugins_url('', __FILE__));
+}
+elseif(MINECLOUDVOD_SETTINGS['cdntype'] == 'jsdelivr'){
+    define('MINECLOUDVOD_URL', 'https://cdn.jsdelivr.net/wp/plugins/mine-cloudvod/tags/'.MINECLOUDVOD_VERSION);
+}
+elseif(MINECLOUDVOD_SETTINGS['cdntype'] == 'customize'){
+    define('MINECLOUDVOD_URL', str_replace('{version}', MINECLOUDVOD_VERSION,MINECLOUDVOD_SETTINGS['cdnprefix']));
+}
 define('MINECLOUDVOD_ALIYUNVOD_ENDPOINT', array(
     'cn-beijing'        => __('China(Beijing)', 'mine-cloudvod'),//'华北2（北京）',
     'cn-zhangjiakou'    => __('China(Zhangjiakou)', 'mine-cloudvod'),//'华北3（张家口）',
