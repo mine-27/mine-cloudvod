@@ -1,0 +1,5 @@
+{
+  "apiVersion": 3,
+  "script": "file:./index.js",
+  "style": "file:./index.css"
+}

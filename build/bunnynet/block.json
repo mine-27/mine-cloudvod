@@ -1,0 +1,73 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/bunny",
+  "title": "BunnyNet",
+  "category": "mine",
+  "icon": "",
+  "description": "Embed videos from Bunny.net.",
+  "keywords": [
+    "mine",
+    "cloud",
+    "vod",
+    "video",
+    "Bunny"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "oss": {
+      "type": "object",
+      "default": {
+        "key": false,
+        "bucket": false
+      }
+    },
+    "vid": {
+      "type": "string"
+    },
+    "libid": {
+      "type": "number"
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "height": {
+      "type": "string",
+      "default": "auto"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "privt": {
+      "type": "boolean"
+    },
+    "captions": {
+      "type": "array"
+    },
+    "markers": {
+      "type": "array"
+    },
+    "price": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": [
+    "file:./index.js",
+    "mcv_dplayer_hls",
+    "mcv_dplayer"
+  ],
+  "editorStyle": "file:../alivod/style-index.css"
+}

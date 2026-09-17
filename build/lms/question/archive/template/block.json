@@ -1,0 +1,66 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mine-cloudvod/question-archive-template",
+  "title": "Question Archive Template",
+  "category": "mine",
+  "icon": "layout",
+  "description": "The template of question term.",
+  "attributes": {},
+  "usesContext": [
+    "mine-cloudvod/termId"
+  ],
+  "ancestor": [
+    "mine-cloudvod/question-archive"
+  ],
+  "supports": {
+    "reusable": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "layout": true,
+    "interactivity": true,
+    "html": false,
+    "color": {
+      "gradients": true,
+      "link": true,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": true
+      }
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalTextDecoration": true,
+      "__experimentalLetterSpacing": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": {
+        "__experimentalDefault": "1.25em"
+      },
+      "__experimentalDefaultControls": {
+        "blockGap": true,
+        "padding": false,
+        "margin": false
+      }
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true
+    }
+  },
+  "editorScript": "file:./index.js"
+}

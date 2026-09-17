@@ -1,0 +1,7425 @@
+# Copyright (C) 2024 mine27
+# This file is distributed under the same license as the Mine CloudVod plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Mine CloudVod 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/mine-cloudvod\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-12-29T12:13:33+08:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: mine-cloudvod\n"
+
+#. Plugin Name of the plugin
+#: inc/Ability/Plugin.php:93
+#: inc/Admin.php:42
+#: inc/Admin.php:174
+#: inc/Blocks/Dplayer.php:295
+#: inc/Integrations/Elementor/McvVideoWidget.php:28
+#: inc/McvOptions.php:103
+#: inc/McvOptions.php:106
+#: inc/McvOptions.php:117
+msgid "Mine CloudVod"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.zwtt8.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Mine CloudVod is an audio and video player, which can play videos from local and cloud. And it is also a complete learning management system, which can help you create an online education website very conveniently."
+msgstr ""
+
+#. Author of the plugin
+msgid "mine27"
+msgstr ""
+
+#: build/aliplayer/render.php:31
+msgid "The video will play in "
+msgstr ""
+
+#: build/aliplayer/render.php:32
+msgid "The Live is ended. "
+msgstr ""
+
+#: build/aliplayer/render.php:185
+#: build/aliplayer/render.php:188
+msgid "Skip Ad"
+msgstr ""
+
+#: build/aliplayer/render.php:387
+msgid "Day"
+msgstr ""
+
+#: build/aliplayer/render.php:388
+msgid "Hr"
+msgstr ""
+
+#: build/aliplayer/render.php:389
+msgid "Min"
+msgstr ""
+
+#: build/aliplayer/render.php:390
+msgid "Sec"
+msgstr ""
+
+#: build/audioplayer/render.php:59
+msgid "Audio is loading..."
+msgstr ""
+
+#: build/dplayer/render.php:183
+msgid "The video have been positioned where you were last viewed."
+msgstr ""
+
+#: build/lms/course-list/filter-item-difficulty.php:8
+#: inc/LMS/Options.php:366
+#: inc/LMS/PostType.php:400
+msgid "Difficulty"
+msgstr ""
+
+#: build/lms/course-list/filter-item-mode.php:8
+#: inc/LMS/Metabox.php:150
+#: inc/LMS/Options.php:367
+msgid "Access Mode"
+msgstr ""
+
+#: build/lms/course-list/render.php:31
+#: inc/LMS/PostType.php:584
+msgid "Search Courses"
+msgstr ""
+
+#: build/lms/course-list/render.php:32
+#: build/alivod/index.js:230
+#: build/audioplayer/index.js:88
+#: build/bunnynet/index.js:230
+#: build/classic/index.js:376
+#: build/classic/index.js:630
+#: build/classic/index.js:842
+#: build/classic/index.js:1056
+#: build/dogecloud/index.js:228
+#: build/import/index.js:75
+#: build/import/index.js:479
+#: build/import/index.js:681
+#: build/lms/course-metabox/index.js:75
+#: build/lms/course-metabox/index.js:479
+#: build/lms/course-metabox/index.js:681
+#: build/qiniu/index.js:109
+msgid "Search"
+msgstr ""
+
+#: build/lms/course-list/render.php:57
+#: inc/LMS/Addons/Coupon.php:96
+#: inc/LMS/Addons/CouponCode.php:97
+#: inc/LMS/Addons/Exchange.php:84
+#: inc/LMS/PostType.php:583
+#: templates/default/achive-course.php:21
+#: build/classic/index.js:969
+#: build/lms/course-single/index.js:1
+msgid "Courses"
+msgstr ""
+
+#: build/lms/course-single/render.php:45
+msgid "Buyed"
+msgstr ""
+
+#: build/lms/course-single/render.php:46
+#: build/lms/course-single/render.php:50
+#: build/lms/course-single/render.php:266
+#: build/lms/course-single/render.php:356
+msgid "Start learning"
+msgstr ""
+
+#: build/lms/course-single/render.php:46
+#: build/lms/lesson-single/render.php:355
+msgid "Buy now"
+msgstr ""
+
+#: build/lms/course-single/render.php:49
+#: build/lms/course-single/render.php:512
+#: build/admin/index.js:1
+msgid "Free"
+msgstr ""
+
+#: build/lms/course-single/render.php:49
+#: build/lms/course-single/render.php:512
+msgid "Open"
+msgstr ""
+
+#: build/lms/course-single/render.php:225
+#: build/lms/course-single/render.php:241
+#: build/lms/user-courses/render.php:34
+#: inc/functions-lms.php:971
+#: inc/functions-lms.php:986
+#: inc/functions-lms.php:1069
+#: inc/functions-lms.php:1085
+#: inc/LMS/Metabox.php:167
+msgid "Forever"
+msgstr ""
+
+#: build/lms/course-single/render.php:230
+#: inc/functions-lms.php:972
+#: inc/functions-lms.php:1074
+#: inc/LMS/Metabox.php:178
+msgid "One month"
+msgstr ""
+
+#: build/lms/course-single/render.php:231
+#: inc/functions-lms.php:973
+#: inc/functions-lms.php:1075
+#: inc/LMS/Metabox.php:179
+msgid "Two months"
+msgstr ""
+
+#: build/lms/course-single/render.php:232
+#: inc/functions-lms.php:974
+#: inc/functions-lms.php:1076
+#: inc/LMS/Metabox.php:180
+msgid "Three months"
+msgstr ""
+
+#: build/lms/course-single/render.php:233
+#: inc/functions-lms.php:975
+#: inc/functions-lms.php:1077
+#: inc/LMS/Metabox.php:181
+#: inc/McvOptions.php:244
+msgid "Half a year"
+msgstr ""
+
+#: build/lms/course-single/render.php:234
+#: inc/functions-lms.php:976
+#: inc/functions-lms.php:1078
+#: inc/LMS/Metabox.php:182
+msgid "One year"
+msgstr ""
+
+#: build/lms/course-single/render.php:235
+#: inc/functions-lms.php:977
+#: inc/functions-lms.php:1079
+#: inc/LMS/Metabox.php:183
+msgid "Two years"
+msgstr ""
+
+#: build/lms/course-single/render.php:236
+#: inc/functions-lms.php:978
+#: inc/functions-lms.php:1080
+#: inc/LMS/Metabox.php:184
+msgid "Three years"
+msgstr ""
+
+#: build/lms/course-single/render.php:237
+#: inc/functions-lms.php:979
+#: inc/functions-lms.php:1081
+#: inc/LMS/Metabox.php:185
+msgid "Four years"
+msgstr ""
+
+#: build/lms/course-single/render.php:238
+#: inc/functions-lms.php:980
+#: inc/functions-lms.php:1082
+#: inc/LMS/Metabox.php:186
+msgid "Five years"
+msgstr ""
+
+#: build/lms/course-single/render.php:276
+#: build/lms/course-single/render.php:372
+msgctxt "course single page"
+msgid "Lessons"
+msgstr ""
+
+#: build/lms/course-single/render.php:281
+#: build/lms/course-single/render.php:377
+msgctxt "course single page"
+msgid "Hours"
+msgstr ""
+
+#: build/lms/course-single/render.php:286
+#: build/lms/course-single/render.php:382
+#: build/lms/course-single/render.php:515
+msgctxt "course single page"
+msgid "Students"
+msgstr ""
+
+#: build/lms/course-single/render.php:291
+#: build/lms/course-single/render.php:387
+msgctxt "course single page"
+msgid "Updated"
+msgstr ""
+
+#: build/lms/course-single/render.php:299
+#: build/lms/course-single/render.php:395
+msgctxt "course single page"
+msgid "Difficulty"
+msgstr ""
+
+#: build/lms/course-single/render.php:303
+#: build/lms/course-single/render.php:399
+#: inc/LMS/Addons/Coupon.php:59
+#: inc/LMS/Addons/Coupon.php:83
+#: inc/LMS/Addons/CouponCode.php:59
+#: inc/LMS/Addons/CouponCode.php:84
+#: inc/LMS/Addons/Exchange.php:60
+#: inc/LMS/Metabox.php:164
+msgid "Validity period"
+msgstr ""
+
+#: build/lms/course-single/render.php:321
+#: build/lms/lesson-single/render.php:208
+#: inc/LMS/Addons/Coupon.php:94
+#: inc/LMS/Addons/CouponCode.php:95
+msgid "All courses"
+msgstr ""
+
+#: build/lms/course-single/render.php:356
+#: build/lms/course-single/view.js:1
+#: build/lms/lesson-single/view.js:1
+msgid "Can try"
+msgstr ""
+
+#: build/lms/course-single/render.php:458
+#: templates/default/single-course.php:38
+#: build/lms/course-single/view.js:1
+#: build/lms/user-courses/view.js:1
+msgid "Course Details"
+msgstr ""
+
+#: build/lms/course-single/render.php:459
+#: templates/default/single-course.php:41
+#: build/lms/course-single/view.js:1
+#: build/lms/user-courses/view.js:1
+msgid "Course Catelog"
+msgstr ""
+
+#: build/lms/course-single/render.php:472
+#: inc/Order/PostType.php:102
+msgid "Recommended courses"
+msgstr ""
+
+#: build/lms/lesson-single/render.php:67
+#: build/lms/lesson-single/render.php:89
+#: build/lms/lesson-single/render.php:199
+msgid "Check the catalog after enrolled."
+msgstr ""
+
+#: build/lms/user-courses/render.php:37
+msgid "Expires in %s"
+msgstr ""
+
+#: build/lms/user/render.php:27
+msgid "Click to login"
+msgstr ""
+
+#: build/playlist/render.php:10
+#: inc/Blocks/PlayList.php:101
+#: inc/McvOptions.php:89
+#: build/classic/index.js:1214
+#: build/playlist/index.js:1
+msgid "Video Playlist"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:230
+msgid "Error while saving the changes."
+msgstr ""
+
+#: csf/classes/admin-options.class.php:290
+msgid "Settings successfully imported."
+msgstr ""
+
+#: csf/classes/admin-options.class.php:302
+#: csf/classes/admin-options.class.php:318
+msgid "Default settings restored."
+msgstr ""
+
+#: csf/classes/admin-options.class.php:389
+#: csf/classes/options.class.php:368
+msgid "Settings saved."
+msgstr ""
+
+#: csf/classes/admin-options.class.php:570
+msgid "You have unsaved changes, save your changes!"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:572
+msgid "show all settings"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:574
+#: csf/fields/icon/icon.php:57
+#: csf/fields/map/map.php:23
+msgid "Search..."
+msgstr ""
+
+#: csf/classes/admin-options.class.php:577
+#: csf/classes/admin-options.class.php:700
+#: csf/classes/options.class.php:617
+#: csf/classes/options.class.php:736
+msgid "Save"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:577
+#: csf/classes/admin-options.class.php:700
+#: csf/classes/options.class.php:617
+#: csf/classes/options.class.php:736
+msgid "Saving..."
+msgstr ""
+
+#: csf/classes/admin-options.class.php:578
+#: csf/classes/admin-options.class.php:701
+#: csf/classes/options.class.php:618
+#: csf/classes/options.class.php:737
+msgid "Reset Section"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:578
+#: csf/classes/admin-options.class.php:701
+#: csf/classes/options.class.php:618
+#: csf/classes/options.class.php:737
+msgid "Are you sure to reset this section options?"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:579
+#: csf/classes/admin-options.class.php:702
+#: csf/classes/options.class.php:619
+#: csf/classes/options.class.php:738
+msgid "Reset All"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:579
+#: csf/classes/admin-options.class.php:702
+#: csf/classes/comment-options.class.php:216
+#: csf/classes/metabox-options.class.php:295
+#: csf/fields/backup/backup.php:31
+msgid "Reset"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:579
+#: csf/classes/admin-options.class.php:702
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+
+#: csf/classes/admin-options.class.php:677
+#: csf/classes/comment-options.class.php:199
+#: csf/classes/metabox-options.class.php:278
+#: csf/fields/button_set/button_set.php:56
+#: csf/fields/checkbox/checkbox.php:76
+#: csf/fields/radio/radio.php:75
+#: csf/fields/select/select.php:113
+#: csf/functions/actions.php:41
+msgid "No data available."
+msgstr ""
+
+#: csf/classes/comment-options.class.php:217
+#: csf/classes/metabox-options.class.php:296
+msgid "update post"
+msgstr ""
+
+#: csf/classes/comment-options.class.php:217
+#: csf/classes/metabox-options.class.php:296
+#: csf/classes/metabox.class.php:351
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/alivod/index.js:228
+#: build/audioplayer/index.js:14
+#: build/audioplayer/index.js:86
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/bunnynet/index.js:228
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:302
+#: build/classic/index.js:374
+#: build/classic/index.js:448
+#: build/classic/index.js:524
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/classic/index.js:1054
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/import/index.js:309
+#: build/import/index.js:830
+#: build/lms/course-metabox/index.js:1
+#: build/lms/course-metabox/index.js:309
+#: build/lms/course-metabox/index.js:830
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+#: build/tcvod/index.js:232
+msgid "Cancel"
+msgstr ""
+
+#: csf/classes/metabox.class.php:332
+#: csf/classes/options.class.php:712
+msgid "No option provided by developer."
+msgstr ""
+
+#: csf/classes/metabox.class.php:350
+msgid "Restore"
+msgstr ""
+
+#: csf/classes/metabox.class.php:351
+msgid "update post for restore "
+msgstr ""
+
+#: csf/classes/options.class.php:239
+msgid "Error while saving."
+msgstr ""
+
+#: csf/classes/options.class.php:286
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: csf/classes/options.class.php:296
+msgid "Default options restored."
+msgstr ""
+
+#: csf/classes/options.class.php:310
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: csf/classes/options.class.php:612
+msgid "show all options"
+msgstr ""
+
+#: csf/classes/options.class.php:614
+msgid "Search option(s)"
+msgstr ""
+
+#: csf/classes/options.class.php:619
+#: csf/classes/options.class.php:738
+msgid "Are you sure to reset all options?"
+msgstr ""
+
+#: csf/classes/setup.class.php:599
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+msgid "Are you sure?"
+msgstr ""
+
+#: csf/classes/setup.class.php:600
+msgid "Please enter %s or more characters"
+msgstr ""
+
+#: csf/classes/setup.class.php:601
+msgid "Searching..."
+msgstr ""
+
+#: csf/classes/setup.class.php:602
+msgid "No results found."
+msgstr ""
+
+#: csf/classes/setup.class.php:703
+msgid "Oops! Not allowed."
+msgstr ""
+
+#: csf/classes/setup.class.php:771
+#: csf/classes/setup.class.php:775
+msgid "Field not found!"
+msgstr ""
+
+#: csf/classes/shortcode-options.class.php:255
+#: csf/fields/group/group.php:23
+msgid "Add New"
+msgstr ""
+
+#: csf/classes/shortcode-options.class.php:292
+#: csf/functions/actions.php:16
+#: csf/functions/actions.php:68
+#: csf/functions/actions.php:106
+#: csf/functions/actions.php:141
+#: csf/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr ""
+
+#: csf/fields/background/background.php:36
+#: csf/fields/media/media.php:59
+msgid "Not selected"
+msgstr ""
+
+#: csf/fields/background/background.php:72
+#: csf/fields/date/date.php:31
+#: csf/fields/datetime/datetime.php:36
+msgid "From"
+msgstr ""
+
+#: csf/fields/background/background.php:90
+#: csf/fields/date/date.php:32
+#: csf/fields/datetime/datetime.php:37
+msgid "To"
+msgstr ""
+
+#: csf/fields/background/background.php:108
+msgid "Direction"
+msgstr ""
+
+#: csf/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr ""
+
+#: csf/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr ""
+
+#: csf/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr ""
+
+#: csf/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr ""
+
+#: csf/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr ""
+
+#: csf/fields/background/background.php:161
+msgid "Background Position"
+msgstr ""
+
+#: csf/fields/background/background.php:162
+#: inc/Blocks/Dplayer.php:428
+#: inc/options/aliplayer_components.php:248
+msgid "Left Top"
+msgstr ""
+
+#: csf/fields/background/background.php:163
+msgid "Left Center"
+msgstr ""
+
+#: csf/fields/background/background.php:164
+#: inc/Blocks/Dplayer.php:427
+#: inc/options/aliplayer.php:74
+#: inc/options/aliplayer_components.php:247
+msgid "Left Bottom"
+msgstr ""
+
+#: csf/fields/background/background.php:165
+msgid "Center Top"
+msgstr ""
+
+#: csf/fields/background/background.php:166
+msgid "Center Center"
+msgstr ""
+
+#: csf/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr ""
+
+#: csf/fields/background/background.php:168
+#: inc/Blocks/Dplayer.php:426
+#: inc/options/aliplayer_components.php:246
+msgid "Right Top"
+msgstr ""
+
+#: csf/fields/background/background.php:169
+msgid "Right Center"
+msgstr ""
+
+#: csf/fields/background/background.php:170
+#: inc/Blocks/Dplayer.php:425
+#: inc/options/aliplayer_components.php:245
+msgid "Right Bottom"
+msgstr ""
+
+#: csf/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr ""
+
+#: csf/fields/background/background.php:185
+msgid "Repeat"
+msgstr ""
+
+#: csf/fields/background/background.php:186
+msgid "No Repeat"
+msgstr ""
+
+#: csf/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: csf/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr ""
+
+#: csf/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr ""
+
+#: csf/fields/background/background.php:203
+msgid "Scroll"
+msgstr ""
+
+#: csf/fields/background/background.php:204
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Fixed"
+msgstr ""
+
+#: csf/fields/background/background.php:218
+msgid "Background Size"
+msgstr ""
+
+#: csf/fields/background/background.php:219
+msgid "Cover"
+msgstr ""
+
+#: csf/fields/background/background.php:220
+msgid "Contain"
+msgstr ""
+
+#: csf/fields/background/background.php:221
+msgid "Auto"
+msgstr ""
+
+#: csf/fields/background/background.php:235
+msgid "Background Origin"
+msgstr ""
+
+#: csf/fields/background/background.php:236
+#: csf/fields/background/background.php:254
+msgid "Padding Box"
+msgstr ""
+
+#: csf/fields/background/background.php:237
+#: csf/fields/background/background.php:253
+msgid "Border Box"
+msgstr ""
+
+#: csf/fields/background/background.php:238
+#: csf/fields/background/background.php:255
+msgid "Content Box"
+msgstr ""
+
+#: csf/fields/background/background.php:252
+msgid "Background Clip"
+msgstr ""
+
+#: csf/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr ""
+
+#: csf/fields/background/background.php:270
+#: csf/fields/link_color/link_color.php:36
+#: csf/fields/typography/typography.php:186
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Normal"
+msgstr ""
+
+#: csf/fields/background/background.php:271
+msgid "Multiply"
+msgstr ""
+
+#: csf/fields/background/background.php:272
+msgid "Screen"
+msgstr ""
+
+#: csf/fields/background/background.php:273
+msgid "Overlay"
+msgstr ""
+
+#: csf/fields/background/background.php:274
+msgid "Darken"
+msgstr ""
+
+#: csf/fields/background/background.php:275
+msgid "Lighten"
+msgstr ""
+
+#: csf/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr ""
+
+#: csf/fields/background/background.php:277
+msgid "Saturation"
+msgstr ""
+
+#: csf/fields/background/background.php:278
+msgid "Color"
+msgstr ""
+
+#: csf/fields/background/background.php:279
+msgid "Luminosity"
+msgstr ""
+
+#: csf/fields/backup/backup.php:26
+#: build/import/index.js:808
+#: build/lms/course-metabox/index.js:830
+msgid "Import"
+msgstr ""
+
+#: csf/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr ""
+
+#: csf/fields/border/border.php:25
+#: csf/fields/spacing/spacing.php:25
+msgid "top"
+msgstr ""
+
+#: csf/fields/border/border.php:26
+#: csf/fields/spacing/spacing.php:26
+msgid "right"
+msgstr ""
+
+#: csf/fields/border/border.php:27
+#: csf/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr ""
+
+#: csf/fields/border/border.php:28
+#: csf/fields/spacing/spacing.php:28
+msgid "left"
+msgstr ""
+
+#: csf/fields/border/border.php:29
+#: csf/fields/spacing/spacing.php:29
+msgid "all"
+msgstr ""
+
+#: csf/fields/border/border.php:51
+#: csf/fields/typography/typography.php:214
+msgid "Solid"
+msgstr ""
+
+#: csf/fields/border/border.php:52
+#: csf/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr ""
+
+#: csf/fields/border/border.php:53
+#: csf/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr ""
+
+#: csf/fields/border/border.php:54
+#: csf/fields/typography/typography.php:215
+msgid "Double"
+msgstr ""
+
+#: csf/fields/border/border.php:55
+msgid "Inset"
+msgstr ""
+
+#: csf/fields/border/border.php:56
+msgid "Outset"
+msgstr ""
+
+#: csf/fields/border/border.php:57
+msgid "Groove"
+msgstr ""
+
+#: csf/fields/border/border.php:58
+msgid "ridge"
+msgstr ""
+
+#: csf/fields/border/border.php:59
+#: csf/fields/typography/typography.php:199
+#: csf/fields/typography/typography.php:213
+msgid "None"
+msgstr ""
+
+#: csf/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr ""
+
+#: csf/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr ""
+
+#: csf/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr ""
+
+#: csf/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr ""
+
+#: csf/fields/gallery/gallery.php:22
+msgid "Clear"
+msgstr ""
+
+#: csf/fields/group/group.php:41
+#: csf/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr ""
+
+#: csf/fields/group/group.php:52
+#: csf/fields/group/group.php:107
+#: csf/fields/repeater/repeater.php:48
+#: csf/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr ""
+
+#: csf/fields/group/group.php:141
+#: csf/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr ""
+
+#: csf/fields/group/group.php:142
+#: csf/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr ""
+
+#: csf/fields/icon/icon.php:20
+#: csf/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr ""
+
+#: csf/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr ""
+
+#: csf/fields/link/link.php:20
+msgid "Add Link"
+msgstr ""
+
+#: csf/fields/link/link.php:21
+msgid "Edit Link"
+msgstr ""
+
+#: csf/fields/link/link.php:22
+msgid "Remove Link"
+msgstr ""
+
+#: csf/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr ""
+
+#: csf/fields/link_color/link_color.php:38
+#: build/admin/index.js:1
+msgid "Active"
+msgstr ""
+
+#: csf/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr ""
+
+#: csf/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr ""
+
+#: csf/fields/map/map.php:24
+msgid "Latitude"
+msgstr ""
+
+#: csf/fields/map/map.php:25
+msgid "Longitude"
+msgstr ""
+
+#: csf/fields/media/media.php:25
+#: csf/fields/upload/upload.php:24
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Upload"
+msgstr ""
+
+#: csf/fields/media/media.php:26
+#: csf/fields/upload/upload.php:25
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/lms/course-metabox/index.js:830
+#: build/lms/user/index.js:1
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Remove"
+msgstr ""
+
+#: csf/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr ""
+
+#: csf/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr ""
+
+#: csf/fields/switcher/switcher.php:20
+msgid "On"
+msgstr ""
+
+#: csf/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr ""
+
+#: csf/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr ""
+
+#: csf/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr ""
+
+#: csf/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr ""
+
+#: csf/fields/typography/typography.php:119
+#: csf/fields/typography/typography.php:132
+#: csf/fields/typography/typography.php:145
+#: csf/fields/typography/typography.php:160
+#: csf/fields/typography/typography.php:176
+#: csf/fields/typography/typography.php:189
+#: csf/fields/typography/typography.php:203
+#: csf/fields/typography/typography.php:221
+#: inc/options/tcvod.php:60
+msgid "Default"
+msgstr ""
+
+#: csf/fields/typography/typography.php:144
+#: csf/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr ""
+
+#: csf/fields/typography/typography.php:158
+msgid "Subset"
+msgstr ""
+
+#: csf/fields/typography/typography.php:168
+msgid "Text Align"
+msgstr ""
+
+#: csf/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr ""
+
+#: csf/fields/typography/typography.php:171
+msgid "Left"
+msgstr ""
+
+#: csf/fields/typography/typography.php:172
+#: inc/options/aliplayer.php:73
+msgid "Center"
+msgstr ""
+
+#: csf/fields/typography/typography.php:173
+#: build/lms/quiz/index.js:1
+msgid "Right"
+msgstr ""
+
+#: csf/fields/typography/typography.php:174
+msgid "Justify"
+msgstr ""
+
+#: csf/fields/typography/typography.php:175
+msgid "Initial"
+msgstr ""
+
+#: csf/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr ""
+
+#: csf/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr ""
+
+#: csf/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr ""
+
+#: csf/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr ""
+
+#: csf/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr ""
+
+#: csf/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr ""
+
+#: csf/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr ""
+
+#: csf/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr ""
+
+#: csf/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr ""
+
+#: csf/fields/typography/typography.php:219
+msgid "Overline"
+msgstr ""
+
+#: csf/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr ""
+
+#: csf/fields/typography/typography.php:233
+msgid "Font Size"
+msgstr ""
+
+#: csf/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr ""
+
+#: csf/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr ""
+
+#: csf/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr ""
+
+#: csf/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr ""
+
+#: csf/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr ""
+
+#: csf/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr ""
+
+#: csf/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr ""
+
+#: csf/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr ""
+
+#: csf/functions/actions.php:72
+#: csf/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr ""
+
+#: csf/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr ""
+
+#: csf/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr ""
+
+#: csf/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr ""
+
+#: csf/functions/validate.php:14
+#: csf/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: csf/functions/validate.php:32
+#: csf/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr ""
+
+#: csf/functions/validate.php:50
+#: csf/functions/validate.php:126
+msgid "This field is required."
+msgstr ""
+
+#: csf/functions/validate.php:68
+#: csf/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: inc/Ability/Ajax.php:16
+#: inc/Ability/Ajax.php:20
+#: inc/Ability/Ajax.php:24
+#: inc/Ability/Note.php:42
+#: inc/Ability/Note.php:91
+#: inc/Ability/Note.php:95
+#: inc/Ability/Plugin.php:83
+#: inc/Ability/Token.php:38
+#: inc/Aliyun/Live.php:84
+#: inc/Aliyun/Live.php:88
+#: inc/Aliyun/Live.php:223
+#: inc/Aliyun/Live.php:228
+#: inc/Aliyun/Oss.php:67
+#: inc/Aliyun/Oss.php:72
+#: inc/Aliyun/Vod.php:338
+#: inc/Aliyun/Vod.php:383
+#: inc/Aliyun/Vod.php:419
+#: inc/Aliyun/Vod.php:447
+#: inc/Aliyun/Vod.php:452
+#: inc/Aliyun/Vod.php:487
+#: inc/Aliyun/Vod.php:492
+#: inc/Blocks/PlayList.php:34
+#: inc/BunnyNet/Vod.php:47
+#: inc/BunnyNet/Vod.php:52
+#: inc/functions.php:24
+#: inc/Integrations/B_2/B_2.php:110
+#: inc/Integrations/Ceomax/Ceomax.php:53
+#: inc/Integrations/Ri/RiProV2.php:108
+#: inc/MineCloudVod.php:21
+#: inc/MineCloudVod.php:26
+#: inc/MineCloudVod.php:43
+#: inc/MineCloudVod.php:48
+#: inc/MineCloudVod.php:53
+#: inc/Order/PostType.php:93
+#: inc/Qcloud/Cos.php:68
+#: inc/Qcloud/Cos.php:73
+#: inc/Qcloud/Vod.php:260
+#: inc/Qcloud/Vod.php:265
+#: inc/Qcloud/Vod.php:278
+#: inc/Qcloud/Vod.php:283
+#: inc/Qcloud/Vod.php:296
+#: inc/Qcloud/Vod.php:301
+#: inc/Qiniu/Kodo.php:238
+#: inc/Qiniu/Kodo.php:243
+msgid "Illegal request"
+msgstr ""
+
+#: inc/Ability/Filters.php:72
+msgid "Mine Aliplayer Note Page"
+msgstr ""
+
+#: inc/Ability/Filters.php:75
+msgid "Mine Checkout Page"
+msgstr ""
+
+#: inc/Ability/Filters.php:78
+msgid "Mine Order List Page"
+msgstr ""
+
+#: inc/Ability/Filters.php:81
+msgid "User's courses"
+msgstr ""
+
+#: inc/Ability/Filters.php:84
+msgid "Mine Favorite Courses"
+msgstr ""
+
+#: inc/Ability/Filters.php:87
+msgid "MCV Index"
+msgstr ""
+
+#: inc/Ability/Note.php:45
+msgid "MineCloudVoD Note"
+msgstr ""
+
+#: inc/Ability/Note.php:79
+#: inc/Order/PostType.php:139
+msgid "Initialized"
+msgstr ""
+
+#: inc/Ability/Note.php:260
+#: inc/Ability/PostType.php:213
+#: inc/Order/PostType.php:252
+msgid "Add Title"
+msgstr ""
+
+#: inc/Ability/Note.php:272
+msgctxt "post type general name"
+msgid "Note Tags"
+msgstr ""
+
+#: inc/Ability/Note.php:273
+msgctxt "post type singular name"
+msgid "Note Tag"
+msgstr ""
+
+#: inc/Ability/Note.php:274
+msgctxt "admin menu"
+msgid "Search Note Tags"
+msgstr ""
+
+#: inc/Ability/Note.php:275
+msgctxt "add new on admin bar"
+msgid "Popular Note Tags"
+msgstr ""
+
+#: inc/Ability/Note.php:277
+#: inc/LMS/Options.php:365
+msgid "Tag"
+msgstr ""
+
+#: inc/Ability/Note.php:288
+msgctxt "post type general name"
+msgid "CloudVod Note"
+msgstr ""
+
+#: inc/Ability/Note.php:289
+msgctxt "post type singular name"
+msgid "CloudVod Note"
+msgstr ""
+
+#: inc/Ability/Note.php:290
+msgctxt "admin menu"
+msgid "CloudVod Note"
+msgstr ""
+
+#: inc/Ability/Note.php:291
+msgctxt "add new on admin bar"
+msgid "Note"
+msgstr ""
+
+#: inc/Ability/Note.php:292
+msgctxt "Note"
+msgid "Add New"
+msgstr ""
+
+#: inc/Ability/Note.php:293
+msgid "Add New Note"
+msgstr ""
+
+#: inc/Ability/Note.php:294
+msgid "New Note"
+msgstr ""
+
+#: inc/Ability/Note.php:295
+msgid "Edit Note"
+msgstr ""
+
+#: inc/Ability/Note.php:296
+msgid "View Note"
+msgstr ""
+
+#: inc/Ability/Note.php:297
+msgid "All Notes"
+msgstr ""
+
+#: inc/Ability/Note.php:298
+msgid "Search Notes"
+msgstr ""
+
+#: inc/Ability/Note.php:299
+msgid "No Notes found."
+msgstr ""
+
+#: inc/Ability/Note.php:300
+msgid "No Notes found in Trash."
+msgstr ""
+
+#: inc/Ability/Note.php:301
+msgid "Filter Notes list"
+msgstr ""
+
+#: inc/Ability/Note.php:302
+msgid "Notes list navigation"
+msgstr ""
+
+#: inc/Ability/Note.php:303
+msgid "Notes list"
+msgstr ""
+
+#: inc/Ability/Note.php:304
+msgid "Note published."
+msgstr ""
+
+#: inc/Ability/Note.php:305
+msgid "Note published privately."
+msgstr ""
+
+#: inc/Ability/Note.php:306
+msgid "Note reverted to draft."
+msgstr ""
+
+#: inc/Ability/Note.php:307
+msgid "Note scheduled."
+msgstr ""
+
+#: inc/Ability/Note.php:308
+msgid "Note updated."
+msgstr ""
+
+#: inc/Ability/Plugin.php:18
+#: inc/Admin.php:111
+#: inc/Admin.php:112
+#: build/admin/index.js:1
+msgid "Add-ons"
+msgstr ""
+
+#: inc/Ability/Plugin.php:28
+msgid "<strong style=\"color: #03bd24\">Documentation</strong>"
+msgstr ""
+
+#: inc/Ability/Plugin.php:49
+msgid "Mine CloudVod is expired, please <a href=\"%s\">renew</a> in time."
+msgstr ""
+
+#: inc/Ability/Plugin.php:49
+#: inc/Ability/Plugin.php:54
+#: inc/Admin.php:196
+#: inc/Aliyun/Aliplayer.php:39
+#: inc/Assets.php:160
+#: inc/McvOptions.php:163
+#: inc/McvOptions.php:230
+msgid "Purchase time"
+msgstr ""
+
+#: inc/Ability/Plugin.php:54
+msgid "Mine CloudVod will expire in %d days, please <a href=\"%s\">renew</a> in time."
+msgstr ""
+
+#: inc/Ability/Plugin.php:93
+msgid "%s needs to create several pages (Checkout, Order List, Favorites) to function correctly."
+msgstr ""
+
+#: inc/Ability/Plugin.php:94
+#: build/alivod/index.js:228
+#: build/audioplayer/index.js:86
+#: build/bunnynet/index.js:228
+#: build/classic/index.js:374
+#: build/classic/index.js:524
+#: build/classic/index.js:1054
+#: build/import/index.js:309
+#: build/lms/course-metabox/index.js:309
+#: build/tcvod/index.js:232
+msgid "Create"
+msgstr ""
+
+#: inc/Ability/Plugin.php:94
+msgid "Cancle"
+msgstr ""
+
+#: inc/Ability/PostType.php:72
+msgid "Enter a number, which is order by ASC."
+msgstr ""
+
+#: inc/Ability/PostType.php:112
+#: inc/Ability/PostType.php:159
+#: build/lms/user/index.js:1
+msgid "Sort No"
+msgstr ""
+
+#: inc/Ability/PostType.php:147
+msgid "Shortcode"
+msgstr ""
+
+#: inc/Ability/PostType.php:148
+msgid "PHP Function"
+msgstr ""
+
+#: inc/Ability/PostType.php:165
+msgid "Update Sort No"
+msgstr ""
+
+#: inc/Ability/PostType.php:275
+#: inc/Aliyun/Live.php:42
+msgid "Copied"
+msgstr ""
+
+#: inc/Ability/PostType.php:286
+msgctxt "post type general name"
+msgid "CloudVod Album"
+msgstr ""
+
+#: inc/Ability/PostType.php:287
+msgctxt "post type singular name"
+msgid "CloudVod Album"
+msgstr ""
+
+#: inc/Ability/PostType.php:288
+msgctxt "admin menu"
+msgid "Search CloudVod Album"
+msgstr ""
+
+#: inc/Ability/PostType.php:289
+msgctxt "add new on admin bar"
+msgid "Popular CloudVod Album"
+msgstr ""
+
+#: inc/Ability/PostType.php:291
+msgid "Album"
+msgstr ""
+
+#: inc/Ability/PostType.php:302
+msgctxt "post type general name"
+msgid "CloudVod Hub"
+msgstr ""
+
+#: inc/Ability/PostType.php:303
+msgctxt "post type singular name"
+msgid "Mine CloudVod"
+msgstr ""
+
+#: inc/Ability/PostType.php:304
+msgctxt "admin menu"
+msgid "Mine CloudVod"
+msgstr ""
+
+#: inc/Ability/PostType.php:305
+msgctxt "add new on admin bar"
+msgid "Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:306
+msgctxt "Video"
+msgid "Add New"
+msgstr ""
+
+#: inc/Ability/PostType.php:307
+msgid "Add New Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:308
+#: inc/Integrations/Elementor/McvVideoWidget.php:95
+#: inc/Integrations/Elementor/McvVideoWidget.php:99
+msgid "New Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:309
+#: inc/Integrations/Elementor/McvVideoWidget.php:84
+msgid "Edit Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:310
+msgid "View Video"
+msgstr ""
+
+#: inc/Ability/PostType.php:311
+msgid "All Videos"
+msgstr ""
+
+#: inc/Ability/PostType.php:312
+msgid "Search Videos"
+msgstr ""
+
+#: inc/Ability/PostType.php:313
+msgid "No Videos found."
+msgstr ""
+
+#: inc/Ability/PostType.php:314
+msgid "No Videos found in Trash."
+msgstr ""
+
+#: inc/Ability/PostType.php:315
+msgid "Filter Videos list"
+msgstr ""
+
+#: inc/Ability/PostType.php:316
+msgid "Videos list navigation"
+msgstr ""
+
+#: inc/Ability/PostType.php:317
+msgid "Videos list"
+msgstr ""
+
+#: inc/Ability/PostType.php:318
+msgid "Video published."
+msgstr ""
+
+#: inc/Ability/PostType.php:319
+msgid "Video published privately."
+msgstr ""
+
+#: inc/Ability/PostType.php:320
+msgid "Video reverted to draft."
+msgstr ""
+
+#: inc/Ability/PostType.php:321
+msgid "Video scheduled."
+msgstr ""
+
+#: inc/Ability/PostType.php:322
+msgid "Video updated."
+msgstr ""
+
+#: inc/Ability/PostType.php:364
+#: inc/LMS/PostType.php:329
+#: inc/LMS/PostType.php:343
+msgid "Show all %s"
+msgstr ""
+
+#: inc/Ability/Token.php:49
+msgid "Token has expired, please log in again."
+msgstr ""
+
+#: inc/Ability/Token.php:54
+msgid "Token is legal"
+msgstr ""
+
+#: inc/Ability/Token.php:59
+#: inc/Ability/Token.php:65
+msgid "Token is illegal"
+msgstr ""
+
+#: inc/Addons.php:15
+#: inc/Addons.php:23
+#: inc/Aliyun/Aliplayer.php:39
+#: inc/Aliyun/Options.php:13
+#: build/alivod/index.js:290
+msgid "Alibaba Cloud"
+msgstr ""
+
+#: inc/Addons.php:16
+msgid "Insert videos from Alibaba Cloud to Wordpress."
+msgstr ""
+
+#: inc/Addons.php:27
+#: inc/Addons.php:35
+#: inc/Assets.php:166
+#: inc/Qcloud/Options.php:16
+#: inc/Qcloud/Vod.php:28
+#: build/import/index.js:820
+#: build/lms/course-metabox/index.js:820
+#: build/tcvod/index.js:319
+msgid "Tencent Cloud"
+msgstr ""
+
+#: inc/Addons.php:28
+msgid "Insert videos from Tencent Cloud to Wordpress."
+msgstr ""
+
+#: inc/Addons.php:39
+#: inc/Addons.php:47
+#: inc/Blocks/Dplayer.php:48
+#: inc/Blocks/Dplayer.php:53
+#: inc/Dogecloud/Vod.php:38
+#: inc/Dogecloud/Vod.php:46
+#: build/block/mcv.blocks.js:1
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:1214
+#: build/dogecloud/index.js:282
+#: build/import/index.js:820
+#: build/lms/course-metabox/index.js:820
+msgid "Dogecloud"
+msgstr ""
+
+#: inc/Addons.php:40
+msgid "Insert videos from Dogecloud to Wordpress."
+msgstr ""
+
+#: inc/Addons.php:51
+#: build/classic/index.js:1214
+#: build/import/index.js:820
+#: build/lms/course-metabox/index.js:820
+#: build/qiniu/index.js:163
+msgid "Qiniu Kodo"
+msgstr ""
+
+#: inc/Addons.php:52
+msgid "Insert videos from Qiniu Kodo to Wordpress."
+msgstr ""
+
+#: inc/Addons.php:59
+#: inc/Qiniu/Kodo.php:233
+#: inc/Qiniu/Kodo.php:268
+#: build/block/mcv.blocks.js:1
+#: build/qiniu/index.js:163
+msgid "Qiniu"
+msgstr ""
+
+#: inc/Addons.php:63
+#: inc/Addons.php:71
+#: inc/BunnyNet/Init.php:16
+#: inc/BunnyNet/Vod.php:43
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:1214
+msgid "BunnyNet"
+msgstr ""
+
+#: inc/Addons.php:64
+msgid "Insert videos from Bunny.net to Wordpress."
+msgstr ""
+
+#: inc/Addons.php:75
+#: inc/functions-lms.php:256
+#: inc/LMS/Addons/Attachment.php:135
+#: inc/LMS/Addons/Attachment.php:153
+#: build/lms/course-single/view.js:1
+#: build/lms/lesson-single/view.js:1
+msgid "Lesson Attachments"
+msgstr ""
+
+#: inc/Addons.php:76
+msgid "Add unlimited attachments to MCV lessons."
+msgstr ""
+
+#: inc/Addons.php:87
+#: inc/LMS/Addons/NextLesson.php:35
+msgid "Auto Next Lesson"
+msgstr ""
+
+#: inc/Addons.php:88
+msgid "After current lesson is completed, automatically redirect to the next lesson."
+msgstr ""
+
+#: inc/Addons.php:99
+msgid "MCV Report of Courses"
+msgstr ""
+
+#: inc/Addons.php:100
+msgid "Statistical analysis of courses."
+msgstr ""
+
+#: inc/Addons.php:111
+#: build/lms/course-metabox/index.js:1
+msgid "MCV Partial Purchase"
+msgstr ""
+
+#: inc/Addons.php:112
+msgid "Chapter purchase or Lesson purchase, without buying the entire course."
+msgstr ""
+
+#: inc/Addons.php:125
+#: templates/default/elements/course-single-progress.php:12
+msgid "Course Progress"
+msgstr ""
+
+#: inc/Addons.php:126
+msgid "Record the learning progress of the course/section/lesson."
+msgstr ""
+
+#: inc/Addons.php:153
+msgid "Courses Sorting"
+msgstr ""
+
+#: inc/Addons.php:154
+msgid "Sort the courses by sequence number."
+msgstr ""
+
+#: inc/Addons.php:165
+msgid "User Review"
+msgstr ""
+
+#: inc/Addons.php:166
+msgid "User can submit reviews on courses."
+msgstr ""
+
+#: inc/Addons.php:177
+#: build/block/mcv.blocks.js:1
+msgid "Quiz"
+msgstr ""
+
+#: inc/Addons.php:178
+#: inc/LMS/Metabox.php:92
+msgid "Lesson type"
+msgstr ""
+
+#: inc/Addons.php:191
+#: inc/Addons.php:201
+#: inc/LMS/Addons/Promotion.php:53
+msgid "Promotion Rebate"
+msgstr ""
+
+#: inc/Addons.php:201
+#: inc/Addons.php:411
+#: inc/Member/Options.php:43
+msgid "User Center"
+msgstr ""
+
+#: inc/Addons.php:205
+#: inc/Addons.php:215
+msgid "Purchase Video"
+msgstr ""
+
+#: inc/Addons.php:206
+msgid "Purchase for the video directly or after previewing."
+msgstr ""
+
+#: inc/Addons.php:219
+msgid "Course Package"
+msgstr ""
+
+#: inc/Addons.php:220
+msgid "Some courses are sold together into a package."
+msgstr ""
+
+#: inc/Addons.php:233
+msgid "Duplicate Course"
+msgstr ""
+
+#: inc/Addons.php:234
+msgid "Duplicate a course and includes its lessons."
+msgstr ""
+
+#: inc/Addons.php:247
+#: inc/LMS/Addons/Exchange.php:56
+msgid "Exchange Code"
+msgstr ""
+
+#: inc/Addons.php:248
+#: inc/LMS/Addons/Exchange.php:81
+msgid "Use a code to exchange courses."
+msgstr ""
+
+#: inc/Addons.php:261
+#: inc/LMS/Addons/CouponCode.php:55
+#: inc/LMS/Addons/CouponCode.php:75
+msgid "Coupon Code"
+msgstr ""
+
+#: inc/Addons.php:262
+#: inc/LMS/Addons/CouponCode.php:80
+msgid "Use coupon code to enhance course purchase rates."
+msgstr ""
+
+#: inc/Addons.php:275
+#: inc/LMS/Addons/Coupon.php:55
+msgid "Coupon"
+msgstr ""
+
+#: inc/Addons.php:276
+#: inc/LMS/Addons/Coupon.php:79
+msgid "Use coupon to enhance course purchase rates."
+msgstr ""
+
+#: inc/Addons.php:289
+msgid "B2"
+msgstr ""
+
+#: inc/Addons.php:290
+msgid "Make Shortcode working in B2's Video Url."
+msgstr ""
+
+#: inc/Addons.php:301
+msgid "Ceomax"
+msgstr ""
+
+#: inc/Addons.php:302
+msgid "Make Shortcode working in Ceomax's Video Url."
+msgstr ""
+
+#: inc/Addons.php:313
+msgid "Elementor"
+msgstr ""
+
+#: inc/Addons.php:314
+msgid "Working with Elementor."
+msgstr ""
+
+#: inc/Addons.php:325
+msgid "Ripro"
+msgstr ""
+
+#: inc/Addons.php:337
+msgid "Zibll"
+msgstr ""
+
+#: inc/Addons.php:338
+msgid "Working with Zibll theme."
+msgstr ""
+
+#: inc/Addons.php:349
+msgid "Tutor"
+msgstr ""
+
+#: inc/Addons.php:350
+msgid "Make Shortcode working in Tutor's Video Url."
+msgstr ""
+
+#: inc/Addons.php:361
+msgid "MasterStudy"
+msgstr ""
+
+#: inc/Addons.php:362
+msgid "Working with MasterStudy LMS."
+msgstr ""
+
+#: inc/Addons.php:373
+#: inc/Addons.php:374
+msgid "Documentation"
+msgstr ""
+
+#: inc/Addons.php:415
+#: inc/Addons.php:416
+#: inc/LMS/Addons/Epay.php:120
+msgid "Easy Pay"
+msgstr ""
+
+#: inc/Addons.php:423
+#: inc/Addons.php:437
+#: inc/Addons.php:451
+#: inc/Payment/Options.php:17
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/Addons.php:427
+#: inc/LMS/Addons/Haipay.php:127
+#: inc/LMS/Addons/Haipay.php:208
+msgid "HaiPay"
+msgstr ""
+
+#: inc/Addons.php:428
+msgid "Malaysia payment interface."
+msgstr ""
+
+#: inc/Addons.php:441
+#: inc/LMS/Addons/AlphaPay.php:128
+msgid "AlphaPay"
+msgstr ""
+
+#: inc/Addons.php:442
+#: inc/LMS/Addons/AlphaPay.php:129
+msgid "Canadian payment interface."
+msgstr ""
+
+#: inc/Admin.php:66
+#: inc/Admin.php:67
+#: inc/LMS/Options.php:246
+msgid "Course"
+msgstr ""
+
+#: inc/Admin.php:76
+#: inc/Admin.php:77
+#: inc/LMS/Addons/Checkin.php:232
+#: build/alivod/index.js:236
+#: build/audioplayer/index.js:94
+#: build/bunnynet/index.js:256
+#: build/classic/index.js:382
+#: build/classic/index.js:550
+#: build/classic/index.js:969
+#: build/classic/index.js:1082
+#: build/import/index.js:101
+#: build/import/index.js:335
+#: build/lms/course-list/index.js:1
+#: build/lms/course-metabox/index.js:101
+#: build/lms/course-metabox/index.js:335
+#: build/tcvod/index.js:258
+msgid "Categories"
+msgstr ""
+
+#: inc/Admin.php:84
+#: inc/Admin.php:85
+#: inc/LMS/PostType.php:547
+#: build/classic/index.js:969
+#: build/docs/catalog/index.js:1
+#: build/lms/course-list/index.js:1
+msgid "Tags"
+msgstr ""
+
+#: inc/Admin.php:92
+#: inc/options/aliplayer_components.php:478
+msgid "Order"
+msgstr ""
+
+#: inc/Admin.php:93
+#: inc/Order/PostType.php:272
+#: build/admin/index.js:1
+msgid "Orders"
+msgstr ""
+
+#: inc/Admin.php:103
+#: inc/Admin.php:104
+msgid "CloudVod Hub"
+msgstr ""
+
+#: inc/Admin.php:173
+#: inc/McvOptions.php:116
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr ""
+
+#: inc/Aliyun/Live.php:53
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/classic/index.js:289
+#: build/classic/index.js:610
+#: build/dplayer/index.js:2
+msgid "Live"
+msgstr ""
+
+#: inc/Aliyun/Live.php:56
+msgid "Live time"
+msgstr ""
+
+#: inc/Aliyun/Live.php:68
+msgid "Push URL."
+msgstr ""
+
+#: inc/Aliyun/Live.php:74
+msgid "Pull URL."
+msgstr ""
+
+#: inc/Aliyun/Live.php:257
+#: inc/Assets.php:287
+#: inc/Assets.php:312
+msgid "Please sync Pull Domains first"
+msgstr ""
+
+#: inc/Aliyun/Live.php:258
+#: inc/Assets.php:320
+msgid "Please sync Push Domains first"
+msgstr ""
+
+#: inc/Aliyun/Live.php:268
+#: inc/Aliyun/Live.php:286
+msgid "Valid for %d minutes"
+msgstr ""
+
+#: inc/Aliyun/Live.php:298
+#: inc/Aliyun/Live.php:309
+msgid "ApsaraVideo Live"
+msgstr ""
+
+#: inc/Aliyun/Live.php:304
+#: inc/Aliyun/Oss.php:43
+#: inc/options/aliyunoss.php:19
+msgid "By default, Alibaba Cloud OSS is charged after the end of the hour, and it can also be found on <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">Alibaba Cloud OSS Platform</a> Purchase the corresponding resource pack consumption."
+msgstr ""
+
+#: inc/Aliyun/Live.php:314
+msgid "Pull Domain"
+msgstr ""
+
+#: inc/Aliyun/Live.php:315
+msgid "Sync Pull Domains"
+msgstr ""
+
+#: inc/Aliyun/Live.php:315
+#: inc/Aliyun/Live.php:323
+msgid "The valid duration needs to be modified in the authentication configuration"
+msgstr ""
+
+#: inc/Aliyun/Live.php:315
+#: inc/Aliyun/Live.php:323
+msgid "To Modify"
+msgstr ""
+
+#: inc/Aliyun/Live.php:322
+msgid "Push Domain"
+msgstr ""
+
+#: inc/Aliyun/Live.php:323
+msgid "Sync Push Domains"
+msgstr ""
+
+#: inc/Aliyun/Options.php:18
+#: inc/BunnyNet/Init.php:21
+#: inc/Dogecloud/Vod.php:51
+#: inc/Qcloud/Options.php:21
+msgid "AccessKey setting"
+msgstr ""
+
+#: inc/Aliyun/Options.php:24
+#: inc/Aliyun/Vod.php:73
+msgid "By default, Alibaba Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://www.aliyun.com/minisite/goods?userCode=49das3ha\" target=\"_blank\">Alibaba Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
+msgstr ""
+
+#: inc/Aliyun/Options.php:29
+#: inc/Aliyun/Vod.php:67
+#: inc/Aliyun/Vod.php:78
+#: inc/Integrations/MasterStudy/MasterStudy.php:33
+#: build/alivod/index.js:290
+#: build/classic/index.js:1214
+#: build/import/index.js:820
+#: build/lms/course-metabox/index.js:820
+msgid "ApsaraVideo VOD"
+msgstr ""
+
+#: inc/Aliyun/Options.php:47
+msgid "<a href=\"https://ram.console.aliyun.com/manage/ak\" target=\"_blank\">Click here to get AccessKeyID and AccessKeySecret </a>"
+msgstr ""
+
+#: inc/Aliyun/Oss.php:27
+#: inc/Integrations/Ri/RiProV2.php:204
+#: inc/options/aliyunoss.php:3
+#: inc/options/tccos.php:2
+#: inc/Qcloud/Cos.php:18
+#: inc/Qiniu/Kodo.php:259
+msgid "Please sync Bukcets List first"
+msgstr ""
+
+#: inc/Aliyun/Oss.php:37
+#: inc/Aliyun/Oss.php:48
+#: inc/options/aliyunoss.php:13
+#: inc/options/aliyunoss.php:24
+#: build/alivod/index.js:290
+#: build/classic/index.js:1214
+msgid "Aliyun OSS"
+msgstr ""
+
+#: inc/Aliyun/Oss.php:53
+#: inc/Dogecloud/Oss.php:205
+#: inc/options/aliyunoss.php:29
+#: inc/options/tccos.php:28
+#: inc/Qcloud/Cos.php:44
+#: inc/Qiniu/Kodo.php:317
+msgid "Bucket"
+msgstr ""
+
+#: inc/Aliyun/Oss.php:54
+#: inc/options/aliyunoss.php:30
+#: inc/options/tccos.php:29
+#: inc/Qcloud/Cos.php:45
+#: inc/Qiniu/Kodo.php:318
+msgid "Sync Buckets List"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:58
+msgid "Please sync transcoding template first"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:88
+#: inc/options/tcvod.php:31
+#: inc/Qcloud/Vod.php:76
+#: inc/Qiniu/Kodo.php:302
+msgid "Storage area"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:89
+#: inc/options/tcvod.php:32
+#: inc/Qcloud/Vod.php:77
+#: inc/Qiniu/Kodo.php:303
+msgid "Select storage area"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:91
+msgid "China(Beijing)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:92
+msgid "China(Zhangjiakou)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:93
+msgid "China(Hangzhou)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:94
+msgid "China(Shanghai)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:95
+msgid "China(Shenzhen)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:96
+msgid "China(Hongkong)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:97
+msgid "Janpan(Tokyo)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:98
+msgid "Singapore"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:99
+msgid "Indonesia(Jakarta)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:100
+msgid "USA (Silicon Valley)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:101
+msgid "U.K (London)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:102
+msgid "Germany(Frankfurt)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:103
+msgid "India(Mumbai)"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:110
+msgid "Transcoding template"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:111
+msgid "Sync transcoding template"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:112
+msgid "Select transcoding template"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:119
+msgid "Download Snapshot"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:120
+msgid "<br /><p>After enabling, the snapshot of video will download to Media Libary, and it will be the feature image of the post when there has no feature image.</p>"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:121
+#: inc/Aliyun/Vod.php:148
+#: inc/Blocks/Dplayer.php:93
+#: inc/Blocks/Dplayer.php:107
+#: inc/Blocks/Dplayer.php:147
+#: inc/Blocks/Dplayer.php:194
+#: inc/Blocks/Dplayer.php:216
+#: inc/Blocks/Dplayer.php:311
+#: inc/Blocks/Dplayer.php:334
+#: inc/Blocks/Dplayer.php:400
+#: inc/Blocks/Dplayer.php:416
+#: inc/Blocks/Dplayer.php:478
+#: inc/Dogecloud/Oss.php:197
+#: inc/Dogecloud/Oss.php:218
+#: inc/Integrations/B_2/B_2.php:307
+#: inc/Integrations/Ri/RiProV2.php:219
+#: inc/Integrations/Zibll/Zibll.php:40
+#: inc/LMS/Addons/AlphaPay.php:133
+#: inc/LMS/Addons/Haipay.php:211
+#: inc/LMS/Metabox.php:41
+#: inc/LMS/Metabox.php:213
+#: inc/LMS/Metabox.php:221
+#: inc/LMS/Metabox.php:229
+#: inc/LMS/Options.php:258
+#: inc/LMS/Options.php:352
+#: inc/LMS/Options.php:383
+#: inc/LMS/Options.php:443
+#: inc/McvOptions.php:37
+#: inc/McvOptions.php:58
+#: inc/McvOptions.php:66
+#: inc/McvOptions.php:74
+#: inc/McvOptions.php:82
+#: inc/McvOptions.php:90
+#: inc/McvOptions.php:199
+#: inc/Member/Options.php:56
+#: inc/Member/Options.php:85
+#: inc/Member/Options.php:107
+#: inc/Member/Options.php:124
+#: inc/Member/WechatOpen.php:133
+#: inc/options/aliplayer.php:25
+#: inc/options/aliplayer.php:34
+#: inc/options/aliplayer.php:42
+#: inc/options/aliplayer_components.php:18
+#: inc/options/aliplayer_components.php:57
+#: inc/options/aliplayer_components.php:119
+#: inc/options/aliplayer_components.php:185
+#: inc/options/aliplayer_components.php:214
+#: inc/options/aliplayer_components.php:236
+#: inc/options/aliplayer_components.php:298
+#: inc/options/aliplayer_components.php:387
+#: inc/options/aliplayer_components.php:501
+#: inc/options/aliplayer_components.php:517
+#: inc/options/aliplayer_components.php:539
+#: inc/options/aliyunvod_touwei.php:24
+#: inc/options/aliyunvod_touwei.php:46
+#: inc/options/tcplayer.php:18
+#: inc/options/tcplayer.php:40
+#: inc/options/tcplayer.php:48
+#: inc/options/tcplayer.php:182
+#: inc/options/tcvod_touwei.php:23
+#: inc/options/tcvod_touwei.php:45
+#: inc/Payment/Alipay.php:120
+#: inc/Payment/Hupijiao.php:244
+#: inc/Payment/Hupijiao.php:285
+#: inc/Payment/Wechat.php:107
+#: inc/Qcloud/Tcplayer.php:27
+#: inc/Qcloud/Tcplayer.php:49
+#: inc/Qcloud/Tcplayer.php:57
+#: inc/Qcloud/Tcplayer.php:191
+#: inc/Qiniu/Kodo.php:331
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Enable"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:122
+#: inc/Aliyun/Vod.php:149
+#: inc/Blocks/Dplayer.php:94
+#: inc/Blocks/Dplayer.php:108
+#: inc/Blocks/Dplayer.php:148
+#: inc/Blocks/Dplayer.php:195
+#: inc/Blocks/Dplayer.php:217
+#: inc/Blocks/Dplayer.php:312
+#: inc/Blocks/Dplayer.php:335
+#: inc/Blocks/Dplayer.php:401
+#: inc/Blocks/Dplayer.php:417
+#: inc/Blocks/Dplayer.php:479
+#: inc/Dogecloud/Oss.php:198
+#: inc/Dogecloud/Oss.php:219
+#: inc/Integrations/B_2/B_2.php:308
+#: inc/Integrations/Ri/RiProV2.php:220
+#: inc/Integrations/Zibll/Zibll.php:41
+#: inc/LMS/Addons/AlphaPay.php:134
+#: inc/LMS/Addons/Haipay.php:212
+#: inc/LMS/Metabox.php:42
+#: inc/LMS/Metabox.php:214
+#: inc/LMS/Metabox.php:222
+#: inc/LMS/Metabox.php:230
+#: inc/LMS/Options.php:259
+#: inc/LMS/Options.php:353
+#: inc/LMS/Options.php:384
+#: inc/LMS/Options.php:444
+#: inc/McvOptions.php:38
+#: inc/McvOptions.php:59
+#: inc/McvOptions.php:67
+#: inc/McvOptions.php:75
+#: inc/McvOptions.php:83
+#: inc/McvOptions.php:91
+#: inc/McvOptions.php:200
+#: inc/Member/Options.php:57
+#: inc/Member/Options.php:86
+#: inc/Member/Options.php:108
+#: inc/Member/Options.php:125
+#: inc/Member/WechatOpen.php:134
+#: inc/options/aliplayer.php:26
+#: inc/options/aliplayer.php:35
+#: inc/options/aliplayer.php:43
+#: inc/options/aliplayer_components.php:19
+#: inc/options/aliplayer_components.php:58
+#: inc/options/aliplayer_components.php:120
+#: inc/options/aliplayer_components.php:186
+#: inc/options/aliplayer_components.php:215
+#: inc/options/aliplayer_components.php:237
+#: inc/options/aliplayer_components.php:299
+#: inc/options/aliplayer_components.php:388
+#: inc/options/aliplayer_components.php:502
+#: inc/options/aliplayer_components.php:518
+#: inc/options/aliplayer_components.php:540
+#: inc/options/aliyunvod_touwei.php:25
+#: inc/options/aliyunvod_touwei.php:47
+#: inc/options/tcplayer.php:19
+#: inc/options/tcplayer.php:41
+#: inc/options/tcplayer.php:49
+#: inc/options/tcplayer.php:183
+#: inc/options/tcvod_touwei.php:24
+#: inc/options/tcvod_touwei.php:46
+#: inc/Payment/Alipay.php:121
+#: inc/Payment/Hupijiao.php:245
+#: inc/Payment/Hupijiao.php:286
+#: inc/Payment/Wechat.php:108
+#: inc/Qcloud/Tcplayer.php:28
+#: inc/Qcloud/Tcplayer.php:50
+#: inc/Qcloud/Tcplayer.php:58
+#: inc/Qcloud/Tcplayer.php:192
+#: inc/Qiniu/Kodo.php:332
+msgid "Disable"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:128
+msgid "Private HLS encryption"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:134
+msgid "私有加密　<b>暂不支持iOS系统的网页端播放</b>！如需，请使用HLS标准加密。"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:139
+msgid "开启方法：选择一个开启视频加密选项的转码模板，并且禁用　HLS标准加密。"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:146
+msgid "Standard HLS encryption"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:147
+msgid "<br /><p style=\"color:red\">After enabling, the video uploaded through the plugin will be automatically encrypted with Standard HLS encryption</p>"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:178
+msgid "KMS KeyID"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:179
+msgid "Used for <a href=\"https://help.aliyun.com/document_detail/68612.htm?spm=a2c4g.11186623.0.0.5ceb2074txQis7#title-rvd-6ql-49n\" target=\"_blank\">Standard HLS encryption</a>, need to submit a ticket to apply for activation"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:185
+msgid "Security key"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:187
+msgid "Security verification for playing standard hls encrypted video"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:193
+msgid "Valid Duration"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:194
+msgid "Valid duration of transparent transmission parameters"
+msgstr ""
+
+#: inc/Aliyun/Vod.php:196
+msgid "Hour"
+msgstr ""
+
+#: inc/Assets.php:137
+msgid "Mine"
+msgstr ""
+
+#: inc/Assets.php:215
+#: inc/Assets.php:234
+#: inc/Assets.php:253
+#: inc/Assets.php:272
+#: inc/Assets.php:296
+#: inc/Assets.php:333
+#: inc/Assets.php:348
+#: inc/Assets.php:385
+#: inc/Assets.php:404
+#: inc/Assets.php:423
+#: inc/Assets.php:442
+#: inc/Assets.php:461
+msgid "Get failed"
+msgstr ""
+
+#: inc/Assets.php:217
+#: inc/Assets.php:236
+#: inc/Assets.php:255
+msgid "Successfully synchronized buckets"
+msgstr ""
+
+#: inc/Assets.php:274
+#: inc/Assets.php:298
+msgid "Successfully synchronized pull domains"
+msgstr ""
+
+#: inc/Assets.php:335
+msgid "Successfully get the KeyId"
+msgstr ""
+
+#: inc/Assets.php:350
+msgid "Synchronize time successfully"
+msgstr ""
+
+#: inc/Assets.php:387
+msgid "Successfully synchronized task flow list"
+msgstr ""
+
+#: inc/Assets.php:406
+msgid "Successfully synchronized transcoding template"
+msgstr ""
+
+#: inc/Assets.php:425
+msgid "Successfully synchronized"
+msgstr ""
+
+#: inc/Assets.php:444
+msgid "Successfully synchronized the player configuration list"
+msgstr ""
+
+#: inc/Assets.php:466
+#: build/admin/index.js:1
+msgid "Alipay scan code payment"
+msgstr ""
+
+#: inc/Assets.php:467
+#: build/admin/index.js:1
+msgid "Please use Alipay <br>to scan the QR code to pay"
+msgstr ""
+
+#: inc/Assets.php:472
+#: build/admin/index.js:1
+msgid "Wechat scan code payment"
+msgstr ""
+
+#: inc/Assets.php:473
+#: build/admin/index.js:1
+msgid "Please use Wechat <br>to scan the QR code to pay"
+msgstr ""
+
+#: inc/Assets.php:480
+#: build/admin/index.js:1
+msgid "Yuan"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:66
+#: inc/options/aliplayer.php:11
+#: inc/options/tcplayer.php:5
+#: inc/Qcloud/Tcplayer.php:14
+msgid "Configure Player"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:72
+#: inc/options/aliplayer.php:18
+#: inc/options/tcplayer.php:12
+#: inc/Qcloud/Tcplayer.php:21
+msgid "Configure"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:76
+#: inc/options/aliplayer.php:93
+msgid "Language"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:91
+#: inc/options/aliplayer.php:23
+#: inc/options/aliplayer_components.php:195
+#: inc/options/tcplayer.php:192
+#: inc/Qcloud/Tcplayer.php:201
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/classic/index.js:435
+#: build/classic/index.js:610
+#: build/classic/index.js:757
+#: build/classic/index.js:969
+#: build/classic/index.js:1214
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/embed/index.js:1
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Autoplay"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:92
+#: inc/options/aliplayer.php:24
+msgid "Whether the player automatically plays, the autoplay attribute will be invalid on the mobile terminal. Safari11 will not automatically turn on autoplay<a href=\"https://h5.m.youku.com//ju/safari11guide.html\" target=\"_blank\">How to turn on</a>"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:100
+msgid "Main Color"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:106
+#: inc/options/aliplayer.php:41
+#: inc/options/tcplayer.php:39
+#: inc/Qcloud/Tcplayer.php:48
+msgid "Loop"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:113
+#: inc/options/aliplayer.php:32
+#: inc/options/tcplayer.php:24
+#: inc/Qcloud/Tcplayer.php:33
+msgid "Preload"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:128
+msgid "Default Volume"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:137
+#: inc/options/aliplayer.php:165
+msgid "Screenshot button"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:138
+#: inc/Blocks/Dplayer.php:271
+#: inc/LMS/Options.php:271
+#: inc/LMS/Options.php:279
+#: inc/LMS/Options.php:287
+#: inc/LMS/Options.php:295
+#: inc/LMS/Options.php:303
+#: inc/LMS/Options.php:311
+#: inc/LMS/Options.php:411
+#: inc/options/aliplayer.php:64
+#: inc/options/aliplayer.php:110
+#: inc/options/aliplayer.php:118
+#: inc/options/aliplayer.php:126
+#: inc/options/aliplayer.php:134
+#: inc/options/aliplayer.php:142
+#: inc/options/aliplayer.php:150
+#: inc/options/aliplayer.php:158
+#: inc/options/aliplayer.php:166
+#: inc/options/tcplayer.php:56
+#: inc/options/tcplayer.php:70
+#: inc/options/tcplayer.php:78
+#: inc/options/tcplayer.php:86
+#: inc/options/tcplayer.php:94
+#: inc/options/tcplayer.php:102
+#: inc/options/tcplayer.php:110
+#: inc/options/tcplayer.php:118
+#: inc/options/tcplayer.php:126
+#: inc/options/tcplayer.php:134
+#: inc/options/tcplayer.php:142
+#: inc/Qcloud/Tcplayer.php:65
+#: inc/Qcloud/Tcplayer.php:79
+#: inc/Qcloud/Tcplayer.php:87
+#: inc/Qcloud/Tcplayer.php:95
+#: inc/Qcloud/Tcplayer.php:103
+#: inc/Qcloud/Tcplayer.php:111
+#: inc/Qcloud/Tcplayer.php:119
+#: inc/Qcloud/Tcplayer.php:127
+#: inc/Qcloud/Tcplayer.php:135
+#: inc/Qcloud/Tcplayer.php:143
+#: inc/Qcloud/Tcplayer.php:151
+msgid "Show"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:139
+#: inc/Blocks/Dplayer.php:272
+#: inc/LMS/Options.php:272
+#: inc/LMS/Options.php:280
+#: inc/LMS/Options.php:288
+#: inc/LMS/Options.php:296
+#: inc/LMS/Options.php:304
+#: inc/LMS/Options.php:312
+#: inc/LMS/Options.php:412
+#: inc/options/aliplayer.php:65
+#: inc/options/aliplayer.php:111
+#: inc/options/aliplayer.php:119
+#: inc/options/aliplayer.php:127
+#: inc/options/aliplayer.php:135
+#: inc/options/aliplayer.php:143
+#: inc/options/aliplayer.php:151
+#: inc/options/aliplayer.php:159
+#: inc/options/aliplayer.php:167
+#: inc/options/tcplayer.php:57
+#: inc/options/tcplayer.php:71
+#: inc/options/tcplayer.php:79
+#: inc/options/tcplayer.php:87
+#: inc/options/tcplayer.php:95
+#: inc/options/tcplayer.php:103
+#: inc/options/tcplayer.php:111
+#: inc/options/tcplayer.php:119
+#: inc/options/tcplayer.php:127
+#: inc/options/tcplayer.php:135
+#: inc/options/tcplayer.php:143
+#: inc/Qcloud/Tcplayer.php:66
+#: inc/Qcloud/Tcplayer.php:80
+#: inc/Qcloud/Tcplayer.php:88
+#: inc/Qcloud/Tcplayer.php:96
+#: inc/Qcloud/Tcplayer.php:104
+#: inc/Qcloud/Tcplayer.php:112
+#: inc/Qcloud/Tcplayer.php:120
+#: inc/Qcloud/Tcplayer.php:128
+#: inc/Qcloud/Tcplayer.php:136
+#: inc/Qcloud/Tcplayer.php:144
+#: inc/Qcloud/Tcplayer.php:152
+msgid "Hide"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:146
+msgid "Enable airplay in Safari"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:168
+#: inc/Blocks/Dplayer.php:175
+#: inc/options/aliplayer_components.php:4
+#: inc/options/tcplayer.php:168
+#: inc/Qcloud/Tcplayer.php:177
+msgid "Utility components"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:187
+#: inc/options/aliplayer_components.php:510
+msgid "Note"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:193
+#: inc/Blocks/Dplayer.php:215
+#: inc/Blocks/Dplayer.php:310
+#: inc/Blocks/Dplayer.php:333
+#: inc/Blocks/Dplayer.php:399
+#: inc/Blocks/Dplayer.php:415
+#: inc/Blocks/Dplayer.php:477
+#: inc/LMS/Addons/AlphaPay.php:132
+#: inc/LMS/Addons/Haipay.php:210
+#: inc/McvOptions.php:36
+#: inc/McvOptions.php:198
+#: inc/Member/Options.php:55
+#: inc/Member/WechatOpen.php:132
+#: inc/options/aliplayer_components.php:17
+#: inc/options/aliplayer_components.php:56
+#: inc/options/aliplayer_components.php:118
+#: inc/options/aliplayer_components.php:184
+#: inc/options/aliplayer_components.php:213
+#: inc/options/aliplayer_components.php:235
+#: inc/options/aliplayer_components.php:297
+#: inc/options/aliplayer_components.php:386
+#: inc/options/aliplayer_components.php:500
+#: inc/options/aliplayer_components.php:516
+#: inc/options/aliplayer_components.php:538
+#: inc/options/aliyunvod_touwei.php:23
+#: inc/options/aliyunvod_touwei.php:45
+#: inc/options/tcplayer.php:181
+#: inc/options/tcvod_touwei.php:22
+#: inc/options/tcvod_touwei.php:44
+#: inc/Payment/Alipay.php:119
+#: inc/Payment/Hupijiao.php:243
+#: inc/Payment/Hupijiao.php:284
+#: inc/Payment/Wechat.php:106
+#: inc/Qcloud/Tcplayer.php:190
+msgid "State"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:201
+#: inc/McvOptions.php:44
+#: inc/options/aliplayer_components.php:524
+msgid "For the first time, please click here to initialize"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:209
+#: inc/LMS/Options.php:376
+#: inc/options/aliplayer_components.php:50
+msgid "Watermark"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:227
+msgid "Watermark Type"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:238
+#: inc/Blocks/Dplayer.php:490
+#: inc/options/aliplayer_components.php:79
+#: inc/options/aliplayer_components.php:322
+#: inc/options/aliplayer_components.php:399
+msgid "Image"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:246
+#: inc/Blocks/Dplayer.php:348
+#: inc/LMS/Options.php:401
+#: inc/options/aliplayer_components.php:87
+#: inc/options/aliplayer_components.php:133
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Can be dynamically replaced with these labels: {username} {userid} {userip} {useremail} {usernickname}"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:247
+#: inc/options/aliplayer_components.php:88
+msgid "Words"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:254
+#: inc/options/aliplayer_components.php:94
+msgid "Style"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:265
+#: inc/Blocks/Dplayer.php:278
+msgid "Right-Click Menu"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:270
+msgid "Video Info"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:290
+#: build/aliplayer/index.js:2
+#: build/audioplayer/index.js:221
+#: build/dplayer/index.js:2
+#: build/lms/user/index.js:1
+msgid "URL"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:305
+#: inc/Blocks/Dplayer.php:318
+msgid "Bullet Screen"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:327
+#: inc/options/aliplayer_components.php:112
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Slide"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:341
+#: inc/options/aliplayer_components.php:126
+msgid "Scroll text"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:349
+#: inc/options/aliplayer_components.php:134
+msgid "Multiple Scroll text will be show randomly in diffrent videos."
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:352
+#: inc/options/aliplayer_components.php:137
+msgid "Dear {username}, welcome to Mine Cloud Vod."
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:360
+#: inc/options/aliplayer_components.php:145
+msgid "Text style"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:367
+#: inc/options/aliplayer_components.php:152
+msgid "Position"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:370
+#: inc/options/aliplayer_components.php:155
+msgid "Random"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:371
+#: inc/options/aliplayer_components.php:156
+msgid "Top"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:372
+#: inc/options/aliplayer_components.php:157
+msgid "Bottom"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:383
+#: inc/LMS/Metabox.php:71
+#: inc/options/aliplayer_components.php:168
+#: inc/options/aliplayer_components.php:335
+msgid "Duration"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:384
+#: inc/options/aliplayer_components.php:169
+msgid "Set the moving speed of the Slide, the longer the time, the slower the speed. It's 10 second by defalt."
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:393
+#: inc/options/aliplayer_components.php:178
+#: inc/options/tcplayer.php:175
+#: inc/Qcloud/Tcplayer.php:184
+msgid "Remember Played Position"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:409
+#: inc/options/aliplayer_components.php:229
+msgid "Sticky Video"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:422
+#: inc/options/aliplayer_components.php:242
+msgid "Video Position"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:439
+#: inc/options/aliplayer_components.php:259
+msgid "Width"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:440
+#: inc/options/aliplayer_components.php:260
+msgid "The width of sticky video."
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:445
+#: inc/options/aliplayer_components.php:265
+msgid "PC"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:452
+#: inc/options/aliplayer_components.php:272
+msgid "Tablet"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:459
+#: inc/options/aliplayer_components.php:279
+msgid "Mobile"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:471
+#: inc/options/aliplayer_components.php:380
+msgid "AD On Pause"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:485
+#: inc/options/aliplayer_components.php:317
+#: inc/options/aliplayer_components.php:351
+#: inc/options/aliplayer_components.php:394
+msgid "Multiple Ads will be show randomly in diffrent videos."
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:497
+#: inc/options/aliplayer_components.php:329
+#: inc/options/aliplayer_components.php:363
+#: inc/options/aliplayer_components.php:406
+msgid "Link"
+msgstr ""
+
+#: inc/Blocks/Dplayer.php:498
+#: inc/options/aliplayer_components.php:330
+#: inc/options/aliplayer_components.php:364
+#: inc/options/aliplayer_components.php:407
+msgid "The link of the ad page."
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:66
+msgid "Please sync video libraries first"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:75
+#: build/bunnynet/index.js:315
+msgid "Stream"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:81
+msgid "<a href=\"https://bunny.net?ref=c7jsvi03q6\" target=\"_blank\">Bunny.net</a> "
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:91
+msgid "Video Library"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:92
+msgid "Sync Bunny Video Libraries"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:99
+msgid "Token Authentication Key"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:381
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+msgid "Created"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:382
+msgid "Uploaded"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:383
+msgid "Processing"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:384
+msgid "Transcoding"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:385
+msgid "Finished"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:386
+#: build/lms/course-metabox/index.js:830
+msgid "Error"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:387
+msgid "UploadFailed"
+msgstr ""
+
+#: inc/BunnyNet/Vod.php:388
+msgid "Transcribing"
+msgstr ""
+
+#: inc/Dogecloud/Oss.php:180
+msgid "Doge OSS"
+msgstr ""
+
+#: inc/Dogecloud/Oss.php:186
+#: inc/Dogecloud/Vod.php:57
+msgid "<a href=\"https://www.dogecloud.com/?iuid=2453\" target=\"_blank\">Dogecloud官网</a> "
+msgstr ""
+
+#: inc/Dogecloud/Oss.php:196
+msgid "Sync Media to OSS"
+msgstr ""
+
+#: inc/Dogecloud/Oss.php:211
+msgid "Domain"
+msgstr ""
+
+#: inc/Dogecloud/Oss.php:217
+msgid "Delete Local Media"
+msgstr ""
+
+#: inc/Dogecloud/Vod.php:81
+#: build/lms/course-metabox/index.js:830
+msgid "User ID"
+msgstr ""
+
+#: inc/Integrations/B_2/B_2.php:306
+#: inc/Integrations/Ri/RiProV2.php:218
+#: inc/Integrations/Zibll/Zibll.php:39
+msgid "Vip can learn all courses for free"
+msgstr ""
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:63
+msgid "Cloud Vod"
+msgstr ""
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:72
+msgid "Choose A Video"
+msgstr ""
+
+#: inc/Integrations/Elementor/McvVideoWidget.php:82
+msgid "Video Options"
+msgstr ""
+
+#: inc/Integrations/MasterStudy/MasterStudy.php:50
+msgid "Upload video to ApsaraVideo VOD"
+msgstr ""
+
+#: inc/Integrations/MasterStudy/MasterStudy.php:52
+#: inc/Integrations/WPJobManager/WPJobManager.php:64
+#: inc/Integrations/WPJobManager/WPJobManager.php:71
+msgid "Select Video File"
+msgstr ""
+
+#: inc/LMS/Addons/AlphaPay.php:130
+#: inc/Payment/Wechat.php:85
+#: inc/Payment/Wechat.php:101
+msgid "Wechat"
+msgstr ""
+
+#: inc/LMS/Addons/AlphaPay.php:131
+#: inc/Order/PostType.php:45
+#: inc/Payment/Alipay.php:98
+#: inc/Payment/Alipay.php:171
+msgid "Alipay"
+msgstr ""
+
+#: inc/LMS/Addons/AlphaPay.php:135
+#: inc/LMS/Addons/Haipay.php:213
+#: inc/Payment/Alipay.php:158
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+msgid "Name"
+msgstr ""
+
+#: inc/LMS/Addons/Attachment.php:18
+#: inc/LMS/Addons/Coupon.php:104
+#: inc/LMS/Addons/CouponCode.php:105
+#: inc/LMS/Addons/Exchange.php:91
+#: inc/LMS/Addons/Promotion.php:57
+#: inc/RestApi/Member/Order.php:90
+#: templates/vod/note.php:5
+msgid "Login first, please."
+msgstr ""
+
+#: inc/LMS/Addons/Attachment.php:152
+msgid "Media Library"
+msgstr ""
+
+#: inc/LMS/Addons/Attachment.php:154
+msgid "External Sharing"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:190
+#: inc/LMS/Addons/Checkin.php:506
+#: inc/LMS/Addons/Checkin.php:507
+msgid "Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:191
+msgid "Check In"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:192
+#: inc/LMS/Addons/Checkin.php:508
+msgctxt "Admin menu name"
+msgid "Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:193
+#: inc/LMS/Addons/Checkin.php:509
+msgid "Add Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:194
+#: inc/LMS/Addons/Checkin.php:510
+msgid "Add New Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:195
+#: inc/LMS/Addons/Checkin.php:511
+#: inc/LMS/Addons/Docs.php:38
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Edit"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:196
+#: inc/LMS/Addons/Checkin.php:241
+#: inc/LMS/Addons/Checkin.php:512
+msgid "Edit Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:197
+#: inc/LMS/Addons/Checkin.php:513
+msgid "New Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:198
+#: inc/LMS/Addons/Checkin.php:199
+#: inc/LMS/Addons/Checkin.php:514
+#: inc/LMS/Addons/Checkin.php:515
+msgid "View Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:200
+#: inc/LMS/Addons/Checkin.php:516
+msgid "Search Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:201
+#: inc/LMS/Addons/Checkin.php:517
+msgid "No Check-in found"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:202
+#: inc/LMS/Addons/Checkin.php:518
+msgid "No Check-in found in trash"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:203
+#: inc/LMS/Addons/Checkin.php:239
+#: inc/LMS/Addons/Checkin.php:519
+msgid "Parent Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:204
+#: inc/LMS/Addons/Checkin.php:520
+msgid "Check-in image"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:205
+#: inc/LMS/Addons/Checkin.php:521
+msgid "Set Check-in image"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:206
+#: inc/LMS/Addons/Checkin.php:522
+msgid "Remove Check-in image"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:207
+#: inc/LMS/Addons/Checkin.php:523
+msgid "Use as Check-in image"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:208
+#: inc/LMS/Addons/Checkin.php:524
+msgid "Check-in list"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:210
+msgid "This is where you can add new Check-in to your site."
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:234
+#: inc/LMS/Addons/Checkin.php:525
+msgid "Check-in categories"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:235
+#: inc/LMS/Addons/Checkin.php:526
+#: inc/LMS/Addons/Docs.php:53
+#: inc/LMS/Options.php:364
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/tcvod/index.js:156
+msgid "Category"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:236
+#: inc/LMS/Addons/Checkin.php:527
+#: inc/LMS/Addons/Docs.php:54
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:237
+#: inc/LMS/Addons/Checkin.php:528
+#: inc/LMS/Addons/Docs.php:55
+msgid "Search categories"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:238
+#: inc/LMS/Addons/Checkin.php:529
+#: inc/LMS/Addons/Docs.php:56
+msgid "All categories"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:240
+msgid "Parent Check-in:"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:242
+msgid "Update Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:243
+msgid "Add new Check-in"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:244
+#: inc/LMS/Addons/Checkin.php:535
+#: inc/LMS/Addons/Docs.php:62
+msgid "New category name"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:245
+#: inc/LMS/Addons/Checkin.php:536
+#: inc/LMS/Addons/Docs.php:63
+msgid "No categories found"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:530
+#: inc/LMS/Addons/Docs.php:57
+msgid "Parent category"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:531
+#: inc/LMS/Addons/Docs.php:58
+msgid "Parent category:"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:532
+#: inc/LMS/Addons/Docs.php:59
+msgid "Edit category"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:533
+#: inc/LMS/Addons/Docs.php:60
+msgid "Update category"
+msgstr ""
+
+#: inc/LMS/Addons/Checkin.php:534
+#: inc/LMS/Addons/Docs.php:61
+msgid "Add new category"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:56
+#: inc/LMS/Addons/CouponCode.php:56
+#: inc/LMS/Addons/Exchange.php:57
+msgid "Not started"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:57
+#: inc/LMS/Addons/CouponCode.php:57
+#: inc/LMS/Addons/Exchange.php:58
+msgid "In progress"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:58
+#: inc/LMS/Addons/CouponCode.php:58
+#: inc/LMS/Addons/Exchange.php:59
+msgid "Ended"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:60
+#: inc/LMS/Addons/CouponCode.php:60
+#: inc/LMS/Addons/Exchange.php:61
+#: inc/LMS/Options.php:350
+#: inc/LMS/Options.php:381
+#: inc/Order/PostType.php:58
+#: inc/Order/PostType.php:199
+#: inc/Order/PostType.php:331
+#: inc/Qiniu/Kodo.php:329
+#: build/admin/index.js:1
+msgid "Status"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:61
+#: inc/LMS/Addons/CouponCode.php:61
+#: inc/LMS/Addons/Exchange.php:62
+#: inc/LMS/Addons/Promotion.php:56
+#: inc/Order/PostType.php:203
+#: inc/Order/PostType.php:316
+#: build/admin/index.js:1
+msgid "Date Created"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:62
+#: inc/LMS/Addons/CouponCode.php:62
+msgid "Used at"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:63
+#: inc/LMS/Addons/CouponCode.php:63
+#: inc/LMS/Addons/Exchange.php:64
+#: inc/Order/PostType.php:197
+msgid "Order ID"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:65
+#: inc/LMS/Addons/CouponCode.php:65
+#: inc/LMS/Addons/Exchange.php:66
+msgid "Invalid"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:66
+msgctxt "post type general name"
+msgid "Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:67
+#: inc/LMS/Addons/CouponCode.php:67
+msgctxt "post type singular name"
+msgid "Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:68
+msgctxt "admin menu"
+msgid "Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:69
+msgctxt "add new on admin bar"
+msgid "Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:70
+#: inc/LMS/Addons/CouponCode.php:70
+#: inc/LMS/Addons/Exchange.php:71
+#: inc/LMS/Addons/Package.php:39
+#: inc/Order/PostType.php:267
+msgctxt "mcv order add"
+msgid "Add New"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:71
+msgid "Add New Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:72
+msgid "New Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:73
+msgid "Edit Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:74
+msgid "View Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:75
+msgid "Search Coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:76
+msgid "Parent Coupon:"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:77
+msgid "No Coupon found."
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:78
+msgid "No Coupon found in Trash."
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:80
+msgid "Coupon Infos"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:81
+#: inc/LMS/Addons/CouponCode.php:82
+msgid "Internal remarks"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:82
+#: inc/LMS/Addons/CouponCode.php:83
+msgid "Coupon settings"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:84
+#: inc/LMS/Addons/CouponCode.php:85
+#: inc/LMS/Addons/Exchange.php:83
+msgid "Stock"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:85
+#: inc/LMS/Addons/CouponCode.php:86
+msgid "Coupon Type"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:86
+msgid "Exclusive"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:87
+msgid "Generic"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:88
+#: inc/LMS/Addons/Coupon.php:99
+#: inc/LMS/Addons/CouponCode.php:89
+#: inc/LMS/Addons/CouponCode.php:100
+msgid "Promotion Type"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:89
+#: inc/LMS/Addons/CouponCode.php:90
+msgid "Directly reduce"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:90
+#: inc/LMS/Addons/CouponCode.php:91
+msgid "Discount"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:91
+#: inc/LMS/Addons/CouponCode.php:92
+msgid "Reduce amount"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:92
+#: inc/LMS/Addons/CouponCode.php:93
+msgid "When selecting Direct reduce, please enter the direct discount amount;<br />When selecting Discount, enter the discount percentage ratio. For example, if you enter \"80\" for 20% off, the price of 100 yuan will be sold as 80 yuan."
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:93
+#: inc/LMS/Addons/CouponCode.php:94
+msgid "Applicable courses"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:95
+#: inc/LMS/Addons/CouponCode.php:96
+msgid "Specified courses"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:97
+#: inc/LMS/Addons/CouponCode.php:98
+#: inc/LMS/Addons/Exchange.php:85
+#: inc/LMS/Addons/Package.php:53
+msgid "Select some courses"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:98
+#: inc/LMS/Addons/CouponCode.php:99
+msgid "Rules of use"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:100
+#: inc/LMS/Addons/CouponCode.php:101
+msgid "Unlimited"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:101
+#: inc/LMS/Addons/CouponCode.php:102
+msgid "Limit times"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:102
+#: inc/LMS/Addons/CouponCode.php:103
+msgid "Instructions for use"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:103
+msgid "Invalid coupon, or it has expired."
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:105
+msgid "Invalid coupon"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:106
+#: inc/LMS/Addons/CouponCode.php:107
+msgid "Invalid order id"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:107
+#: inc/LMS/Addons/CouponCode.php:108
+msgid "Order not exit."
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:108
+msgid "This coupon can only be used %s time(s)."
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:109
+msgid "This coupon is valid from %s to %s."
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:110
+msgid "This coupon has expired"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:111
+msgid "This coupon is only applicable to the following courses.%s"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:112
+msgctxt "Submit to use the coupon."
+msgid "Submit"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:113
+msgctxt "Cancel use the coupon."
+msgid "Cancel"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:114
+#: inc/LMS/Addons/CouponCode.php:115
+msgid "Unused"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:115
+#: inc/LMS/Addons/CouponCode.php:116
+msgid "Used"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:116
+#: inc/LMS/Addons/CouponCode.php:117
+msgid "Void"
+msgstr ""
+
+#: inc/LMS/Addons/Coupon.php:117
+msgid "Get a coupon and buy"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:66
+msgctxt "post type general name"
+msgid "Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:68
+msgctxt "admin menu"
+msgid "Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:69
+msgctxt "add new on admin bar"
+msgid "Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:71
+msgid "Add New Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:72
+msgid "New Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:73
+msgid "Edit Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:74
+msgid "View Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:76
+msgid "Search Coupon Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:77
+msgid "Parent Coupon Code:"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:78
+msgid "No Coupon Code found."
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:79
+msgid "No Coupon Code found in Trash."
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:81
+msgid "Coupon Code Infos"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:87
+msgid "Exclusive Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:88
+msgid "Generic Code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:104
+msgid "Invalid coupon code, or it has expired."
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:106
+msgid "Invalid coupon code"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:109
+msgid "This coupon code can only be used %s time(s)."
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:110
+msgid "This coupon code is valid from %s to %s."
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:111
+msgid "This coupon code has expired"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:112
+msgid "This coupon code is only applicable to the following courses.%s"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:113
+msgctxt "Submit to use the coupon code."
+msgid "Submit"
+msgstr ""
+
+#: inc/LMS/Addons/CouponCode.php:114
+msgctxt "Cancel use the coupon code."
+msgid "Cancel"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:33
+msgid "Docs"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:34
+#: build/admin/index.js:1
+msgid "Doc"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:35
+msgctxt "Admin menu name"
+msgid "Docs"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:36
+msgid "Add Doc"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:37
+msgid "Add New Doc"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:39
+msgid "Edit Doc"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:40
+msgid "New Doc"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:41
+#: inc/LMS/Addons/Docs.php:42
+msgid "View Doc"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:43
+msgid "Search Docs"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:44
+msgid "No Docs found"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:45
+msgid "No Docs found in trash"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:46
+msgid "Parent Doc"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:47
+msgid "Docs image"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:48
+msgid "Set Docs image"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:49
+msgid "Remove Docs image"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:50
+msgid "Use as Docs image"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:51
+msgid "Docs list"
+msgstr ""
+
+#: inc/LMS/Addons/Docs.php:52
+msgid "Docs categories"
+msgstr ""
+
+#: inc/LMS/Addons/Duplicate.php:34
+msgid "Duplicate"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:63
+msgid "Exchange time"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:67
+msgctxt "post type general name"
+msgid "Exchange Code"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:68
+msgctxt "post type singular name"
+msgid "Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:69
+msgctxt "admin menu"
+msgid "Exchange Code"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:70
+msgctxt "add new on admin bar"
+msgid "Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:72
+msgid "Add New Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:73
+msgid "New Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:74
+msgid "Edit Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:75
+msgid "View Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:76
+#: inc/LMS/Addons/Exchange.php:86
+msgid "Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:77
+msgid "Search Exchange"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:78
+msgid "Parent Exchange:"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:79
+msgid "No Exchange found."
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:80
+msgid "No Exchange found in Trash."
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:82
+msgid "Exchange Infos"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:87
+msgid "Please enter the exchange code"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:88
+msgid "Exchange failure"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:89
+msgid "Exchange successful"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:90
+msgid "My courses"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:92
+msgid "Invalid exchange code"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:93
+msgid "Invite"
+msgstr ""
+
+#: inc/LMS/Addons/Exchange.php:94
+msgid "Click the button to view enrolled courses"
+msgstr ""
+
+#: inc/LMS/Addons/Haipay.php:113
+#: inc/LMS/Addons/Haipay.php:214
+msgid "no response"
+msgstr ""
+
+#: inc/LMS/Addons/Haipay.php:137
+#: inc/LMS/Addons/Haipay.php:215
+msgid "Order generated"
+msgstr ""
+
+#: inc/LMS/Addons/Haipay.php:137
+#: inc/LMS/Addons/Haipay.php:216
+msgid "Complete payment in the link that opens"
+msgstr ""
+
+#: inc/LMS/Addons/Haipay.php:137
+#: inc/LMS/Addons/Haipay.php:217
+msgid "Please complete payment within 2 hours"
+msgstr ""
+
+#: inc/LMS/Addons/Haipay.php:151
+#: inc/LMS/Addons/Haipay.php:218
+msgid "Complete the information"
+msgstr ""
+
+#: inc/LMS/Addons/Haipay.php:151
+#: inc/LMS/Addons/Haipay.php:219
+msgid "Submit"
+msgstr ""
+
+#: inc/LMS/Addons/Haipay.php:209
+msgid "HaiPay mainly provides localized payment solutions in the Southeast Asian."
+msgstr ""
+
+#: inc/LMS/Addons/NextLesson.php:33
+msgid "After the countdown ends, go to the next lesson. If it is 0, go directly to the next lesson."
+msgstr ""
+
+#: inc/LMS/Addons/NextLesson.php:34
+msgid "Countdown seconds"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:34
+#: inc/LMS/Addons/Package.php:44
+msgid "Packages"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:35
+msgctxt "post type general name"
+msgid "Packages"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:36
+msgctxt "post type singular name"
+msgid "Package"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:37
+msgctxt "admin menu"
+msgid "Packages"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:38
+msgctxt "add new on admin bar"
+msgid "Packages"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:40
+msgid "Add New Package"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:41
+msgid "New Package"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:42
+msgid "Edit Package"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:43
+msgid "View Package"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:45
+msgid "Search Packages"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:46
+msgid "Parent Packages:"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:47
+msgid "No Packages found."
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:48
+msgid "No Packages found in Trash."
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:49
+msgid "Course Package."
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:50
+msgid "Package Infos"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:51
+msgid "Package Price"
+msgstr ""
+
+#: inc/LMS/Addons/Package.php:52
+msgid "Select with courses"
+msgstr ""
+
+#: inc/LMS/Addons/Promotion.php:54
+msgid "Rebate Amount"
+msgstr ""
+
+#: inc/LMS/Addons/Promotion.php:55
+msgid "Referral"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:271
+msgctxt "Template name"
+msgid "Single Lesson"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:272
+msgid "Displays a single lesson."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:275
+msgctxt "Template name"
+msgid "Single Course"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:276
+msgid "Displays a single course."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:279
+msgctxt "Template name"
+msgid "Course Catalog"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:280
+msgid "Displays your courses."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:283
+msgctxt "Template name"
+msgid "Courses by Category"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:284
+msgid "Displays courses filtered by a category."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:287
+msgctxt "Template name"
+msgid "Courses by Tag"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:288
+msgid "Displays courses filtered by a tag."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:291
+msgctxt "Template name"
+msgid "Course Checkout"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:292
+msgid "Course checkout page."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:295
+msgctxt "Template name"
+msgid "Order List"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:296
+msgid "Show user's order list."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:299
+msgctxt "Template name"
+msgid "User's courses"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:300
+msgid "Show the courses list of user enrolled."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:303
+msgctxt "Template name"
+msgid "Favorites"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:304
+msgid "Show user's favorites course list."
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:307
+msgctxt "Template name"
+msgid "Courses Index"
+msgstr ""
+
+#: inc/LMS/Blocks/BlockTemplateUtils.php:308
+#: inc/Order/PostType.php:100
+msgid "Courses Index"
+msgstr ""
+
+#: inc/LMS/Metabox.php:16
+#: inc/LMS/Metabox.php:117
+msgid "Course Builder"
+msgstr ""
+
+#: inc/LMS/Metabox.php:28
+msgid "Lesson Attrs"
+msgstr ""
+
+#: inc/LMS/Metabox.php:40
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Preview"
+msgstr ""
+
+#: inc/LMS/Metabox.php:59
+msgctxt "Lesson type."
+msgid "Text"
+msgstr ""
+
+#: inc/LMS/Metabox.php:59
+msgid "VOD"
+msgstr ""
+
+#: inc/LMS/Metabox.php:78
+msgid "Minute"
+msgstr ""
+
+#: inc/LMS/Metabox.php:84
+msgid "Second"
+msgstr ""
+
+#: inc/LMS/Metabox.php:108
+msgid "Course Management"
+msgstr ""
+
+#: inc/LMS/Metabox.php:127
+msgid "Course Access Setting"
+msgstr ""
+
+#: inc/LMS/Metabox.php:132
+msgid "The course is not protected. Any user can access its content without the need to be logged-in or enrolled."
+msgstr ""
+
+#: inc/LMS/Metabox.php:138
+msgid "The course is protected. Registration and enrollment are required in order to access the content."
+msgstr ""
+
+#: inc/LMS/Metabox.php:144
+msgid "Users need to purchase the course (one-time fee) in order to gain access."
+msgstr ""
+
+#: inc/LMS/Metabox.php:158
+#: inc/LMS/PostType.php:399
+msgid "Course Price"
+msgstr ""
+
+#: inc/LMS/Metabox.php:168
+msgid "Custom"
+msgstr ""
+
+#: inc/LMS/Metabox.php:176
+msgid "Validity period after enrolled"
+msgstr ""
+
+#: inc/LMS/Metabox.php:194
+#: inc/LMS/Options.php:309
+msgid "Course Status"
+msgstr ""
+
+#: inc/LMS/Metabox.php:195
+msgid "Status of Course Updates"
+msgstr ""
+
+#: inc/LMS/Metabox.php:200
+#: inc/LMS/Options.php:301
+msgid "Course Difficulty"
+msgstr ""
+
+#: inc/LMS/Metabox.php:206
+msgid "Number of virtual students"
+msgstr ""
+
+#: inc/LMS/Metabox.php:212
+msgid "Course catalog number"
+msgstr ""
+
+#: inc/LMS/Metabox.php:220
+msgid "Show course catalog after login"
+msgstr ""
+
+#: inc/LMS/Metabox.php:228
+msgid "Show course catalog after enrolled"
+msgstr ""
+
+#: inc/LMS/Metabox.php:233
+msgid "After enabled, users need to purchase the course before they can see the catalog."
+msgstr ""
+
+#: inc/LMS/Metabox.php:251
+msgid "Course Students"
+msgstr ""
+
+#: inc/LMS/Options.php:33
+#: inc/LMS/Patterns.php:31
+#: inc/McvOptions.php:30
+#: build/classic/index.js:1214
+msgid "Mine LMS"
+msgstr ""
+
+#: inc/LMS/Options.php:40
+#: inc/McvOptions.php:125
+#: inc/McvOptions.php:131
+#: inc/McvOptions.php:263
+#: inc/Member/Options.php:73
+msgid "General settings"
+msgstr ""
+
+#: inc/LMS/Options.php:50
+msgid "Active Template"
+msgstr ""
+
+#: inc/LMS/Options.php:57
+msgid "KeTang"
+msgstr ""
+
+#: inc/LMS/Options.php:169
+msgid "After change the slug, please enter the Setting - Permalink, and just click the save button, it will take effect."
+msgstr ""
+
+#: inc/LMS/Options.php:173
+msgid "Course Slug"
+msgstr ""
+
+#: inc/LMS/Options.php:179
+msgid "Lesson Slug"
+msgstr ""
+
+#: inc/LMS/Options.php:185
+msgid "Course Permalink"
+msgstr ""
+
+#: inc/LMS/Options.php:195
+msgid "Lesson Permalink"
+msgstr ""
+
+#: inc/LMS/Options.php:205
+msgid "LMS Width"
+msgstr ""
+
+#: inc/LMS/Options.php:264
+msgid "Details"
+msgstr ""
+
+#: inc/LMS/Options.php:269
+msgid "Number of Lesson"
+msgstr ""
+
+#: inc/LMS/Options.php:277
+msgid "Hours of Course"
+msgstr ""
+
+#: inc/LMS/Options.php:285
+msgid "Number of Students"
+msgstr ""
+
+#: inc/LMS/Options.php:293
+msgid "Date Updated"
+msgstr ""
+
+#: inc/LMS/Options.php:319
+msgid "Courses Per Page"
+msgstr ""
+
+#: inc/LMS/Options.php:326
+msgid "Mobile List Style"
+msgstr ""
+
+#: inc/LMS/Options.php:336
+msgid "Mobile Lesson Page Style"
+msgstr ""
+
+#: inc/LMS/Options.php:338
+msgid "Left and right"
+msgstr ""
+
+#: inc/LMS/Options.php:339
+msgid "Up and down"
+msgstr ""
+
+#: inc/LMS/Options.php:345
+msgid "Course Filter"
+msgstr ""
+
+#: inc/LMS/Options.php:359
+msgid "Filter with"
+msgstr ""
+
+#: inc/LMS/Options.php:400
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Text"
+msgstr ""
+
+#: inc/LMS/Options.php:409
+msgid "Show Catelog In Detail"
+msgstr ""
+
+#: inc/LMS/Options.php:417
+msgid "Backend options"
+msgstr ""
+
+#: inc/LMS/Options.php:422
+msgid "Default player of lesson import"
+msgstr ""
+
+#: inc/LMS/Options.php:435
+msgid "Archive Meta"
+msgstr ""
+
+#: inc/LMS/Options.php:440
+msgid "Add title tag"
+msgstr ""
+
+#: inc/LMS/Options.php:441
+msgid "Enable it, if the archive page has no title."
+msgstr ""
+
+#: inc/LMS/Options.php:449
+#: inc/Member/Options.php:63
+#: inc/Member/WechatOpen.php:140
+#: build/aliplayer/index.js:1
+#: build/alivod/index.js:289
+#: build/bunnynet/index.js:314
+#: build/classic/index.js:969
+#: build/dogecloud/index.js:281
+#: build/dplayer/index.js:1
+#: build/lms/course-list/index.js:1
+#: build/lms/user/index.js:1
+#: build/qiniu/index.js:162
+#: build/tcvod/index.js:319
+msgid "Title"
+msgstr ""
+
+#: inc/LMS/Options.php:451
+msgid "Courses Title"
+msgstr ""
+
+#: inc/LMS/Options.php:455
+msgid "Keywords"
+msgstr ""
+
+#: inc/LMS/Options.php:457
+msgid "Courses Keywords"
+msgstr ""
+
+#: inc/LMS/Options.php:461
+msgid "Description"
+msgstr ""
+
+#: inc/LMS/Options.php:463
+msgid "Courses Description"
+msgstr ""
+
+#: inc/LMS/Patterns.php:19
+msgid "MineLMS Courses Block Pattern"
+msgstr ""
+
+#: inc/LMS/Patterns.php:20
+msgctxt "Block pattern description"
+msgid "This block pattern display a courses list."
+msgstr ""
+
+#: inc/LMS/PostType.php:401
+msgid "Number Lessons"
+msgstr ""
+
+#: inc/LMS/PostType.php:402
+#: templates/default/elements/course-single-progress.php:78
+#: templates/default/loop/course.php:21
+msgid "Number Enrolled"
+msgstr ""
+
+#: inc/LMS/PostType.php:497
+msgctxt "taxonomy general name"
+msgid "Course Categories"
+msgstr ""
+
+#: inc/LMS/PostType.php:498
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: inc/LMS/PostType.php:499
+msgid "Search Categories"
+msgstr ""
+
+#: inc/LMS/PostType.php:500
+msgid "Popular Categories"
+msgstr ""
+
+#: inc/LMS/PostType.php:501
+msgid "All Categories"
+msgstr ""
+
+#: inc/LMS/PostType.php:504
+msgid "Edit Category"
+msgstr ""
+
+#: inc/LMS/PostType.php:505
+msgid "Update Category"
+msgstr ""
+
+#: inc/LMS/PostType.php:506
+msgid "Add New Category"
+msgstr ""
+
+#: inc/LMS/PostType.php:507
+msgid "New Category Name"
+msgstr ""
+
+#: inc/LMS/PostType.php:508
+msgid "Separate categories with commas"
+msgstr ""
+
+#: inc/LMS/PostType.php:509
+msgid "Add or remove categories"
+msgstr ""
+
+#: inc/LMS/PostType.php:510
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: inc/LMS/PostType.php:511
+msgid "No categories found."
+msgstr ""
+
+#: inc/LMS/PostType.php:512
+msgid "Course Categories"
+msgstr ""
+
+#: inc/LMS/PostType.php:532
+msgctxt "taxonomy general name"
+msgid "Tags"
+msgstr ""
+
+#: inc/LMS/PostType.php:533
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: inc/LMS/PostType.php:534
+msgid "Search Tags"
+msgstr ""
+
+#: inc/LMS/PostType.php:535
+msgid "Popular Tags"
+msgstr ""
+
+#: inc/LMS/PostType.php:536
+msgid "All Tags"
+msgstr ""
+
+#: inc/LMS/PostType.php:539
+msgid "Edit Tag"
+msgstr ""
+
+#: inc/LMS/PostType.php:540
+msgid "Update Tag"
+msgstr ""
+
+#: inc/LMS/PostType.php:541
+msgid "Add New Tag"
+msgstr ""
+
+#: inc/LMS/PostType.php:542
+msgid "New Tag Name"
+msgstr ""
+
+#: inc/LMS/PostType.php:543
+msgid "Separate Tags with commas"
+msgstr ""
+
+#: inc/LMS/PostType.php:544
+msgid "Add or remove Tags"
+msgstr ""
+
+#: inc/LMS/PostType.php:545
+msgid "Choose from the most used Tags"
+msgstr ""
+
+#: inc/LMS/PostType.php:546
+msgid "No Tags found."
+msgstr ""
+
+#: inc/LMS/PostType.php:574
+msgctxt "post type general name"
+msgid "Courses"
+msgstr ""
+
+#: inc/LMS/PostType.php:575
+msgctxt "post type singular name"
+msgid "Course"
+msgstr ""
+
+#: inc/LMS/PostType.php:576
+msgctxt "admin menu"
+msgid "Courses"
+msgstr ""
+
+#: inc/LMS/PostType.php:577
+msgctxt "add new on admin bar"
+msgid "Course"
+msgstr ""
+
+#: inc/LMS/PostType.php:578
+msgctxt "mcv course add"
+msgid "Add New"
+msgstr ""
+
+#: inc/LMS/PostType.php:579
+msgid "Add New Course"
+msgstr ""
+
+#: inc/LMS/PostType.php:580
+msgid "New Course"
+msgstr ""
+
+#: inc/LMS/PostType.php:581
+msgid "Edit Course"
+msgstr ""
+
+#: inc/LMS/PostType.php:582
+msgid "View Course"
+msgstr ""
+
+#: inc/LMS/PostType.php:585
+msgid "Parent Courses:"
+msgstr ""
+
+#: inc/LMS/PostType.php:586
+msgid "No courses found."
+msgstr ""
+
+#: inc/LMS/PostType.php:587
+msgid "No courses found in Trash."
+msgstr ""
+
+#: inc/LMS/PostType.php:592
+#: inc/LMS/PostType.php:646
+#: inc/LMS/PostType.php:690
+#: inc/Order/PostType.php:281
+msgid "Description."
+msgstr ""
+
+#: inc/LMS/PostType.php:628
+msgctxt "post type general name"
+msgid "Lessons"
+msgstr ""
+
+#: inc/LMS/PostType.php:629
+msgctxt "post type singular name"
+msgid "Lesson"
+msgstr ""
+
+#: inc/LMS/PostType.php:630
+msgctxt "admin menu"
+msgid "Lessons"
+msgstr ""
+
+#: inc/LMS/PostType.php:631
+msgctxt "add new on admin bar"
+msgid "Lesson"
+msgstr ""
+
+#: inc/LMS/PostType.php:632
+msgctxt "mcv lesson add"
+msgid "Add New"
+msgstr ""
+
+#: inc/LMS/PostType.php:633
+#: build/lms/course-metabox/index.js:830
+msgid "Add New Lesson"
+msgstr ""
+
+#: inc/LMS/PostType.php:634
+msgid "New Lesson"
+msgstr ""
+
+#: inc/LMS/PostType.php:635
+#: build/lms/course-metabox/index.js:830
+msgid "Edit Lesson"
+msgstr ""
+
+#: inc/LMS/PostType.php:636
+msgid "View Lesson"
+msgstr ""
+
+#: inc/LMS/PostType.php:637
+msgid "Lessons"
+msgstr ""
+
+#: inc/LMS/PostType.php:638
+msgid "Search Lessons"
+msgstr ""
+
+#: inc/LMS/PostType.php:639
+msgid "Parent Lessons:"
+msgstr ""
+
+#: inc/LMS/PostType.php:640
+msgid "No lessons found."
+msgstr ""
+
+#: inc/LMS/PostType.php:641
+msgid "No lessons found in Trash."
+msgstr ""
+
+#: inc/LMS/PostType.php:677
+msgid "Add Lesson Title"
+msgstr ""
+
+#: inc/LMS/PostType.php:689
+msgid "Section"
+msgstr ""
+
+#: inc/McvOptions.php:19
+msgid "Function Switch"
+msgstr ""
+
+#: inc/McvOptions.php:26
+msgid "Turning off unneeded functions can properly save server resources."
+msgstr ""
+
+#: inc/McvOptions.php:51
+#: build/admin/index.js:1
+msgid "Player"
+msgstr ""
+
+#: inc/McvOptions.php:57
+#: build/classic/index.js:1214
+msgid "DPlayer"
+msgstr ""
+
+#: inc/McvOptions.php:65
+msgid "Audio Player"
+msgstr ""
+
+#: inc/McvOptions.php:73
+#: inc/options/aliplayer.php:5
+#: build/aliplayer/index.js:2
+#: build/block/mcv.blocks.js:1
+#: build/classic/index.js:1214
+msgid "Aliplayer"
+msgstr ""
+
+#: inc/McvOptions.php:81
+#: build/block/mcv.blocks.js:1
+#: build/classic/index.js:1214
+#: build/embed/index.js:1
+msgid "Embed Video"
+msgstr ""
+
+#: inc/McvOptions.php:114
+#: inc/McvOptions.php:219
+msgid "Welcome to use my plugin."
+msgstr ""
+
+#: inc/McvOptions.php:137
+msgid "Welcome to use Mine CloudVod, after installing this plugin, there is a 14-day trial period for pro feature."
+msgstr ""
+
+#: inc/McvOptions.php:142
+msgid "Site ID"
+msgstr ""
+
+#: inc/McvOptions.php:161
+msgid "Valid until"
+msgstr ""
+
+#: inc/McvOptions.php:162
+msgid "Only show the expiration time, do not tamper with."
+msgstr ""
+
+#: inc/McvOptions.php:162
+msgid "Sync expiration time"
+msgstr ""
+
+#: inc/McvOptions.php:172
+msgid "CDN Type"
+msgstr ""
+
+#: inc/McvOptions.php:175
+msgid "Self Hosted"
+msgstr ""
+
+#: inc/McvOptions.php:176
+msgid "Jsdelivr"
+msgstr ""
+
+#: inc/McvOptions.php:177
+msgid "Customize"
+msgstr ""
+
+#: inc/McvOptions.php:184
+msgid "CDN Prefix"
+msgstr ""
+
+#: inc/McvOptions.php:185
+msgid "You can use {version} to replace the version of the plugin."
+msgstr ""
+
+#: inc/McvOptions.php:192
+msgid "Role Permission"
+msgstr ""
+
+#: inc/McvOptions.php:236
+msgid "<font color=\"red\">Reminder</font>: The time package purchased on this page is the service time of using the Mine CloudVod plugin."
+msgstr ""
+
+#: inc/McvOptions.php:241
+msgid "Time package"
+msgstr ""
+
+#: inc/McvOptions.php:245
+msgid "One year (15% off)"
+msgstr ""
+
+#: inc/McvOptions.php:246
+msgid "Two years (25% off)"
+msgstr ""
+
+#: inc/McvOptions.php:247
+msgid "Three years (35% off)"
+msgstr ""
+
+#: inc/McvOptions.php:248
+msgid "Four years (45% off)"
+msgstr ""
+
+#: inc/McvOptions.php:249
+msgid "Five years (50% off)"
+msgstr ""
+
+#: inc/McvOptions.php:255
+#: build/admin/index.js:1
+msgid "Click to buy"
+msgstr ""
+
+#: inc/Member/Options.php:50
+msgid "Default user login"
+msgstr ""
+
+#: inc/Member/Options.php:65
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "User Login"
+msgstr ""
+
+#: inc/Member/Options.php:79
+#: inc/Member/Options.php:132
+msgid "Login"
+msgstr ""
+
+#: inc/Member/Options.php:101
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Register"
+msgstr ""
+
+#: inc/Member/Options.php:123
+msgid "Hide Admin Bar"
+msgstr ""
+
+#: inc/Member/Options.php:138
+msgid "Drag and drop login methods can be sorted."
+msgstr ""
+
+#: inc/Member/WechatOpen.php:29
+#: inc/Member/WechatOpen.php:233
+msgid "No response, try later!"
+msgstr ""
+
+#: inc/Member/WechatOpen.php:53
+#: inc/Member/WechatOpen.php:259
+msgid "No response 1, try later!"
+msgstr ""
+
+#: inc/Member/WechatOpen.php:127
+msgid "Wechat Open Platform"
+msgstr ""
+
+#: inc/Member/WechatOpen.php:217
+msgid "Code or State is missed"
+msgstr ""
+
+#: inc/Member/WechatOpen.php:224
+msgid "Hello Mine"
+msgstr ""
+
+#: inc/Member/WechatOpen.php:264
+msgid "No response 2, try later!"
+msgstr ""
+
+#: inc/Member/WechatOpen.php:280
+msgid "No response 3, try later!"
+msgstr ""
+
+#: inc/MineAliVodClientUploader.php:4
+#: inc/MineTcVodClientUploader.php:4
+msgid "The upload function here is no longer updated and is no longer recommended. It is recommended to upload videos using the block of the gutenberg editor."
+msgstr ""
+
+#: inc/options/aliplayer.php:33
+msgid "Preload currently only available in h5"
+msgstr ""
+
+#: inc/options/aliplayer.php:58
+msgid "How to display the control panel"
+msgstr ""
+
+#: inc/options/aliplayer.php:63
+#: inc/options/tcplayer.php:55
+#: inc/Qcloud/Tcplayer.php:64
+msgid "Big play button"
+msgstr ""
+
+#: inc/options/aliplayer.php:70
+msgid "Big play button position"
+msgstr ""
+
+#: inc/options/aliplayer.php:98
+#: inc/options/tcplayer.php:64
+#: inc/Qcloud/Tcplayer.php:73
+msgid "The following is the control bar property settings"
+msgstr ""
+
+#: inc/options/aliplayer.php:103
+msgid "Control Bar Background Color"
+msgstr ""
+
+#: inc/options/aliplayer.php:109
+#: inc/options/tcplayer.php:85
+#: inc/Qcloud/Tcplayer.php:94
+msgid "Progress bar"
+msgstr ""
+
+#: inc/options/aliplayer.php:117
+#: inc/options/tcplayer.php:77
+#: inc/Qcloud/Tcplayer.php:86
+msgid "Play button"
+msgstr ""
+
+#: inc/options/aliplayer.php:125
+msgid "Time"
+msgstr ""
+
+#: inc/options/aliplayer.php:133
+#: inc/options/tcplayer.php:133
+#: inc/Qcloud/Tcplayer.php:142
+msgid "Fullscreen button"
+msgstr ""
+
+#: inc/options/aliplayer.php:141
+msgid "Settings button"
+msgstr ""
+
+#: inc/options/aliplayer.php:149
+#: inc/options/tcplayer.php:93
+#: inc/Qcloud/Tcplayer.php:102
+msgid "Volume buttons"
+msgstr ""
+
+#: inc/options/aliplayer.php:157
+msgid "Subtitle button"
+msgstr ""
+
+#: inc/options/aliplayer.php:175
+#: inc/options/tcplayer.php:151
+#: inc/Qcloud/Tcplayer.php:160
+msgid "Player style"
+msgstr ""
+
+#: inc/options/aliplayer.php:176
+#: inc/options/tcplayer.php:152
+#: inc/Qcloud/Tcplayer.php:161
+msgid "The css environment of each theme is different, which causes the player style to be disordered. It is normal. Please adjust the css compatibility according to your theme. You can contact QQ 995525477 for assistance."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:11
+msgid "Player Logo"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:25
+msgid "Logo"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:33
+msgid "Logo style"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:34
+msgid "The logo is in the upper left corner by default"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:41
+msgid "Mobile Logo style"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:191
+#: inc/options/tcplayer.php:188
+#: inc/Qcloud/Tcplayer.php:197
+msgid "Type"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:194
+#: inc/options/tcplayer.php:191
+#: inc/Qcloud/Tcplayer.php:200
+msgid "Click to play"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:208
+msgid "Rate play"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:221
+msgid "After the playback speed component is added, the playback speed setting in the player is hidden."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:291
+msgid "AD Before Play"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:336
+msgid "Enter the number of seconds to display the image ad before the video plays."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:356
+msgid "Video"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:473
+msgid "Quality"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:481
+msgid "ASC"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:482
+msgid "DESC"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:494
+msgid "Rotate Mirror"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:532
+msgid "Hot Key"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:533
+msgid "The arrow keys (left and right keys) control fast forward and backward, the direction keys (up and down keys) control the increase or decrease of the volume, and the space bar pauses and plays."
+msgstr ""
+
+#: inc/options/aliplayer_components.php:546
+msgid "Time in seconds"
+msgstr ""
+
+#: inc/options/aliplayer_components.php:547
+msgid "The time length of fast forward and backward, unit: second. The default is 10 seconds."
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:5
+#: inc/options/tcvod_touwei.php:4
+msgid "Video head and foot"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:12
+#: inc/options/tcvod_touwei.php:11
+msgid "This function consumes transcoding time and is not recommended"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:17
+#: inc/options/tcvod_touwei.php:16
+msgid "Video head"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:18
+#: inc/options/tcvod_touwei.php:17
+msgid "When enabled, the video file will be automatically attached before the uploaded video"
+msgstr ""
+
+#: inc/options/aliyunvod_touwei.php:31
+#: build/classic/index.js:435
+#: build/classic/index.js:610
+#: build/classic/index.js:1214
+msgid "Video ID"
+msgstr ""
+
+#: inc/options/tccos.php:12
+#: inc/Qcloud/Cos.php:28
+msgid "Tencent COS"
+msgstr ""
+
+#: inc/options/tccos.php:18
+#: inc/options/tcvod.php:10
+#: inc/Qcloud/Cos.php:34
+#: inc/Qcloud/Options.php:27
+#: inc/Qcloud/Vod.php:55
+msgid "By default, Tencent Cloud VOD is charged after the end of the day, and it can also be found on <a href=\"https://curl.qcloud.com/F8Ad6KaX\" target=\"_blank\">Tencent Cloud VOD Platform</a> Purchase the corresponding resource pack consumption."
+msgstr ""
+
+#: inc/options/tcplayer.php:69
+#: inc/Qcloud/Tcplayer.php:78
+msgid "Control bar"
+msgstr ""
+
+#: inc/options/tcvod.php:4
+#: inc/Qcloud/Vod.php:49
+msgid "Tencent Cloud Vod"
+msgstr ""
+
+#: inc/options/tcvod.php:39
+#: inc/Qcloud/Vod.php:84
+#: inc/Qcloud/Vod.php:107
+msgid "Transcoding tasks"
+msgstr ""
+
+#: inc/options/tcvod.php:40
+#: inc/Qcloud/Vod.php:85
+msgid "Sync transcoding task list."
+msgstr ""
+
+#: inc/options/tcvod.php:41
+#: inc/Qcloud/Vod.php:86
+msgid "Select transcoding tasks"
+msgstr ""
+
+#: inc/options/tcvod.php:48
+#: inc/Qcloud/Vod.php:93
+msgid "Tcplayer setting"
+msgstr ""
+
+#: inc/options/tcvod.php:49
+msgid "Sync tcplayer setting list"
+msgstr ""
+
+#: inc/options/tcvod.php:50
+#: inc/Qcloud/Vod.php:96
+msgid "Select tcplayer setting"
+msgstr ""
+
+#: inc/options/tcvod.php:57
+msgid "Video Player"
+msgstr ""
+
+#: inc/options/tcvod.php:64
+msgid "Use TCplayer by default, DPlayer is a powerful HTML5 video player."
+msgstr ""
+
+#: inc/Order/PostType.php:33
+msgid "Pending"
+msgstr ""
+
+#: inc/Order/PostType.php:34
+msgid "Paying"
+msgstr ""
+
+#: inc/Order/PostType.php:35
+msgid "Payed"
+msgstr ""
+
+#: inc/Order/PostType.php:36
+msgid "Failed"
+msgstr ""
+
+#: inc/Order/PostType.php:96
+msgid "MineCloudVoD Checkout"
+msgstr ""
+
+#: inc/Order/PostType.php:97
+msgid "MineCloudVoD Order List"
+msgstr ""
+
+#: inc/Order/PostType.php:98
+msgid "Favorite Courses"
+msgstr ""
+
+#: inc/Order/PostType.php:99
+msgid "User's Courses"
+msgstr ""
+
+#: inc/Order/PostType.php:100
+msgid "Latest courses"
+msgstr ""
+
+#: inc/Order/PostType.php:143
+msgid "Order Items"
+msgstr ""
+
+#: inc/Order/PostType.php:200
+#: inc/Order/PostType.php:325
+#: build/admin/index.js:1
+msgid "Order Amount"
+msgstr ""
+
+#: inc/Order/PostType.php:201
+#: inc/Order/PostType.php:348
+#: build/admin/index.js:1
+msgid "Payment Method"
+msgstr ""
+
+#: inc/Order/PostType.php:263
+msgctxt "post type general name"
+msgid "Orders"
+msgstr ""
+
+#: inc/Order/PostType.php:264
+msgctxt "post type singular name"
+msgid "Order"
+msgstr ""
+
+#: inc/Order/PostType.php:265
+msgctxt "admin menu"
+msgid "Orders"
+msgstr ""
+
+#: inc/Order/PostType.php:266
+msgctxt "add new on admin bar"
+msgid "Orders"
+msgstr ""
+
+#: inc/Order/PostType.php:268
+msgid "Add New Order"
+msgstr ""
+
+#: inc/Order/PostType.php:269
+msgid "New Order"
+msgstr ""
+
+#: inc/Order/PostType.php:270
+msgid "Edit Order"
+msgstr ""
+
+#: inc/Order/PostType.php:271
+msgid "View Order"
+msgstr ""
+
+#: inc/Order/PostType.php:273
+msgid "Search Orders"
+msgstr ""
+
+#: inc/Order/PostType.php:274
+msgid "Parent Orders:"
+msgstr ""
+
+#: inc/Order/PostType.php:275
+msgid "No Orders found."
+msgstr ""
+
+#: inc/Order/PostType.php:276
+msgid "No Orders found in Trash."
+msgstr ""
+
+#: inc/Order/PostType.php:304
+msgid "Order Infos"
+msgstr ""
+
+#: inc/Order/PostType.php:339
+msgid "Date Payed"
+msgstr ""
+
+#: inc/Order/PostType.php:355
+msgid "Transaction ID"
+msgstr ""
+
+#: inc/Payment/Alipay.php:109
+msgid "支付宝官方支付"
+msgstr ""
+
+#: inc/Payment/Alipay.php:134
+msgid "签名方法仅支持: RSA2"
+msgstr ""
+
+#: inc/Payment/Alipay.php:140
+#: inc/Payment/Wechat.php:114
+msgid "Product"
+msgstr ""
+
+#: inc/Payment/Alipay.php:143
+msgid "PC Website Payment"
+msgstr ""
+
+#: inc/Payment/Alipay.php:144
+msgid "Mobile Website Payment"
+msgstr ""
+
+#: inc/Payment/Alipay.php:145
+msgid "Pay Face to Face"
+msgstr ""
+
+#: inc/Payment/Alipay.php:152
+msgid "启用当面付时，会优先使用当面付，直接扫码支付，无需跳转。"
+msgstr ""
+
+#: inc/Payment/Alipay.php:165
+#: inc/Payment/Hupijiao.php:265
+#: inc/Payment/Hupijiao.php:306
+#: inc/Payment/Wechat.php:146
+msgid "AppId"
+msgstr ""
+
+#: inc/Payment/Alipay.php:171
+msgid "Public Key"
+msgstr ""
+
+#: inc/Payment/Alipay.php:177
+msgid "Application"
+msgstr ""
+
+#: inc/Payment/Alipay.php:177
+msgid "Private Key"
+msgstr ""
+
+#: inc/Payment/Hupijiao.php:222
+msgid "Hupijiao"
+msgstr ""
+
+#: inc/Payment/Hupijiao.php:233
+msgid "虎皮椒支付, 请自行考查接口的安全性和稳定性."
+msgstr ""
+
+#: inc/Payment/Hupijiao.php:238
+msgid "Hupijiao Alipay"
+msgstr ""
+
+#: inc/Payment/Hupijiao.php:251
+msgid "Alipay Name"
+msgstr ""
+
+#: inc/Payment/Hupijiao.php:279
+msgid "Hupijiao Wechat"
+msgstr ""
+
+#: inc/Payment/Hupijiao.php:292
+#: inc/Payment/Wechat.php:126
+msgid "Wechat Name"
+msgstr ""
+
+#: inc/Payment/Hupijiao.php:322
+msgid "网关地址"
+msgstr ""
+
+#: inc/Payment/Wechat.php:21
+msgid "Wechat Pay"
+msgstr ""
+
+#: inc/Payment/Wechat.php:96
+msgid "微信官方支付."
+msgstr ""
+
+#: inc/Payment/Wechat.php:117
+msgid "Native Payment"
+msgstr ""
+
+#: inc/Payment/Wechat.php:118
+msgid "H5 Payment"
+msgstr ""
+
+#: inc/Payment/Wechat.php:119
+msgid "JSAPI Payment"
+msgstr ""
+
+#: inc/Payment/Wechat.php:140
+msgid "MCHID"
+msgstr ""
+
+#: inc/Payment/Wechat.php:152
+msgid "AppSecret"
+msgstr ""
+
+#: inc/Payment/Wechat.php:158
+msgid "APIv2"
+msgstr ""
+
+#: inc/Qcloud/Vod.php:33
+msgid "Please synchronize the task flow list first"
+msgstr ""
+
+#: inc/Qcloud/Vod.php:40
+msgid "Please synchronize the player configuration list first"
+msgstr ""
+
+#: inc/Qcloud/Vod.php:106
+#: inc/Qcloud/Vod.php:108
+msgid "Play Key"
+msgstr ""
+
+#: inc/Qiniu/Kodo.php:274
+msgid "Click here to register Qiniu Kodo and enjoy the gift: forever free."
+msgstr ""
+
+#: inc/RestApi/LMS/Lesson.php:175
+#: build/lms/course-metabox/index.js:830
+msgid "Lesson"
+msgstr ""
+
+#: inc/RestApi/LMS/Lesson.php:317
+#: inc/RestApi/PostTypeVideo.php:186
+msgid "no videos"
+msgstr ""
+
+#: inc/RestApi/QcloudCos.php:125
+msgid "Sync the buckets list, please."
+msgstr ""
+
+#: inc/RestApi/QcloudCos.php:215
+msgid "Bucket is missed"
+msgstr ""
+
+#: templates/default/elements/course-single-progress.php:24
+#: templates/default/elements/course-single-progress.php:46
+#: templates/default/loop/course.php:29
+msgid "Start Learning"
+msgstr ""
+
+#: templates/default/elements/course-single-progress.php:25
+msgid "Continue Studying"
+msgstr ""
+
+#: templates/default/elements/course-single-progress.php:26
+#: templates/default/single-lesson.php:80
+msgid "Completed"
+msgstr ""
+
+#: templates/default/elements/course-single-progress.php:29
+msgid "You enrolled in this course on %s."
+msgstr ""
+
+#: templates/default/elements/course-single-progress.php:58
+msgid "Login to start learning"
+msgstr ""
+
+#: templates/default/elements/course-single-progress.php:68
+#: build/admin/index.js:1
+#: build/alivod/index.js:290
+#: build/block/mcv.blocks.js:1
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/import/index.js:830
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Buy Now"
+msgstr ""
+
+#: templates/default/elements/course-single-progress.php:82
+#: templates/default/loop/course.php:25
+msgid "Updated on %s."
+msgstr ""
+
+#: templates/default/elements/pagination.php:18
+#: templates/default/elements/pagination.php:21
+msgid "Prev"
+msgstr ""
+
+#: templates/default/elements/pagination.php:31
+#: templates/default/elements/pagination.php:34
+msgid "Next"
+msgstr ""
+
+#: templates/default/single-lesson.php:75
+msgid "Previous Lesson"
+msgstr ""
+
+#: templates/default/single-lesson.php:82
+msgid "Mark As Complete"
+msgstr ""
+
+#: templates/default/single-lesson.php:87
+msgid "Next Lesson"
+msgstr ""
+
+#: templates/vod/private.php:2
+msgid "Please login for access."
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "One-time Fee."
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Required"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "No extra plugin required"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Add-ons activation failed!"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "All"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "LMS"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Integration"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Deactive"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Pro"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Overview"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Student"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Published Courses"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Students"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Orders created by %1$s"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Courses enrolled by %1$s"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Enrolled Date"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Progress"
+msgstr ""
+
+#: build/admin/index.js:1
+#: build/lms/course-metabox/index.js:830
+msgid "Students of %1$s"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Number of enrolled"
+msgstr ""
+
+#: build/admin/index.js:1
+msgid "Number of orders"
+msgstr ""
+
+#: build/admin/index.js:1
+#: build/alivod/index.js:290
+#: build/block/mcv.blocks.js:1
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/import/index.js:830
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Pro Feature"
+msgstr ""
+
+#: build/admin/index.js:1
+#: build/alivod/index.js:290
+#: build/block/mcv.blocks.js:1
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/import/index.js:830
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Unlock Mine CloudVoD"
+msgstr ""
+
+#: build/admin/index.js:1
+#: build/alivod/index.js:290
+#: build/block/mcv.blocks.js:1
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/import/index.js:830
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Get this feature and more with the Pro version of Mine CloudVod!"
+msgstr ""
+
+#: build/admin/index.js:1
+#: build/alivod/index.js:290
+#: build/block/mcv.blocks.js:1
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/import/index.js:830
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Learn More"
+msgstr ""
+
+#: build/aliplayer/index.js:1
+#: build/alivod/index.js:289
+#: build/tcvod/index.js:318
+msgid "Aliplayer is initializing, please wait..."
+msgstr ""
+
+#: build/aliplayer/index.js:1
+#: build/alivod/index.js:289
+#: build/bunnynet/index.js:314
+#: build/dogecloud/index.js:281
+#: build/dplayer/index.js:1
+#: build/qiniu/index.js:162
+#: build/tcvod/index.js:319
+msgid "Remove Marker"
+msgstr ""
+
+#: build/aliplayer/index.js:1
+#: build/alivod/index.js:289
+#: build/bunnynet/index.js:314
+#: build/dogecloud/index.js:281
+#: build/dplayer/index.js:1
+#: build/qiniu/index.js:162
+#: build/tcvod/index.js:319
+msgid "Add Marker"
+msgstr ""
+
+#: build/aliplayer/index.js:1
+#: build/alivod/index.js:289
+#: build/bunnynet/index.js:314
+#: build/dogecloud/index.js:281
+#: build/dplayer/index.js:1
+#: build/qiniu/index.js:162
+#: build/tcvod/index.js:318
+msgid "Captions are .vtt files that help make your content more accesible to a wider range of users."
+msgstr ""
+
+#. translators: %s: Label of the video text track e.g: "French subtitles"
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Edit %s"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Captions"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Edit caption track"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "File"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Caption title"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Language tag"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "English"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Close"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Remove caption"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Add caption languages"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Open Media Library"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Add External Subtitle"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "External Subtitle Link"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Add"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Attention: External subtitles may cause cross-domain issues."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Pause Prompt Link"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Remove Prompt"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Add Prompt"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Pause Prompt Image"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Select Image"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Price"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Preview Duration"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Please enable the Purchase Video Add-ons first."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/dplayer/index.js:2
+msgid "Paste an video URL"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/audioplayer/index.js:221
+#: build/dplayer/index.js:2
+msgid "Apply"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Replace"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/dplayer/index.js:2
+#: build/embed/index.js:1
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Replace this video?"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Video Markers"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Pause Prompt"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Aliplayer Settings"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/classic/index.js:435
+#: build/classic/index.js:610
+#: build/classic/index.js:757
+#: build/classic/index.js:969
+#: build/classic/index.js:1214
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Private"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/classic/index.js:435
+#: build/classic/index.js:610
+#: build/classic/index.js:757
+#: build/classic/index.js:969
+#: build/classic/index.js:1214
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "This video is only accessible to those who are logged in."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/classic/index.js:289
+msgid "Text of Live Ends"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/classic/index.js:289
+msgid "Enter the text of the live ends."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/classic/index.js:289
+#: build/classic/index.js:448
+#: build/classic/index.js:610
+#: build/dplayer/index.js:2
+#: build/embed/index.js:1
+#: build/import/index.js:820
+#: build/lms/course-metabox/index.js:820
+#: build/tcvod/index.js:156
+msgid "Video URL"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/dplayer/index.js:2
+msgid "Attention, make sure the URL prefix(http or https) is same with the site, otherwise video will not play."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+msgid "The auto will be adaptive height."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/classic/index.js:289
+#: build/classic/index.js:610
+#: build/classic/index.js:757
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Cover image"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Select cover image"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Select"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/dplayer/index.js:2
+msgid "Referrer"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/dplayer/index.js:2
+msgid "If your video doesn't play, try to change this option."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "The global configuration is used by default and can be turned off individually."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Scroll Text"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Empty means to use global configuration."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Countdown Timer"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/alivod/index.js:290
+msgid "Enter the text you want to appear on the countdown page"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+msgid "Aliplayer is a very useful player, which supports live streaming and recorded video, E.g: mp4 or m3u8 url."
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/bunnynet/index.js:300
+#: build/classic/index.js:1200
+#: build/dplayer/index.js:2
+msgid "Select or Upload Video"
+msgstr ""
+
+#: build/aliplayer/index.js:2
+#: build/dplayer/index.js:2
+msgid "Add/Select Video"
+msgstr ""
+
+#: build/alivod/index.js:1
+#: build/audioplayer/index.js:136
+#: build/bunnynet/index.js:1
+#: build/classic/index.js:1
+#: build/classic/index.js:169
+#: build/classic/index.js:672
+#: build/classic/index.js:884
+#: build/classic/index.js:1129
+#: build/dogecloud/index.js:1
+#: build/import/index.js:148
+#: build/import/index.js:384
+#: build/import/index.js:521
+#: build/import/index.js:723
+#: build/lms/course-metabox/index.js:148
+#: build/lms/course-metabox/index.js:384
+#: build/lms/course-metabox/index.js:521
+#: build/lms/course-metabox/index.js:723
+#: build/qiniu/index.js:1
+#: build/tcvod/index.js:27
+msgid "Add Media"
+msgstr ""
+
+#: build/alivod/index.js:72
+#: build/bunnynet/index.js:72
+#: build/classic/index.js:72
+#: build/dogecloud/index.js:72
+#: build/qiniu/index.js:72
+msgid "Select or Upload Aliyun OSS Video"
+msgstr ""
+
+#: build/alivod/index.js:86
+#: build/alivod/index.js:236
+#: build/audioplayer/index.js:94
+#: build/bunnynet/index.js:86
+#: build/bunnynet/index.js:261
+#: build/classic/index.js:86
+#: build/classic/index.js:169
+#: build/classic/index.js:382
+#: build/classic/index.js:555
+#: build/classic/index.js:630
+#: build/classic/index.js:842
+#: build/classic/index.js:1087
+#: build/dogecloud/index.js:86
+#: build/dogecloud/index.js:228
+#: build/qiniu/index.js:109
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:263
+msgid "Choose"
+msgstr ""
+
+#: build/alivod/index.js:86
+#: build/alivod/index.js:236
+#: build/audioplayer/index.js:94
+#: build/bunnynet/index.js:86
+#: build/bunnynet/index.js:261
+#: build/classic/index.js:86
+#: build/classic/index.js:169
+#: build/classic/index.js:382
+#: build/classic/index.js:555
+#: build/classic/index.js:630
+#: build/classic/index.js:842
+#: build/classic/index.js:1087
+#: build/dogecloud/index.js:86
+#: build/dogecloud/index.js:228
+#: build/import/index.js:106
+#: build/import/index.js:340
+#: build/import/index.js:479
+#: build/import/index.js:681
+#: build/lms/course-metabox/index.js:106
+#: build/lms/course-metabox/index.js:340
+#: build/lms/course-metabox/index.js:479
+#: build/lms/course-metabox/index.js:681
+#: build/qiniu/index.js:109
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:263
+msgid "Please Choose..."
+msgstr ""
+
+#: build/alivod/index.js:86
+#: build/bunnynet/index.js:86
+#: build/classic/index.js:86
+#: build/classic/index.js:143
+#: build/dogecloud/index.js:86
+#: build/tcvod/index.js:1
+msgid "-- Select a bucket, please --"
+msgstr ""
+
+#: build/alivod/index.js:86
+#: build/alivod/index.js:228
+#: build/audioplayer/index.js:86
+#: build/bunnynet/index.js:86
+#: build/bunnynet/index.js:228
+#: build/classic/index.js:86
+#: build/classic/index.js:143
+#: build/classic/index.js:374
+#: build/classic/index.js:524
+#: build/classic/index.js:628
+#: build/classic/index.js:840
+#: build/classic/index.js:1054
+#: build/dogecloud/index.js:86
+#: build/dogecloud/index.js:226
+#: build/import/index.js:309
+#: build/import/index.js:477
+#: build/import/index.js:679
+#: build/lms/course-metabox/index.js:309
+#: build/lms/course-metabox/index.js:477
+#: build/lms/course-metabox/index.js:679
+#: build/qiniu/index.js:107
+#: build/tcvod/index.js:1
+#: build/tcvod/index.js:232
+msgid "Upload Videos"
+msgstr ""
+
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/audioplayer/index.js:221
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:289
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+msgid "Size"
+msgstr ""
+
+#: build/alivod/index.js:98
+#: build/bunnynet/index.js:98
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/dogecloud/index.js:98
+#: build/tcvod/index.js:27
+msgid "Storage Class"
+msgstr ""
+
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+msgid "Are you sure you want to delete this video?"
+msgstr ""
+
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+msgid "Yes"
+msgstr ""
+
+#: build/alivod/index.js:98
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/bunnynet/index.js:98
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:98
+#: build/classic/index.js:169
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:98
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:27
+#: build/tcvod/index.js:156
+msgid "Delete video"
+msgstr ""
+
+#: build/alivod/index.js:140
+#: build/alivod/index.js:221
+#: build/audioplayer/index.js:79
+#: build/bunnynet/index.js:140
+#: build/bunnynet/index.js:221
+#: build/classic/index.js:140
+#: build/classic/index.js:282
+#: build/classic/index.js:367
+#: build/classic/index.js:517
+#: build/classic/index.js:623
+#: build/classic/index.js:835
+#: build/classic/index.js:1047
+#: build/dogecloud/index.js:140
+#: build/dogecloud/index.js:221
+#: build/import/index.js:68
+#: build/import/index.js:302
+#: build/import/index.js:472
+#: build/import/index.js:674
+#: build/lms/course-metabox/index.js:68
+#: build/lms/course-metabox/index.js:302
+#: build/lms/course-metabox/index.js:472
+#: build/lms/course-metabox/index.js:674
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:140
+#: build/tcvod/index.js:225
+msgid "Videos"
+msgstr ""
+
+#: build/alivod/index.js:143
+#: build/alivod/index.js:226
+#: build/audioplayer/index.js:84
+#: build/bunnynet/index.js:143
+#: build/bunnynet/index.js:226
+#: build/classic/index.js:143
+#: build/classic/index.js:285
+#: build/classic/index.js:372
+#: build/classic/index.js:522
+#: build/classic/index.js:628
+#: build/classic/index.js:840
+#: build/classic/index.js:1052
+#: build/dogecloud/index.js:143
+#: build/dogecloud/index.js:226
+#: build/import/index.js:73
+#: build/import/index.js:307
+#: build/import/index.js:477
+#: build/import/index.js:679
+#: build/lms/course-metabox/index.js:73
+#: build/lms/course-metabox/index.js:307
+#: build/lms/course-metabox/index.js:477
+#: build/lms/course-metabox/index.js:679
+#: build/qiniu/index.js:107
+#: build/tcvod/index.js:143
+#: build/tcvod/index.js:230
+msgid "Drop video files here to upload"
+msgstr ""
+
+#: build/alivod/index.js:143
+#: build/alivod/index.js:226
+#: build/audioplayer/index.js:84
+#: build/bunnynet/index.js:143
+#: build/bunnynet/index.js:226
+#: build/classic/index.js:143
+#: build/classic/index.js:285
+#: build/classic/index.js:372
+#: build/classic/index.js:522
+#: build/classic/index.js:628
+#: build/classic/index.js:840
+#: build/classic/index.js:1052
+#: build/dogecloud/index.js:143
+#: build/dogecloud/index.js:226
+#: build/import/index.js:73
+#: build/import/index.js:307
+#: build/import/index.js:477
+#: build/import/index.js:679
+#: build/lms/course-metabox/index.js:73
+#: build/lms/course-metabox/index.js:307
+#: build/lms/course-metabox/index.js:477
+#: build/lms/course-metabox/index.js:679
+#: build/qiniu/index.js:107
+#: build/tcvod/index.js:143
+#: build/tcvod/index.js:230
+msgid "or browse for a video"
+msgstr ""
+
+#: build/alivod/index.js:143
+#: build/alivod/index.js:226
+#: build/audioplayer/index.js:84
+#: build/bunnynet/index.js:143
+#: build/bunnynet/index.js:226
+#: build/classic/index.js:143
+#: build/classic/index.js:285
+#: build/classic/index.js:372
+#: build/classic/index.js:522
+#: build/classic/index.js:628
+#: build/classic/index.js:840
+#: build/classic/index.js:1052
+#: build/dogecloud/index.js:143
+#: build/dogecloud/index.js:226
+#: build/import/index.js:73
+#: build/import/index.js:307
+#: build/import/index.js:477
+#: build/import/index.js:679
+#: build/lms/course-metabox/index.js:73
+#: build/lms/course-metabox/index.js:307
+#: build/lms/course-metabox/index.js:477
+#: build/lms/course-metabox/index.js:679
+#: build/qiniu/index.js:107
+#: build/tcvod/index.js:143
+#: build/tcvod/index.js:230
+msgid "Upload New Video"
+msgstr ""
+
+#: build/alivod/index.js:156
+#: build/audioplayer/index.js:14
+#: build/bunnynet/index.js:156
+#: build/classic/index.js:302
+#: build/classic/index.js:448
+#: build/classic/index.js:623
+#: build/classic/index.js:770
+#: build/classic/index.js:982
+#: build/dogecloud/index.js:156
+#: build/qiniu/index.js:102
+#: build/tcvod/index.js:156
+msgid "Length"
+msgstr ""
+
+#: build/alivod/index.js:223
+#: build/audioplayer/index.js:81
+#: build/bunnynet/index.js:223
+#: build/classic/index.js:369
+#: build/classic/index.js:519
+#: build/classic/index.js:625
+#: build/classic/index.js:837
+#: build/classic/index.js:1049
+#: build/dogecloud/index.js:223
+#: build/import/index.js:70
+#: build/import/index.js:304
+#: build/import/index.js:474
+#: build/import/index.js:676
+#: build/lms/course-metabox/index.js:70
+#: build/lms/course-metabox/index.js:304
+#: build/lms/course-metabox/index.js:474
+#: build/lms/course-metabox/index.js:676
+#: build/qiniu/index.js:104
+#: build/tcvod/index.js:227
+msgid "Showing %1$s of %2$s media items"
+msgstr ""
+
+#: build/alivod/index.js:226
+#: build/audioplayer/index.js:84
+#: build/bunnynet/index.js:226
+#: build/classic/index.js:372
+#: build/classic/index.js:522
+#: build/classic/index.js:1052
+#: build/import/index.js:307
+#: build/lms/course-metabox/index.js:307
+#: build/tcvod/index.js:230
+msgid "Create Category"
+msgstr ""
+
+#: build/alivod/index.js:226
+#: build/audioplayer/index.js:84
+#: build/bunnynet/index.js:226
+#: build/classic/index.js:372
+#: build/classic/index.js:522
+#: build/classic/index.js:1052
+#: build/import/index.js:307
+#: build/lms/course-metabox/index.js:307
+#: build/tcvod/index.js:230
+msgid "Create New Category"
+msgstr ""
+
+#: build/alivod/index.js:228
+#: build/audioplayer/index.js:86
+#: build/bunnynet/index.js:228
+#: build/classic/index.js:374
+#: build/classic/index.js:524
+#: build/classic/index.js:1054
+#: build/import/index.js:309
+#: build/lms/course-metabox/index.js:309
+#: build/tcvod/index.js:232
+msgid "Enter a category name"
+msgstr ""
+
+#: build/alivod/index.js:228
+#: build/audioplayer/index.js:86
+#: build/bunnynet/index.js:228
+#: build/classic/index.js:374
+#: build/classic/index.js:628
+#: build/classic/index.js:840
+#: build/classic/index.js:1054
+#: build/dogecloud/index.js:226
+#: build/import/index.js:477
+#: build/import/index.js:679
+#: build/lms/course-metabox/index.js:477
+#: build/lms/course-metabox/index.js:679
+#: build/qiniu/index.js:107
+msgid "Upload Audios"
+msgstr ""
+
+#: build/alivod/index.js:230
+#: build/audioplayer/index.js:88
+#: build/bunnynet/index.js:230
+#: build/classic/index.js:376
+#: build/classic/index.js:630
+#: build/classic/index.js:842
+#: build/classic/index.js:1056
+#: build/dogecloud/index.js:228
+#: build/import/index.js:75
+#: build/import/index.js:479
+#: build/import/index.js:681
+#: build/lms/course-metabox/index.js:75
+#: build/lms/course-metabox/index.js:479
+#: build/lms/course-metabox/index.js:681
+#: build/qiniu/index.js:109
+msgid "Search for a audio..."
+msgstr ""
+
+#: build/alivod/index.js:230
+#: build/audioplayer/index.js:88
+#: build/bunnynet/index.js:230
+#: build/classic/index.js:376
+#: build/classic/index.js:630
+#: build/classic/index.js:842
+#: build/classic/index.js:1056
+#: build/dogecloud/index.js:228
+#: build/import/index.js:75
+#: build/import/index.js:479
+#: build/import/index.js:681
+#: build/lms/course-metabox/index.js:75
+#: build/lms/course-metabox/index.js:479
+#: build/lms/course-metabox/index.js:681
+#: build/qiniu/index.js:109
+msgid "Search for a video..."
+msgstr ""
+
+#: build/alivod/index.js:230
+#: build/audioplayer/index.js:88
+#: build/bunnynet/index.js:230
+#: build/classic/index.js:376
+#: build/classic/index.js:630
+#: build/classic/index.js:842
+#: build/classic/index.js:1056
+#: build/dogecloud/index.js:228
+#: build/import/index.js:479
+#: build/import/index.js:681
+#: build/lms/course-metabox/index.js:479
+#: build/lms/course-metabox/index.js:681
+#: build/qiniu/index.js:109
+msgid "Reload"
+msgstr ""
+
+#: build/alivod/index.js:236
+#: build/audioplayer/index.js:94
+#: build/bunnynet/index.js:247
+#: build/classic/index.js:382
+#: build/classic/index.js:541
+#: build/classic/index.js:1073
+#: build/import/index.js:92
+#: build/import/index.js:326
+#: build/lms/course-metabox/index.js:92
+#: build/lms/course-metabox/index.js:326
+#: build/tcvod/index.js:249
+msgid "Back To All Videos"
+msgstr ""
+
+#: build/alivod/index.js:275
+#: build/audioplayer/index.js:207
+#: build/classic/index.js:421
+msgid "Select or Upload AliyunVod Audio"
+msgstr ""
+
+#: build/alivod/index.js:275
+#: build/audioplayer/index.js:207
+#: build/classic/index.js:421
+msgid "Select or Upload AliyunVod Video"
+msgstr ""
+
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Select a video source please."
+msgstr ""
+
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/tcvod/index.js:319
+msgid "Add/Select "
+msgstr ""
+
+#: build/alivod/index.js:290
+msgid "Please configure the Alibaba Cloud AccessKey first."
+msgstr ""
+
+#: build/alivod/index.js:290
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/qiniu/index.js:163
+#: build/tcvod/index.js:319
+msgid "Click here to configuration page"
+msgstr ""
+
+#: build/audioplayer/index.js:1
+msgid "Audio player is initializing, please wait..."
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Paste an mp3 URL"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "To edit this block, you need permission to upload media."
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Audio URL"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Select or Upload Audio"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Add/Select Audio"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "AliyunVod"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "LRC"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "External Lrc Link"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Attention: External lrc may cause cross-domain issues."
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Replace this audio?"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Audio Settings"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "This audio is only accessible to those who are logged in."
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Audio Title"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Theme"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Display Mode"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Mini"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Front Color"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/classic/index.js:289
+msgid "Background Color"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+#: build/block/mcv.blocks.js:1
+msgid "Audio"
+msgstr ""
+
+#: build/audioplayer/index.js:221
+msgid "Upload a audio file, or pick one from your media library."
+msgstr ""
+
+#: build/block/mcv.blocks.js:1
+msgid "Mine Block Container"
+msgstr ""
+
+#: build/block/mcv.blocks.js:1
+#: build/import/index.js:820
+msgid "Choose a video type to get started."
+msgstr ""
+
+#: build/block/mcv.blocks.js:1
+#: build/import/index.js:820
+#: build/lms/course-metabox/index.js:820
+msgid "Choose a Video Type"
+msgstr ""
+
+#: build/block/mcv.blocks.js:1
+msgid "Aliyun Vod"
+msgstr ""
+
+#: build/block/mcv.blocks.js:1
+msgid "TC Vod"
+msgstr ""
+
+#: build/bunnynet/index.js:314
+#: build/dogecloud/index.js:281
+#: build/dplayer/index.js:2
+#: build/qiniu/index.js:162
+msgid "DPlayer is initializing, please wait..."
+msgstr ""
+
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+#: build/qiniu/index.js:163
+msgid "Dplayer Settings"
+msgstr ""
+
+#: build/bunnynet/index.js:315
+#: build/dogecloud/index.js:282
+msgid "Please configure the Dogecloud AccessKey first"
+msgstr ""
+
+#: build/classic/index.js:143
+#: build/tcvod/index.js:1
+msgid "Select or Upload Tencent COS Video"
+msgstr ""
+
+#: build/classic/index.js:289
+msgid "Insert Shortcodes"
+msgstr ""
+
+#: build/classic/index.js:289
+msgid "LRC Url"
+msgstr ""
+
+#: build/classic/index.js:435
+msgid "Aliyun Vod Video ID"
+msgstr ""
+
+#: build/classic/index.js:435
+#: build/classic/index.js:610
+#: build/classic/index.js:757
+#: build/classic/index.js:969
+#: build/classic/index.js:1214
+msgid "Select Video"
+msgstr ""
+
+#: build/classic/index.js:435
+msgid "Aliyun OSS Video Path"
+msgstr ""
+
+#: build/classic/index.js:435
+#: build/classic/index.js:610
+msgid "Video Bucket"
+msgstr ""
+
+#: build/classic/index.js:435
+msgid "Aliyun OSS Video Bucket"
+msgstr ""
+
+#: build/classic/index.js:596
+#: build/classic/index.js:610
+#: build/import/index.js:455
+#: build/lms/course-metabox/index.js:455
+#: build/tcvod/index.js:304
+#: build/tcvod/index.js:318
+msgid "Select or Upload TcVod Video"
+msgstr ""
+
+#: build/classic/index.js:610
+msgid "TencentCloud Vod Video ID"
+msgstr ""
+
+#: build/classic/index.js:610
+msgid "TencentCloud COS Video Path"
+msgstr ""
+
+#: build/classic/index.js:610
+msgid "TencentCloud COS Video Bucket"
+msgstr ""
+
+#: build/classic/index.js:743
+#: build/import/index.js:592
+#: build/lms/course-metabox/index.js:592
+#: build/qiniu/index.js:148
+msgid "Select or Upload Qiniu Audio"
+msgstr ""
+
+#: build/classic/index.js:743
+#: build/import/index.js:592
+#: build/lms/course-metabox/index.js:592
+#: build/qiniu/index.js:148
+msgid "Select or Upload Qiniu Video"
+msgstr ""
+
+#: build/classic/index.js:757
+msgid "key"
+msgstr ""
+
+#: build/classic/index.js:757
+msgid "Qiniu kodo file key"
+msgstr ""
+
+#: build/classic/index.js:955
+#: build/dogecloud/index.js:267
+#: build/import/index.js:794
+#: build/lms/course-metabox/index.js:794
+msgid "Select or Upload Dogecloud Audio"
+msgstr ""
+
+#: build/classic/index.js:955
+#: build/dogecloud/index.js:267
+#: build/import/index.js:794
+#: build/lms/course-metabox/index.js:794
+msgid "Select or Upload Dogecloud Video"
+msgstr ""
+
+#: build/classic/index.js:969
+msgid "vcode"
+msgstr ""
+
+#: build/classic/index.js:969
+msgid "Doge Vcloud vcode"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/playlist/index.js:1
+msgid "CloudVod Album"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/playlist/index.js:1
+msgid "Playlist Name"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/playlist/index.js:1
+msgid "Display Playlist"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/playlist/index.js:1
+msgid "Display the playlist or not."
+msgstr ""
+
+#: build/classic/index.js:969
+msgid "Insert"
+msgstr ""
+
+#: build/classic/index.js:969
+msgid "Course List"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/lms/course-list/index.js:1
+msgid "Number of rows"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/lms/course-list/index.js:1
+msgid "Number of columns"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/lms/course-list/index.js:1
+msgid "More Link"
+msgstr ""
+
+#: build/classic/index.js:969
+#: build/lms/course-list/index.js:1
+msgid "More Text"
+msgstr ""
+
+#: build/classic/index.js:969
+msgid "Single Course"
+msgstr ""
+
+#: build/classic/index.js:1214
+msgid "TC VOD"
+msgstr ""
+
+#: build/classic/index.js:1214
+msgid "TC COS"
+msgstr ""
+
+#: build/classic/index.js:1214
+#: build/dogecloud/index.js:282
+msgid "Vcloud"
+msgstr ""
+
+#: build/classic/index.js:1214
+msgid "Mine Cloudvod Shortcodes"
+msgstr ""
+
+#: build/classic/index.js:1278
+msgid "Mine Cloudvod"
+msgstr ""
+
+#: build/dplayer/index.js:2
+msgid "DPlayer Settings"
+msgstr ""
+
+#: build/dplayer/index.js:2
+msgid "DPlayer is a very useful player, which supports live streaming and recorded video, E.g: mp4 or m3u8 url."
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "Embedded Video"
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "Enter video URL"
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "And other URLs that support iframe embedding"
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "Embedded URL"
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "Add Video"
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "Embedded Video Setting"
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "Skip duration"
+msgstr ""
+
+#: build/embed/index.js:1
+msgid "Enter the Video URL"
+msgstr ""
+
+#: build/import/index.js:4
+#: build/import/index.js:233
+#: build/import/index.js:472
+#: build/import/index.js:609
+#: build/import/index.js:808
+#: build/lms/course-metabox/index.js:4
+#: build/lms/course-metabox/index.js:233
+#: build/lms/course-metabox/index.js:472
+#: build/lms/course-metabox/index.js:609
+#: build/lms/course-metabox/index.js:808
+msgid "Add CloudVod Album for the selected videos"
+msgstr ""
+
+#: build/import/index.js:106
+#: build/import/index.js:340
+#: build/import/index.js:479
+#: build/import/index.js:681
+#: build/import/index.js:830
+#: build/lms/course-metabox/index.js:106
+#: build/lms/course-metabox/index.js:340
+#: build/lms/course-metabox/index.js:479
+#: build/lms/course-metabox/index.js:681
+#: build/lms/course-metabox/index.js:830
+msgid "Import Now"
+msgstr ""
+
+#: build/import/index.js:219
+#: build/lms/course-metabox/index.js:219
+msgid "Select AliyunVod Audio"
+msgstr ""
+
+#: build/import/index.js:219
+#: build/lms/course-metabox/index.js:219
+msgid "Select AliyunVod Video"
+msgstr ""
+
+#: build/import/index.js:808
+#: build/lms/course-metabox/index.js:808
+msgid "One video url per line, each video url will generate a separate video data."
+msgstr ""
+
+#: build/import/index.js:808
+#: build/lms/course-metabox/index.js:808
+msgid "支持B站、优酷等第三方视频."
+msgstr ""
+
+#: build/import/index.js:808
+msgid "Number of successfully imported data: "
+msgstr ""
+
+#: build/import/index.js:830
+msgid "Batch Import Videos"
+msgstr ""
+
+#: build/import/index.js:830
+#: build/lms/course-metabox/index.js:830
+msgid "Auto detect video source"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Registered successfully, please log in."
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Create your account"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Username or Email Address"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Password"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Log In"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-metabox/index.js:830
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Username"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Email Address"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Sign up"
+msgstr ""
+
+#: build/lms/course-checkout/view.js:1
+#: build/lms/course-single/view.js:1
+#: build/lms/user/view.js:1
+msgid "Already have an account? Log in"
+msgstr ""
+
+#: build/lms/course-list/index.js:1
+#: build/lms/course-single/index.js:1
+msgid "Settings"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "Section Name Is Required."
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "Section Name"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "Enter A Section Name"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "Section Description "
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "A summary of short text for the activities for the topic."
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "Save Section"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "Edit Section"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+msgid "Delete Section - "
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+#: build/lms/course-metabox/index.js:830
+msgid "Are you sure? You can't restore after deleting."
+msgstr ""
+
+#: build/lms/course-metabox/index.js:1
+#: build/lms/course-metabox/index.js:830
+msgid "Delete"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "Batch Import Lessons"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "Delete This Lesson - "
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "Add New Section"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "this course"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "Input a user's ID, please."
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "No students."
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "Enroll Date"
+msgstr ""
+
+#: build/lms/course-metabox/index.js:830
+msgid "Remove student from this course."
+msgstr ""
+
+#: build/lms/course-single/view.js:1
+msgid "Click to buy this lesson only."
+msgstr ""
+
+#: build/lms/course-single/view.js:1
+msgid "User Reviews"
+msgstr ""
+
+#: build/lms/course-single/view.js:1
+msgid "Share"
+msgstr ""
+
+#: build/lms/course-single/view.js:1
+msgid "My Rebate"
+msgstr ""
+
+#: build/lms/course-single/view.js:1
+msgid "Download poster"
+msgstr ""
+
+#: build/lms/lesson-single/view.js:1
+msgid "Catelog"
+msgstr ""
+
+#: build/lms/quiz/index.js:1
+msgid "Remove Question"
+msgstr ""
+
+#: build/lms/quiz/index.js:1
+msgid "Add Question"
+msgstr ""
+
+#: build/lms/user-courses/view.js:1
+msgid "Learned "
+msgstr ""
+
+#: build/lms/user-courses/view.js:1
+msgid "Paid course"
+msgstr ""
+
+#: build/lms/user-courses/view.js:1
+msgid "Learning progress"
+msgstr ""
+
+#: build/lms/user-courses/view.js:1
+msgid "Learn"
+msgstr ""
+
+#: build/lms/user/index.js:1
+msgid "Add Menu"
+msgstr ""
+
+#: build/lms/user/index.js:1
+msgid "Add Submenu"
+msgstr ""
+
+#: build/playlist/index.js:1
+msgid "Auto Next"
+msgstr ""
+
+#: build/playlist/index.js:1
+msgid "Auto play next video."
+msgstr ""
+
+#: build/playlist/index.js:1
+msgid "Player Container"
+msgstr ""
+
+#: build/qiniu/index.js:163
+msgid "Please configure the Qiniu AccessKey first."
+msgstr ""
+
+#: build/tcvod/index.js:318
+msgid "TCPlayer is initializing, please wait..."
+msgstr ""
+
+#: build/tcvod/index.js:319
+msgid "TcPlayer Settings"
+msgstr ""
+
+#: build/tcvod/index.js:319
+msgid "TCVod Video"
+msgstr ""
+
+#: build/tcvod/index.js:319
+msgid "COS Video"
+msgstr ""
+
+#: build/tcvod/index.js:319
+msgid "Please configure the Tencent Cloud Secret."
+msgstr ""
+
+#: build/aliplayer/block.json
+msgctxt "block title"
+msgid "Aliplayer"
+msgstr ""
+
+#: build/aliplayer/block.json
+#: build/dplayer/block.json
+msgctxt "block description"
+msgid "Add video via video url."
+msgstr ""
+
+#: build/aliplayer/block.json
+#: build/alivod/block.json
+#: build/audioplayer/block.json
+#: build/bunnynet/block.json
+#: build/docs/catalog/block.json
+#: build/dogecloud/block.json
+#: build/dplayer/block.json
+#: build/embed/block.json
+#: build/lms/course-checkout/block.json
+#: build/lms/course-list/block.json
+#: build/lms/course-single/block.json
+#: build/lms/favorites/block.json
+#: build/lms/lesson-single/block.json
+#: build/lms/order-list/block.json
+#: build/lms/quiz/block.json
+#: build/lms/user-courses/block.json
+#: build/playlist/block.json
+#: build/qiniu/block.json
+#: build/tcvod/block.json
+msgctxt "block keyword"
+msgid "mine"
+msgstr ""
+
+#: build/aliplayer/block.json
+#: build/docs/catalog/block.json
+#: build/dplayer/block.json
+msgctxt "block keyword"
+msgid "cloudvod"
+msgstr ""
+
+#: build/aliplayer/block.json
+#: build/alivod/block.json
+msgctxt "block keyword"
+msgid "aliplayer"
+msgstr ""
+
+#: build/aliplayer/block.json
+#: build/alivod/block.json
+#: build/bunnynet/block.json
+#: build/dogecloud/block.json
+#: build/dplayer/block.json
+#: build/embed/block.json
+#: build/playlist/block.json
+#: build/qiniu/block.json
+#: build/tcvod/block.json
+msgctxt "block keyword"
+msgid "video"
+msgstr ""
+
+#: build/aliplayer/block.json
+#: build/alivod/block.json
+#: build/audioplayer/block.json
+#: build/dplayer/block.json
+msgctxt "block keyword"
+msgid "player"
+msgstr ""
+
+#: build/aliplayer/block.json
+#: build/audioplayer/block.json
+#: build/dplayer/block.json
+msgctxt "block keyword"
+msgid "plyr"
+msgstr ""
+
+#: build/alivod/block.json
+msgctxt "block title"
+msgid "Alibaba Cloud"
+msgstr ""
+
+#: build/alivod/block.json
+msgctxt "block description"
+msgid "Embed videos from aliyun vod."
+msgstr ""
+
+#: build/alivod/block.json
+#: build/audioplayer/block.json
+#: build/bunnynet/block.json
+#: build/dogecloud/block.json
+#: build/embed/block.json
+#: build/playlist/block.json
+#: build/qiniu/block.json
+#: build/tcvod/block.json
+msgctxt "block keyword"
+msgid "cloud"
+msgstr ""
+
+#: build/alivod/block.json
+#: build/audioplayer/block.json
+#: build/bunnynet/block.json
+#: build/dogecloud/block.json
+#: build/embed/block.json
+#: build/playlist/block.json
+#: build/qiniu/block.json
+#: build/tcvod/block.json
+msgctxt "block keyword"
+msgid "vod"
+msgstr ""
+
+#: build/audioplayer/block.json
+msgctxt "block title"
+msgid "Audio Player"
+msgstr ""
+
+#: build/audioplayer/block.json
+msgctxt "block description"
+msgid "Embed audio from aliyun vod or url."
+msgstr ""
+
+#: build/audioplayer/block.json
+msgctxt "block keyword"
+msgid "audio"
+msgstr ""
+
+#: build/bunnynet/block.json
+msgctxt "block title"
+msgid "BunnyNet"
+msgstr ""
+
+#: build/bunnynet/block.json
+msgctxt "block description"
+msgid "Embed videos from Bunny.net."
+msgstr ""
+
+#: build/bunnynet/block.json
+#: build/dogecloud/block.json
+msgctxt "block keyword"
+msgid "doge"
+msgstr ""
+
+#: build/docs/catalog/block.json
+msgctxt "block title"
+msgid "Document catalog"
+msgstr ""
+
+#: build/docs/catalog/block.json
+msgctxt "block description"
+msgid "List document directories."
+msgstr ""
+
+#: build/docs/catalog/block.json
+msgctxt "block keyword"
+msgid "docs"
+msgstr ""
+
+#: build/docs/catalog/block.json
+msgctxt "block keyword"
+msgid "directory"
+msgstr ""
+
+#: build/docs/catalog/block.json
+msgctxt "block keyword"
+msgid "catalog"
+msgstr ""
+
+#: build/dogecloud/block.json
+msgctxt "block title"
+msgid "Dogecloud"
+msgstr ""
+
+#: build/dogecloud/block.json
+msgctxt "block description"
+msgid "Embed videos from Dogecloud."
+msgstr ""
+
+#: build/dplayer/block.json
+msgctxt "block title"
+msgid "DPlayer"
+msgstr ""
+
+#: build/dplayer/block.json
+msgctxt "block keyword"
+msgid "dplayer"
+msgstr ""
+
+#: build/embed/block.json
+msgctxt "block title"
+msgid "Embed Video"
+msgstr ""
+
+#: build/embed/block.json
+msgctxt "block description"
+msgid "Embed video from Youku, Bilibili, iQiyi, Tencent, and other URLs that support iframe embedding."
+msgstr ""
+
+#: build/embed/block.json
+msgctxt "block keyword"
+msgid "youku"
+msgstr ""
+
+#: build/embed/block.json
+msgctxt "block keyword"
+msgid "bilibili"
+msgstr ""
+
+#: build/embed/block.json
+msgctxt "block keyword"
+msgid "qiyi"
+msgstr ""
+
+#: build/embed/block.json
+#: build/tcvod/block.json
+msgctxt "block keyword"
+msgid "qq"
+msgstr ""
+
+#: build/embed/block.json
+msgctxt "block keyword"
+msgid "embed"
+msgstr ""
+
+#: build/lms/course-checkout/block.json
+msgctxt "block title"
+msgid "Course Checkout"
+msgstr ""
+
+#: build/lms/course-checkout/block.json
+msgctxt "block description"
+msgid "Show course checkout info."
+msgstr ""
+
+#: build/lms/course-checkout/block.json
+#: build/lms/course-list/block.json
+#: build/lms/course-single/block.json
+#: build/lms/favorites/block.json
+#: build/lms/order-list/block.json
+#: build/lms/quiz/block.json
+#: build/lms/user-courses/block.json
+msgctxt "block keyword"
+msgid "course"
+msgstr ""
+
+#: build/lms/course-checkout/block.json
+msgctxt "block keyword"
+msgid "checkout"
+msgstr ""
+
+#: build/lms/course-list/block.json
+msgctxt "block title"
+msgid "Course List"
+msgstr ""
+
+#: build/lms/course-list/block.json
+msgctxt "block description"
+msgid "Show some course data"
+msgstr ""
+
+#: build/lms/course-list/block.json
+#: build/lms/favorites/block.json
+#: build/lms/order-list/block.json
+#: build/lms/user-courses/block.json
+#: build/playlist/block.json
+msgctxt "block keyword"
+msgid "list"
+msgstr ""
+
+#: build/lms/course-single/block.json
+msgctxt "block title"
+msgid "Single Course"
+msgstr ""
+
+#: build/lms/course-single/block.json
+msgctxt "block description"
+msgid "Show single course detail."
+msgstr ""
+
+#: build/lms/course-single/block.json
+#: build/lms/lesson-single/block.json
+msgctxt "block keyword"
+msgid "content"
+msgstr ""
+
+#: build/lms/favorites/block.json
+msgctxt "block title"
+msgid "Favorites"
+msgstr ""
+
+#: build/lms/favorites/block.json
+msgctxt "block description"
+msgid "Show user's favorites course list."
+msgstr ""
+
+#: build/lms/favorites/block.json
+msgctxt "block keyword"
+msgid "favorite"
+msgstr ""
+
+#: build/lms/lesson-single/block.json
+msgctxt "block title"
+msgid "Single Lesson"
+msgstr ""
+
+#: build/lms/lesson-single/block.json
+msgctxt "block description"
+msgid "Show single lesson detail."
+msgstr ""
+
+#: build/lms/lesson-single/block.json
+msgctxt "block keyword"
+msgid "lesson"
+msgstr ""
+
+#: build/lms/order-list/block.json
+msgctxt "block title"
+msgid "Order List"
+msgstr ""
+
+#: build/lms/order-list/block.json
+msgctxt "block description"
+msgid "Show user's order list."
+msgstr ""
+
+#: build/lms/order-list/block.json
+msgctxt "block keyword"
+msgid "order"
+msgstr ""
+
+#: build/lms/quiz/block.json
+msgctxt "block title"
+msgid "Quiz"
+msgstr ""
+
+#: build/lms/quiz/block.json
+msgctxt "block description"
+msgid "Evaluate progress and strengthen understanding of course concepts."
+msgstr ""
+
+#: build/lms/quiz/block.json
+msgctxt "block keyword"
+msgid "quiz"
+msgstr ""
+
+#: build/lms/user-courses/block.json
+msgctxt "block title"
+msgid "User's courses"
+msgstr ""
+
+#: build/lms/user-courses/block.json
+msgctxt "block description"
+msgid "Show the courses list of user enrolled."
+msgstr ""
+
+#: build/lms/user-courses/block.json
+#: build/lms/user/block.json
+msgctxt "block keyword"
+msgid "user"
+msgstr ""
+
+#: build/lms/user/block.json
+msgctxt "block title"
+msgid "User Center"
+msgstr ""
+
+#: build/lms/user/block.json
+msgctxt "block description"
+msgid "Show login & logout button."
+msgstr ""
+
+#: build/lms/user/block.json
+msgctxt "block keyword"
+msgid "hub"
+msgstr ""
+
+#: build/lms/user/block.json
+msgctxt "block keyword"
+msgid "login"
+msgstr ""
+
+#: build/lms/user/block.json
+msgctxt "block keyword"
+msgid "logout"
+msgstr ""
+
+#: build/playlist/block.json
+msgctxt "block title"
+msgid "Video Playlist"
+msgstr ""
+
+#: build/playlist/block.json
+msgctxt "block description"
+msgid "Video Playlist of Cloud VoD."
+msgstr ""
+
+#: build/playlist/block.json
+msgctxt "block keyword"
+msgid "play"
+msgstr ""
+
+#: build/qiniu/block.json
+msgctxt "block title"
+msgid "Qiniu Kodo"
+msgstr ""
+
+#: build/qiniu/block.json
+msgctxt "block description"
+msgid "Embed videos from Qiniu Kodo."
+msgstr ""
+
+#: build/qiniu/block.json
+msgctxt "block keyword"
+msgid "qiniu"
+msgstr ""
+
+#: build/tcvod/block.json
+msgctxt "block title"
+msgid "Tencent Cloud"
+msgstr ""
+
+#: build/tcvod/block.json
+msgctxt "block description"
+msgid "Embed videos from tencent vod."
+msgstr ""
+
+#: build/tcvod/block.json
+msgctxt "block keyword"
+msgid "tencent"
+msgstr ""
+
+#: build/tcvod/block.json
+msgctxt "block keyword"
+msgid "qcloud"
+msgstr ""

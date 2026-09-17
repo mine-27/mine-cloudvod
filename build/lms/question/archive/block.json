@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mine-cloudvod/question-archive",
+  "title": "Question Archive",
+  "category": "mine",
+  "icon": "layout",
+  "description": "Show a list of question bank archive.",
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "tagName": {
+      "type": "string",
+      "default": "div"
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false,
+    "interactivity": true,
+    "layout": true
+  },
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "viewStyle": "file:./view.css",
+  "viewScript": [
+    "file:./view.js",
+    "jquery",
+    "mcv_layer"
+  ]
+}

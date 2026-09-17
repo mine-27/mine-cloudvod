@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "mine-cloudvod/question-section-title",
+  "title": "Question Sections Title",
+  "category": "mine",
+  "icon": "editor-textcolor",
+  "description": "Displays the title of a question section.",
+  "attributes": {},
+  "ancestor": [
+    "mine-cloudvod/question-section"
+  ],
+  "usesContext": [
+    "postId",
+    "postType"
+  ],
+  "editorScript": "file:./index.js"
+}

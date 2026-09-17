@@ -1,0 +1,81 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "1.7.5",
+  "name": "mine-cloudvod/tc-vod",
+  "title": "Tencent Cloud",
+  "category": "mine",
+  "icon": "",
+  "description": "Embed videos from tencent vod.",
+  "keywords": [
+    "mine",
+    "cloud",
+    "vod",
+    "video",
+    "qq",
+    "tencent",
+    "qcloud"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "height": {
+      "type": "string",
+      "default": "auto"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "appId": {
+      "type": "number"
+    },
+    "taskid": {
+      "type": "string"
+    },
+    "pcfg": {
+      "type": "string"
+    },
+    "markers": {
+      "type": "array"
+    },
+    "captions": {
+      "type": "array"
+    },
+    "cos": {
+      "type": "object",
+      "default": {
+        "key": false,
+        "bucket": false
+      }
+    },
+    "privt": {
+      "type": "boolean"
+    },
+    "price": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:../alivod/style-index.css",
+  "style": "mcv_tcplayer_css",
+  "script": [
+    "mcv_tcplayer"
+  ]
+}

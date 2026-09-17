@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "1.7.5",
+  "name": "mine-cloudvod/embed-video",
+  "title": "Embed Video",
+  "category": "mine",
+  "icon": "",
+  "description": "Embed video from Youku, Bilibili, iQiyi, Tencent, and other URLs that support iframe embedding.",
+  "keywords": [
+    "mine",
+    "cloud",
+    "vod",
+    "video",
+    "youku",
+    "bilibili",
+    "qiyi",
+    "qq",
+    "embed"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "src": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "height": {
+      "type": "string",
+      "default": "500px"
+    },
+    "type": {
+      "type": "string",
+      "default": ""
+    },
+    "skip": {
+      "type": "integer",
+      "default": 0
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "danmaku": {
+      "type": "boolean",
+      "default": false
+    },
+    "privt": {
+      "type": "boolean",
+      "default": false
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js"
+}

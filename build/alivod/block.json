@@ -1,0 +1,103 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/aliyun-vod",
+  "title": "Alibaba Cloud",
+  "category": "mine",
+  "icon": "",
+  "description": "Embed videos from aliyun vod.",
+  "keywords": [
+    "mine",
+    "cloud",
+    "aliplayer",
+    "video",
+    "player",
+    "vod"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "oss": {
+      "type": "object",
+      "default": {
+        "key": false,
+        "bucket": false
+      }
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "height": {
+      "type": "string",
+      "default": "auto"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "live": {
+      "type": "boolean"
+    },
+    "privt": {
+      "type": "boolean"
+    },
+    "slide": {
+      "type": "boolean"
+    },
+    "slidetext": {
+      "type": "string"
+    },
+    "referrer": {
+      "type": "string"
+    },
+    "captions": {
+      "type": "array"
+    },
+    "markers": {
+      "type": "array"
+    },
+    "pausePrompts": {
+      "type": "array"
+    },
+    "countdown": {
+      "type": "string"
+    },
+    "countdowntips": {
+      "type": "string"
+    },
+    "textLiveEnd": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "render": "file:../aliplayer/render.php",
+  "script": [
+    "mcv_aliplayer",
+    "mcv_aliplayer_components"
+  ],
+  "editorScript": [
+    "file:./index.js",
+    "mcv_alivod_sdk",
+    "mcv_alivod_es6-promise",
+    "mcv_alivod_oss"
+  ],
+  "style": [
+    "file:../aliplayer/view.css"
+  ],
+  "editorStyle": "file:./style-index.css"
+}

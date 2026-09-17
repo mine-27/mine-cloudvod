@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "1.7.5",
+  "name": "mine-cloudvod/audioplayer",
+  "title": "Audio Player",
+  "category": "mine",
+  "icon": "",
+  "description": "Embed audio from aliyun vod or url.",
+  "keywords": [
+    "mine",
+    "cloud",
+    "player",
+    "audio",
+    "plyr",
+    "vod"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "string"
+    },
+    "lrc": {
+      "type": "string"
+    },
+    "aliyunAid": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "mode": {
+      "type": "string",
+      "default": "normal"
+    },
+    "color": {
+      "type": "string",
+      "default": "#600060"
+    },
+    "bkcolor": {
+      "type": "string",
+      "default": "#800080"
+    },
+    "privt": {
+      "type": "boolean"
+    },
+    "slide": {
+      "type": "boolean"
+    },
+    "size": {
+      "type": "number"
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": [
+    "file:./index.js",
+    "mcv_aplayer"
+  ]
+}

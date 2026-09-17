@@ -1,0 +1,5 @@
+{
+  "apiVersion": 3,
+  "editorScript": "file:./mcv.blocks.js",
+  "editorStyle": "file:./editor.scss"
+}

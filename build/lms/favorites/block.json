@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "1.7.8",
+  "name": "mine-cloudvod/favorites",
+  "title": "Favorites",
+  "category": "mine",
+  "icon": "editor-ul",
+  "description": "Show user's favorites course list.",
+  "keywords": [
+    "mine",
+    "course",
+    "favorite",
+    "list"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {},
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css"
+}

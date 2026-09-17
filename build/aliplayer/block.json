@@ -1,0 +1,95 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/aliplayer",
+  "title": "Aliplayer",
+  "category": "mine",
+  "icon": "",
+  "description": "Add video via video url.",
+  "keywords": [
+    "mine",
+    "cloudvod",
+    "aliplayer",
+    "video",
+    "player",
+    "plyr"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "oss": {
+      "type": "object",
+      "default": {}
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "height": {
+      "type": "string",
+      "default": "auto"
+    },
+    "videoId": {
+      "type": "string"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "live": {
+      "type": "boolean"
+    },
+    "privt": {
+      "type": "boolean"
+    },
+    "slide": {
+      "type": "boolean"
+    },
+    "slidetext": {
+      "type": "string"
+    },
+    "referrer": {
+      "type": "string"
+    },
+    "captions": {
+      "type": "array"
+    },
+    "markers": {
+      "type": "array"
+    },
+    "pausePrompts": {
+      "type": "array"
+    },
+    "countdown": {
+      "type": "string"
+    },
+    "countdowntips": {
+      "type": "string"
+    },
+    "textLiveEnd": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "script": [
+    "file:./view.js",
+    "mcv_aliplayer",
+    "mcv_aliplayer_components"
+  ],
+  "style": [
+    "file:./view.css"
+  ]
+}

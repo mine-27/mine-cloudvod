@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/dplayer",
+  "title": "DPlayer",
+  "category": "mine",
+  "icon": "",
+  "description": "Add video via video url.",
+  "keywords": [
+    "mine",
+    "cloudvod",
+    "dplayer",
+    "video",
+    "player",
+    "plyr"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "height": {
+      "type": "string",
+      "default": "auto"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "live": {
+      "type": "boolean"
+    },
+    "privt": {
+      "type": "boolean"
+    },
+    "referrer": {
+      "type": "string"
+    },
+    "captions": {
+      "type": "array"
+    },
+    "markers": {
+      "type": "array"
+    },
+    "price": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": [
+    "file:./index.js",
+    "file:./view.js"
+  ],
+  "script": [
+    "mcv_dplayer"
+  ],
+  "style": [
+    "mcv_dplayer_css"
+  ]
+}

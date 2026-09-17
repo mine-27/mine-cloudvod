@@ -1,0 +1,24 @@
+# 先忽略所有
+*
+
+# 保留 .gitignore 本身
+!.gitignore
+
+# 白名单目录（目录本身 + 其下所有内容）
+!build/
+!build/**
+!csf/
+!csf/**
+!inc/
+!inc/**
+!languages/
+!languages/**
+!static/
+!static/**
+!templates/
+!templates/**
+
+# 白名单根目录文件
+!autoload.php
+!mine-cloudvod.php
+!readme.txt

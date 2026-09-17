@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/quiz",
+  "title": "Quiz",
+  "category": "mine",
+  "icon": "editor-ul",
+  "description": "Evaluate progress and strengthen understanding of course concepts.",
+  "keywords": [
+    "mine",
+    "course",
+    "quiz"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "questions": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "viewStyle": [
+    "file:./view.css",
+    "dashicons"
+  ],
+  "viewScript": "file:./view.js"
+}

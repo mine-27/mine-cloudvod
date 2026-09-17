@@ -1,0 +1,77 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "1.9.14",
+  "name": "mine-cloudvod/cloudflare",
+  "title": "CloudFlare Stream",
+  "category": "mine",
+  "icon": "",
+  "description": "Embed videos from CloudFlare Stream.",
+  "keywords": [
+    "mine",
+    "cloud",
+    "stream",
+    "video",
+    "CloudFlare"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "source": {
+      "type": "string"
+    },
+    "oss": {
+      "type": "object",
+      "default": {
+        "key": false,
+        "bucket": false
+      }
+    },
+    "vid": {
+      "type": "string"
+    },
+    "libid": {
+      "type": "number"
+    },
+    "width": {
+      "type": "string",
+      "default": "100%"
+    },
+    "height": {
+      "type": "string",
+      "default": "auto"
+    },
+    "cover": {
+      "type": "string"
+    },
+    "autoplay": {
+      "type": "boolean"
+    },
+    "privt": {
+      "type": "boolean"
+    },
+    "captions": {
+      "type": "array"
+    },
+    "markers": {
+      "type": "array"
+    },
+    "price": {
+      "type": "string"
+    },
+    "preview": {
+      "type": "integer",
+      "default": 0
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": [
+    "file:./index.js",
+    "mcv_aliplayer",
+    "mcv_aliplayer_components"
+  ],
+  "editorStyle": "file:../alivod/style-index.css",
+  "script": [
+    "mcv_aliplayer",
+    "mcv_aliplayer_components"
+  ]
+}

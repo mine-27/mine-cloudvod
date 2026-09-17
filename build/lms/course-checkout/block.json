@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/course-checkout",
+  "title": "Course Checkout",
+  "category": "mine",
+  "icon": "cart",
+  "description": "Show course checkout info.",
+  "keywords": [
+    "mine",
+    "course",
+    "checkout"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {},
+  "render": "file:./render.php",
+  "editorScript": [
+    "file:./index.js",
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./view.css"
+}

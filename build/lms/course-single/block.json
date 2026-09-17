@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/course-single",
+  "title": "Single Course",
+  "category": "mine",
+  "icon": "welcome-learn-more",
+  "description": "Show single course detail.",
+  "keywords": [
+    "mine",
+    "course",
+    "content"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {
+    "cid": {
+      "type": "number"
+    }
+  },
+  "render": "file:./render.php",
+  "editorScript": [
+    "file:./view.js",
+    "file:./index.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "viewScript": [
+    "jquery",
+    "clipboard"
+  ]
+}

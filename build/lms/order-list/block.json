@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "1.7.5",
+  "name": "mine-cloudvod/order-list",
+  "title": "Order List",
+  "category": "mine",
+  "icon": "editor-ul",
+  "description": "Show user's order list.",
+  "keywords": [
+    "mine",
+    "course",
+    "order",
+    "list"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {},
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

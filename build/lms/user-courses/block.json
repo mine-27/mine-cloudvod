@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "version": "2.1.1",
+  "name": "mine-cloudvod/user-courses",
+  "title": "User's courses",
+  "category": "mine",
+  "icon": "editor-ul",
+  "description": "Show the courses list of user enrolled.",
+  "keywords": [
+    "mine",
+    "course",
+    "list",
+    "user"
+  ],
+  "textdomain": "mine-cloudvod",
+  "attributes": {},
+  "render": "file:./render.php",
+  "editorScript": "file:./index.js",
+  "style": "file:./index.css",
+  "viewScript": [
+    "file:./view.js"
+  ]
+}

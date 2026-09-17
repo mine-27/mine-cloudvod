@@ -1,0 +1,26 @@
+.time-tag-item {
+    transition: .2s;
+    background: #e6f4ff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(230, 244, 255);
+    border-radius: 12px;
+    height: 22px;
+    line-height: 19px;
+    display: inline-block;
+    padding: 0 12px;
+    font-size: 12px;
+    color: #2392e5;
+    border: 1px solid #e6f4ff;
+    cursor: pointer;
+    font-weight: 700;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
